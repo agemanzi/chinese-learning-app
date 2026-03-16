@@ -5,12 +5,27 @@ Each PPTX becomes one MD file per lesson, structured for drill generation.
 
 import os
 import re
+import subprocess
+from datetime import datetime
 from pptx import Presentation
 from pptx.enum.shapes import MSO_SHAPE_TYPE
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_DIR = os.path.join(BASE_DIR, "resources", "in_person_lessons")
 OUTPUT_DIR = os.path.join(BASE_DIR, "lessons_md")
+
+
+def get_version() -> str:
+    """Get version string from git hash + current date."""
+    try:
+        git_hash = subprocess.check_output(
+            ["git", "rev-parse", "--short", "HEAD"],
+            cwd=BASE_DIR, stderr=subprocess.DEVNULL
+        ).decode().strip()
+    except Exception:
+        git_hash = "nogit"
+    date = datetime.now().strftime("%Y-%m-%d %H:%M")
+    return f"v{git_hash} ({date})"
 
 
 def extract_slide(slide, slide_num: int) -> dict:
@@ -299,8 +314,10 @@ def convert_pptx_to_md(filepath: str) -> str:
     md_lines = []
     md_lines.append(f"# Lesson {lesson_num}: {lesson_title}")
     md_lines.append("")
+    version = get_version()
     md_lines.append(f"**Source file:** `{filename}`")
     md_lines.append(f"**Total slides:** {len(prs.slides)}")
+    md_lines.append(f"**Generated:** {version}")
     md_lines.append("")
     md_lines.append("---")
     md_lines.append("")

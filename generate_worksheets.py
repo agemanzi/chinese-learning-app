@@ -7,9 +7,11 @@ end of each PDF with pinyin, meaning, stroke count, radical, and example words.
 import json
 import os
 import re
+import subprocess
 import tempfile
 import time
 import unicodedata
+from datetime import datetime
 
 from playwright.sync_api import sync_playwright
 from PyPDF2 import PdfMerger
@@ -23,6 +25,19 @@ from reportlab.platypus import (
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
+
+def get_version() -> str:
+    """Get version string from git hash + current date."""
+    try:
+        git_hash = subprocess.check_output(
+            ["git", "rev-parse", "--short", "HEAD"],
+            cwd=BASE_DIR, stderr=subprocess.DEVNULL
+        ).decode().strip()
+    except Exception:
+        git_hash = "nogit"
+    date = datetime.now().strftime("%Y-%m-%d %H:%M")
+    return f"v{git_hash} ({date})"
+
 
 EMAIL = "208747@vutbr.cz"
 PASSWORD = "inteligence25"
@@ -476,8 +491,16 @@ def generate_reference_pdf(chars: list[str], lesson_name: str, output_path: str,
         textColor=colors.HexColor("#333333"),
     )
 
+    version_style = ParagraphStyle(
+        "Version", parent=styles["Normal"],
+        fontName=text_font, fontSize=7, alignment=TA_CENTER,
+        textColor=colors.HexColor("#999999"),
+    )
+
+    version = get_version()
     story = []
     story.append(Paragraph(f"{lesson_name} \u2014 Character Reference", title_style))
+    story.append(Paragraph(f"Generated: {version}", version_style))
     story.append(Spacer(1, 4*mm))
 
     char_infos = [get_char_info(ch, db_entries) for ch in chars]

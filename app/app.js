@@ -198,6 +198,13 @@
             <div class="quick-action-desc">Add & manage words</div>
           </div>
         </a>
+        <a href="#/tutor" class="quick-action">
+          <span class="quick-action-icon">&#x1F9D1;&#x200D;&#x1F3EB;</span>
+          <div>
+            <div class="quick-action-text">Tutor Guide</div>
+            <div class="quick-action-desc">Tips & tricks pro CZ/EN mluvčí</div>
+          </div>
+        </a>
       </div>
       ${worksheets.length > 0 ? `
       <div class="card" style="margin-top:20px">
@@ -1419,6 +1426,412 @@
 
     // Initialize
     setFamily('retroflex');
+  }
+
+  // ============================================================
+  // VIEW: Tutor — Tips & Tricks for Czech/English Speakers
+  // ============================================================
+  function viewTutor() {
+    // Tutor content organized by category
+    const sections = [
+      {
+        id: 'tones',
+        icon: '🎵',
+        title: 'Tóny — Tone System',
+        subtitle: 'The #1 thing that makes or breaks your Chinese',
+        cards: [
+          {
+            type: 'warning',
+            title: 'Proč jsou tóny tak důležité',
+            body: `V češtině i angličtině měníme intonaci pro emoce (otázka stoupá, ironie klesá). V čínštině tón <strong>mění význam slova</strong>.
+              <div class="tutor-example">
+                <div class="tutor-ex-row"><span class="tone1">mā</span> 妈 = matka</div>
+                <div class="tutor-ex-row"><span class="tone2">má</span> 麻 = konopí</div>
+                <div class="tutor-ex-row"><span class="tone3">mǎ</span> 马 = kůň</div>
+                <div class="tutor-ex-row"><span class="tone4">mà</span> 骂 = nadávat</div>
+                <div class="tutor-ex-row"><span class="tone0">ma</span> 吗 = otázková částice</div>
+              </div>
+              <strong>Říct špatný tón = říct jiné slovo.</strong> Ne jiný přízvuk — jiné slovo.`
+          },
+          {
+            type: 'tip',
+            title: 'Trick: Přiřaď tóny k pocitům',
+            body: `<div class="tutor-tones-grid">
+                <div class="tutor-tone-card t1"><div class="tutor-tone-num">1. tón —</div><div class="tutor-tone-desc">Monotónní robot. Představ si pípání EKG monitoru. Rovný, vysoký, neměnný.</div><div class="tutor-tone-cz">🇨🇿 Jako když doktor říká "aaa" — dlouhé rovné "ááá"</div></div>
+                <div class="tutor-tone-card t2"><div class="tutor-tone-num">2. tón ／</div><div class="tutor-tone-desc">Překvapená otázka. Stoupá z nízka do výšky.</div><div class="tutor-tone-cz">🇨🇿 Jako české "Co?!" nebo "Fakt?!" — ten stoupavý tón na konci</div></div>
+                <div class="tutor-tone-card t3"><div class="tutor-tone-num">3. tón ∨</div><div class="tutor-tone-desc">Zklamaný povzdech. Klesne dolů a pak se lehce vrátí.</div><div class="tutor-tone-cz">🇨🇿 Jako "hmm..." když nad něčím přemýšlíš — ten chrastivý nízký hlas</div></div>
+                <div class="tutor-tone-card t4"><div class="tutor-tone-num">4. tón ＼</div><div class="tutor-tone-desc">Rázný rozkaz. Padá ostře z výšky dolů.</div><div class="tutor-tone-cz">🇨🇿 Jako rázné "Ne!" nebo "Stůj!" — krátký ostrý pád</div></div>
+              </div>`
+          },
+          {
+            type: 'trick',
+            title: 'Nejčastější chyba Čechů: 3. tón',
+            body: `Češi mají tendenci 3. tón <strong>vyslovit jako V</strong> (dolů-nahoru), ale v běžné řeči se většinou vyslovuje jen jako <strong>nízký rovný tón</strong>.
+              Plné dolů-nahoru slyšíte jen když je slovo samo na konci věty.
+              <div class="tutor-do-dont">
+                <div class="tutor-dont">❌ Vždy dělat hluboké V — zní přehnaně a nepřirozeně</div>
+                <div class="tutor-do">✅ Prostě mluvte nízko a chrastivě — jako když vám dochází hlas</div>
+              </div>`
+          },
+          {
+            type: 'trick',
+            title: 'Tone Sandhi: 3+3 → 2+3',
+            body: `Když jsou dva 3. tóny za sebou, první se změní na 2. tón:
+              <div class="tutor-example">
+                <div class="tutor-ex-row"><strong>你好</strong> nǐ hǎo → skutečná výslovnost: <strong>ní hǎo</strong></div>
+              </div>
+              Toto je <strong>automatické pravidlo</strong> — nemusíte přemýšlet, prostě to tak vyslovte. Nikdo neřekne nǐ hǎo s dvěma klesajícími.`
+          },
+        ]
+      },
+      {
+        id: 'initials',
+        icon: '🔤',
+        title: 'Souhlásky — Initials',
+        subtitle: 'Co zní podobně a co je úplně jinak',
+        cards: [
+          {
+            type: 'tip',
+            title: 'Aspirace: Největší systémový rozdíl',
+            body: `Čeština rozlišuje <strong>znělé vs. neznělé</strong> (b vs. p, d vs. t). Čínština rozlišuje <strong>neaspirované vs. aspirované</strong>.
+              <div class="tutor-compare-table">
+                <div class="tutor-compare-header">
+                  <span>Pinyin</span><span>Výslovnost</span><span>Test</span>
+                </div>
+                <div class="tutor-compare-row"><span><strong>b</strong></span><span>Jako české P (neznělé, bez dechu)</span><span>Papír se nehýbe</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>p</strong></span><span>České P + výdech = Pch</span><span>Papír se musí pohnout!</span></div>
+                <div class="tutor-compare-row"><span><strong>d</strong></span><span>Jako české T (neznělé)</span><span>Papír se nehýbe</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>t</strong></span><span>České T + výdech = Tch</span><span>Papír se musí pohnout!</span></div>
+                <div class="tutor-compare-row"><span><strong>g</strong></span><span>Jako české K (neznělé)</span><span>Papír se nehýbe</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>k</strong></span><span>České K + výdech = Kch</span><span>Papír se musí pohnout!</span></div>
+              </div>
+              <div class="tutor-do-dont">
+                <div class="tutor-do">✅ <strong>Test papírem:</strong> Drž papír 5 cm od úst. U aspirovaných (p, t, k, ch, q, c) se MUSÍ pohnout.</div>
+              </div>`
+          },
+          {
+            type: 'tip',
+            title: 'Co už umíš (Czech anchors)',
+            body: `Některé čínské souhlásky jsou <strong>identické</strong> s českými — neplýtvej energií na jejich procvičování:
+              <div class="tutor-anchors-grid">
+                <div class="tutor-anchor-item good"><span class="tutor-anchor-py">s</span> = české <strong>s</strong> — identické</div>
+                <div class="tutor-anchor-item good"><span class="tutor-anchor-py">m</span> = české <strong>m</strong> — identické</div>
+                <div class="tutor-anchor-item good"><span class="tutor-anchor-py">n</span> = české <strong>n</strong> — identické</div>
+                <div class="tutor-anchor-item good"><span class="tutor-anchor-py">l</span> = české <strong>l</strong> — identické</div>
+                <div class="tutor-anchor-item good"><span class="tutor-anchor-py">f</span> = české <strong>f</strong> — identické</div>
+                <div class="tutor-anchor-item ok"><span class="tutor-anchor-py">z</span> = české <strong>c</strong> [ts] — POZOR: ne české z!</div>
+                <div class="tutor-anchor-item ok"><span class="tutor-anchor-py">h</span> = české <strong>ch</strong> — skoro stejné, trochu dál vzadu</div>
+              </div>`
+          },
+          {
+            type: 'warning',
+            title: 'Falešní přátelé — vypadají známě, ale nejsou!',
+            body: `<div class="tutor-false-friends">
+                <div class="tutor-ff-item">
+                  <div class="tutor-ff-py">zh, ch, sh</div>
+                  <div class="tutor-ff-trap">Vypadají jako č, š — ale jazyk musí být sbalený DOZADU (retroflex). České č a š jsou přední zvuky.</div>
+                  <div class="tutor-ff-link"><a href="#/sounds" class="tutor-link">→ Viz Mouth Mechanics: Retroflex</a></div>
+                </div>
+                <div class="tutor-ff-item">
+                  <div class="tutor-ff-py">j, q, x</div>
+                  <div class="tutor-ff-trap">Špička jazyka musí zůstat DOLE za spodními zuby. Čech automaticky zvedá hrot nahoru — to je špatně.</div>
+                  <div class="tutor-ff-link"><a href="#/sounds" class="tutor-link">→ Viz Mouth Mechanics: Palatal</a></div>
+                </div>
+                <div class="tutor-ff-item">
+                  <div class="tutor-ff-py">r</div>
+                  <div class="tutor-ff-trap">NENÍ české r (kmitavé). Není ani anglické r. Je to voiced retroflex — drž sh a přidej hlas.</div>
+                  <div class="tutor-ff-link"><a href="#/sounds" class="tutor-link">→ Viz Mouth Mechanics: Retroflex → r</a></div>
+                </div>
+                <div class="tutor-ff-item">
+                  <div class="tutor-ff-py">z (pinyin)</div>
+                  <div class="tutor-ff-trap">Pinyin "z" = české "c" [ts]. Pinyin "c" = české "c" + výdech. České "z" v čínštině neexistuje.</div>
+                </div>
+              </div>`
+          },
+        ]
+      },
+      {
+        id: 'finals',
+        icon: '🔊',
+        title: 'Koncovky — Finals & Vowels',
+        subtitle: 'Where Czech speakers get tripped up',
+        cards: [
+          {
+            type: 'tip',
+            title: 'Samohlásky: Co je jinak',
+            body: `<div class="tutor-compare-table">
+                <div class="tutor-compare-header">
+                  <span>Pinyin</span><span>Výslovnost</span><span>Pozor</span>
+                </div>
+                <div class="tutor-compare-row"><span><strong>a</strong></span><span>Široké "á" jako v "táta"</span><span>Identické</span></div>
+                <div class="tutor-compare-row"><span><strong>e</strong></span><span>Zadní "e" — jako v anglickém "uh"</span><span>NE české é!</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>i</strong></span><span>Po zh/ch/sh/r/z/c/s je NĚMÉ</span><span>zhi = jen "dž", ne "dži"</span></div>
+                <div class="tutor-compare-row"><span><strong>o</strong></span><span>Zaokrouhlené "o" — české</span><span>Ale po b/p/m/f → "uo"!</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>ü</strong></span><span>České "i" + zaokrouhlené rty</span><span>Neexistuje v CZ ani EN!</span></div>
+                <div class="tutor-compare-row"><span><strong>-ian</strong></span><span>"jen" ne "ián"</span><span>tiān = "tjen", ne "tián"</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>-iu</strong></span><span>"jóu" — skryté o uprostřed</span><span>liù = "ljóu", ne "liú"</span></div>
+                <div class="tutor-compare-row"><span><strong>-ui</strong></span><span>"uej" — skryté e uprostřed</span><span>huì = "chuej", ne "hui"</span></div>
+              </div>`
+          },
+          {
+            type: 'trick',
+            title: 'Trick pro ü: "Sýr!"',
+            body: `Řekni české "i" (ííí). Drž jazyk přesně tam kde je — <strong>nehýbej jazykem</strong>. Teď pomalu zaokrouhli rty do kroužku, jako bys říkal "u".
+              <div class="tutor-do-dont">
+                <div class="tutor-do">✅ Jazyk = české "i". Rty = české "u". Kombinace = ü.</div>
+                <div class="tutor-dont">❌ České ú/ů — tam je jazyk vzadu. U ü musí být jazyk VEPŘEDU.</div>
+              </div>
+              Funguje taky: řekni "sýr" a drž tu pozici rtů a jazyka na "ý" — to je skoro ü.`
+          },
+          {
+            type: 'warning',
+            title: '-n vs. -ng: Klíčový rozdíl',
+            body: `<div class="tutor-compare-table">
+                <div class="tutor-compare-header">
+                  <span>Koncovka</span><span>Kde</span><span>Jak</span>
+                </div>
+                <div class="tutor-compare-row"><span><strong>-n</strong></span><span>Hrot jazyka na dásních (= české n)</span><span>Ústa se zavřou → hrot nahoře</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>-ng</strong></span><span>Zadní část jazyka na patře</span><span>Ústa ZŮSTANOU OTEVŘENÁ → nosový zvuk</span></div>
+              </div>
+              <div class="tutor-do-dont">
+                <div class="tutor-do">✅ Test: Řekni "banka" pomalu. Ten zvuk před "k" = -ng [ŋ]. Teď ho drž a nepřidávej to k/g.</div>
+                <div class="tutor-do">✅ -an (áááán — jazyk nahoře) vs. -ang (ááááng — ústa otevřená, nos)</div>
+              </div>`
+          },
+        ]
+      },
+      {
+        id: 'grammar',
+        icon: '📐',
+        title: 'Gramatika — Grammar Shortcuts',
+        subtitle: 'Good news: Chinese grammar is simpler than Czech',
+        cards: [
+          {
+            type: 'tip',
+            title: 'Žádné skloňování, časování, rody!',
+            body: `Pro Čecha zvyklého na 7 pádů a 4 konjugace je tohle osvobozující:
+              <div class="tutor-example">
+                <div class="tutor-ex-row"><strong>我</strong> wǒ = já/mě/mně/mnou — jeden tvar na všechno</div>
+                <div class="tutor-ex-row"><strong>吃</strong> chī = jím/jíš/jí/jedl/budu jíst — vždy stejné</div>
+                <div class="tutor-ex-row"><strong>好</strong> hǎo = dobrý/dobrá/dobré/dobří — žádný rod</div>
+              </div>
+              Čínština místo toho používá <strong>slovosled</strong> a <strong>částice</strong> (了 le, 过 guò, 的 de...).`
+          },
+          {
+            type: 'tip',
+            title: 'SVO — Stejný slovosled jako angličtina',
+            body: `Základní čínská věta: <strong>Subject + Verb + Object</strong> — stejně jako angličtina a <em>skoro</em> jako čeština.
+              <div class="tutor-example">
+                <div class="tutor-ex-row">🇨🇿 Já jím rýži.</div>
+                <div class="tutor-ex-row">🇨🇳 我 吃 饭。 Wǒ chī fàn. — doslova: Já jíst jídlo.</div>
+                <div class="tutor-ex-row">🇬🇧 I eat rice.</div>
+              </div>
+              Ale pozor — čas a místo jdou <strong>před sloveso</strong>:
+              <div class="tutor-example">
+                <div class="tutor-ex-row">🇨🇳 我 <strong>明天</strong> 吃 饭。 = Já <strong>zítra</strong> jíst jídlo.</div>
+                <div class="tutor-ex-row">Ne: 我 吃 饭 明天 ❌</div>
+              </div>`
+          },
+          {
+            type: 'trick',
+            title: 'Measure Words (量词): Nový koncept',
+            body: `Čeština ani angličtina toto nemají (kromě "kus papíru" / "a piece of paper"). Čínština vyžaduje <strong>measure word</strong> mezi číslo a podstatné jméno — vždy.
+              <div class="tutor-example">
+                <div class="tutor-ex-row">一 <strong>个</strong> 人 yí <strong>gè</strong> rén = jeden <strong>[kus]</strong> člověk</div>
+                <div class="tutor-ex-row">三 <strong>本</strong> 书 sān <strong>běn</strong> shū = tři <strong>[svazky]</strong> knihy</div>
+                <div class="tutor-ex-row">两 <strong>杯</strong> 茶 liǎng <strong>bēi</strong> chá = dva <strong>[šálky]</strong> čaje</div>
+              </div>
+              <div class="tutor-do-dont">
+                <div class="tutor-do">✅ 个 (gè) je "univerzální" measure word — když neznáš správný, použij tento. Čínci to pochopí.</div>
+              </div>`
+          },
+          {
+            type: 'trick',
+            title: 'Čas bez časování: 了, 过, 在',
+            body: `Sloveso se nemění — místo toho přidáváš částice:
+              <div class="tutor-compare-table">
+                <div class="tutor-compare-header">
+                  <span>Částice</span><span>Funkce</span><span>Příklad</span>
+                </div>
+                <div class="tutor-compare-row"><span><strong>了</strong> le</span><span>Dokončená akce / změna stavu</span><span>我吃<strong>了</strong> = Najedl jsem se</span></div>
+                <div class="tutor-compare-row"><span><strong>过</strong> guò</span><span>Zkušenost (někdy v minulosti)</span><span>我吃<strong>过</strong> = Jedl jsem to (někdy)</span></div>
+                <div class="tutor-compare-row"><span><strong>在</strong> zài</span><span>Právě teď (probíhá)</span><span>我<strong>在</strong>吃 = Právě jím</span></div>
+              </div>`
+          },
+        ]
+      },
+      {
+        id: 'survival',
+        icon: '🗣️',
+        title: 'Přežití — Survival Phrases',
+        subtitle: 'Essential patterns for HSK 1 level',
+        cards: [
+          {
+            type: 'tip',
+            title: 'Otázky: Nejjednodušší na světě',
+            body: `Prostě přidej <strong>吗 (ma)</strong> na konec věty. Hotovo. Žádná inverze, žádné pomocné sloveso.
+              <div class="tutor-example">
+                <div class="tutor-ex-row">你好。 = Ahoj. → 你好<strong>吗</strong>？ = Jak se máš?</div>
+                <div class="tutor-ex-row">你是学生。 = Jsi student. → 你是学生<strong>吗</strong>？ = Jsi student?</div>
+                <div class="tutor-ex-row">他想吃饭。 = Chce jíst. → 他想吃饭<strong>吗</strong>？ = Chce jíst?</div>
+              </div>`
+          },
+          {
+            type: 'tip',
+            title: 'Negace: 不 vs. 没',
+            body: `<div class="tutor-compare-table">
+                <div class="tutor-compare-header">
+                  <span>Negace</span><span>Použití</span><span>Příklad</span>
+                </div>
+                <div class="tutor-compare-row"><span><strong>不</strong> bù</span><span>Obecné NE / nechci / nebudu</span><span>我<strong>不</strong>想 = Nechci</span></div>
+                <div class="tutor-compare-row highlight"><span><strong>没</strong> méi</span><span>Nestalo se / nemám</span><span>我<strong>没</strong>吃 = Nejedl jsem</span></div>
+              </div>
+              <div class="tutor-do-dont">
+                <div class="tutor-do">✅ Jednoduché pravidlo: 不 pro přítomnost/budoucnost, 没 pro minulost.</div>
+                <div class="tutor-do">✅ 有 (mít) vždy s 没: 我没有 = Nemám. Nikdy 我不有 ❌</div>
+              </div>`
+          },
+          {
+            type: 'trick',
+            title: '10 vět, které zvládneš první den',
+            body: `<div class="tutor-phrases">
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">你好</span><span class="tutor-phrase-py">nǐ hǎo</span><span class="tutor-phrase-cz">Ahoj</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">谢谢</span><span class="tutor-phrase-py">xiè xie</span><span class="tutor-phrase-cz">Děkuji</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">对不起</span><span class="tutor-phrase-py">duì bu qǐ</span><span class="tutor-phrase-cz">Promiňte</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">没关系</span><span class="tutor-phrase-py">méi guān xi</span><span class="tutor-phrase-cz">Nevadí / V pohodě</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">我不懂</span><span class="tutor-phrase-py">wǒ bù dǒng</span><span class="tutor-phrase-cz">Nerozumím</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">多少钱？</span><span class="tutor-phrase-py">duō shao qián?</span><span class="tutor-phrase-cz">Kolik to stojí?</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">我想吃饭</span><span class="tutor-phrase-py">wǒ xiǎng chī fàn</span><span class="tutor-phrase-cz">Chci jíst</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">在哪里？</span><span class="tutor-phrase-py">zài nǎ lǐ?</span><span class="tutor-phrase-cz">Kde je to?</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">我是捷克人</span><span class="tutor-phrase-py">wǒ shì jiékè rén</span><span class="tutor-phrase-cz">Jsem Čech</span></div>
+                <div class="tutor-phrase"><span class="tutor-phrase-cn">加油！</span><span class="tutor-phrase-py">jiā yóu!</span><span class="tutor-phrase-cz">Držím palce! / Nevzdávej se!</span></div>
+              </div>`
+          },
+        ]
+      },
+      {
+        id: 'study',
+        icon: '🧠',
+        title: 'Strategie — Study Tips',
+        subtitle: 'How to learn efficiently as a Czech/English bilingual',
+        cards: [
+          {
+            type: 'tip',
+            title: 'Tvoje výhoda: Bilingvní mozek',
+            body: `Jako Čech, který mluví anglicky, máš obrovskou výhodu — tvůj mozek už ví, že:
+              <div class="tutor-example">
+                <div class="tutor-ex-row">• Různé jazyky mají různou logiku (SVO vs. SOV vs. volný slovosled)</div>
+                <div class="tutor-ex-row">• Zvuky mohou mít jiný význam v jiném systému</div>
+                <div class="tutor-ex-row">• Překlad 1:1 nefunguje</div>
+              </div>
+              Toto je <strong>metalingvistické povědomí</strong> — a monolinguální mluvčí ho nemají.`
+          },
+          {
+            type: 'trick',
+            title: 'Strategie: Bridge Language',
+            body: `Některé koncepty jsou snazší přes češtinu, jiné přes angličtinu:
+              <div class="tutor-compare-table">
+                <div class="tutor-compare-header">
+                  <span>Koncept</span><span>Lepší bridge</span><span>Proč</span>
+                </div>
+                <div class="tutor-compare-row"><span>Výslovnost (z/c/s)</span><span>🇨🇿 Čeština</span><span>České c = čínské z. Angličtina nemá ts-.</span></div>
+                <div class="tutor-compare-row"><span>Slovosled SVO</span><span>🇬🇧 Angličtina</span><span>Striktnější SVO, bližší čínštině</span></div>
+                <div class="tutor-compare-row"><span>Aspiration (p/t/k)</span><span>🇬🇧 Angličtina</span><span>EN "p" je aspirované = čínské p</span></div>
+                <div class="tutor-compare-row"><span>Measure words</span><span>🇬🇧 Angličtina</span><span>"a piece of" / "a cup of" = measure word</span></div>
+                <div class="tutor-compare-row"><span>Žádné rody</span><span>🇨🇿 Čeština</span><span>Víš jak moc je to otrava → oceníš absenci</span></div>
+              </div>`
+          },
+          {
+            type: 'warning',
+            title: 'Nejčastější chyby Čechů na HSK 1',
+            body: `<div class="tutor-mistakes">
+                <div class="tutor-mistake">
+                  <div class="tutor-mistake-num">1.</div>
+                  <div class="tutor-mistake-text"><strong>Ignorování tónů</strong> — "Však oni pochopí z kontextu." Ne, nepochopí. Tóny nejsou volitelné.</div>
+                </div>
+                <div class="tutor-mistake">
+                  <div class="tutor-mistake-num">2.</div>
+                  <div class="tutor-mistake-text"><strong>Čtení pinyinu česky</strong> — "c" není "c", "z" není "z", "q" není "kv". Pinyin je kód, ne fonetický přepis.</div>
+                </div>
+                <div class="tutor-mistake">
+                  <div class="tutor-mistake-num">3.</div>
+                  <div class="tutor-mistake-text"><strong>Přeskakování znaků</strong> — "Naučím se jen pinyin." Znaky jsou klíčové — homofonů je příliš mnoho.</div>
+                </div>
+                <div class="tutor-mistake">
+                  <div class="tutor-mistake-num">4.</div>
+                  <div class="tutor-mistake-text"><strong>České r místo čínského r</strong> — Kmitavé r [r] v čínštině neexistuje. Je to bližší americkému "r".</div>
+                </div>
+                <div class="tutor-mistake">
+                  <div class="tutor-mistake-num">5.</div>
+                  <div class="tutor-mistake-text"><strong>Překládání slovíček bez kontextu</strong> — 学习 neznamená "studovat" ve všech kontextech. Uč se celé fráze.</div>
+                </div>
+              </div>`
+          },
+          {
+            type: 'tip',
+            title: 'Daily Practice Routine (20 min)',
+            body: `<div class="tutor-routine">
+                <div class="tutor-routine-step"><span class="tutor-routine-time">5 min</span><span class="tutor-routine-task">Flashcards — <a href="#/flashcards" class="tutor-link">SRS review</a> (due karty)</span></div>
+                <div class="tutor-routine-step"><span class="tutor-routine-time">5 min</span><span class="tutor-routine-task">Pinyin Drills — <a href="#/pinyin" class="tutor-link">tóny a souhlásky</a></span></div>
+                <div class="tutor-routine-step"><span class="tutor-routine-time">5 min</span><span class="tutor-routine-task">Mouth Mechanics — <a href="#/sounds" class="tutor-link">procvičuj 2-3 zvuky</a></span></div>
+                <div class="tutor-routine-step"><span class="tutor-routine-time">5 min</span><span class="tutor-routine-task">Nová slovíčka — přidej 3-5 nových do <a href="#/vocabulary" class="tutor-link">Vocab</a></span></div>
+              </div>
+              <div class="tutor-do-dont">
+                <div class="tutor-do">✅ 20 minut denně > 3 hodiny jednou týdně. Konzistence je klíč.</div>
+              </div>`
+          },
+        ]
+      },
+    ];
+
+    // Track which sections are expanded
+    const expanded = new Set(['tones']); // start with tones open
+
+    function render() {
+      app.innerHTML = `
+        <div class="page-header">
+          <h1>Chinese Tutor</h1>
+          <p style="color:var(--text-secondary);font-size:14px">Tips & tricks pro česko-anglické mluvčí</p>
+        </div>
+        <div class="tutor-sections">
+          ${sections.map(sec => `
+            <div class="tutor-section ${expanded.has(sec.id) ? 'open' : ''}" data-section="${sec.id}">
+              <button class="tutor-section-header" data-toggle="${sec.id}">
+                <span class="tutor-section-icon">${sec.icon}</span>
+                <div class="tutor-section-title-wrap">
+                  <div class="tutor-section-title">${sec.title}</div>
+                  <div class="tutor-section-subtitle">${sec.subtitle}</div>
+                </div>
+                <span class="tutor-chevron">${expanded.has(sec.id) ? '▾' : '▸'}</span>
+              </button>
+              ${expanded.has(sec.id) ? `<div class="tutor-section-body">
+                ${sec.cards.map(c => `
+                  <div class="tutor-card tutor-card-${c.type}">
+                    <div class="tutor-card-header">
+                      <span class="tutor-card-badge">${c.type === 'warning' ? '⚠️' : c.type === 'trick' ? '💡' : '📌'} ${c.type}</span>
+                      <span class="tutor-card-title">${c.title}</span>
+                    </div>
+                    <div class="tutor-card-body">${c.body}</div>
+                  </div>
+                `).join('')}
+              </div>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      `;
+
+      // Bind toggle buttons
+      document.querySelectorAll('.tutor-section-header').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-toggle');
+          if (expanded.has(id)) expanded.delete(id);
+          else expanded.add(id);
+          render();
+        });
+      });
+    }
+
+    render();
   }
 
   // ============================================================
