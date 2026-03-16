@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from pptx import Presentation; print\\(''pptx available''\\)\")",
+      "Bash(python -c \"from pptx import Presentation; print\\(''pptx available''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(/c/Python313/python -m pip install python-pptx)",
+      "Bash(/c/Python313/python:*)",
+      "Bash(start index.html)",
+      "Bash(python -c \"import flask; print\\(flask.__version__\\)\")",
+      "Bash(python server.py)",
+      "Bash(curl -s http://localhost:5000/api/vocabulary)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f''''{len\\(d\\)} words loaded''''\\)\")",
+      "Bash(curl -s http://localhost:5000/api/characters)",
+      "Bash(python -m json.tool)",
+      "Bash(start http://localhost:5000)",
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(curl -s http://localhost:5000/api/calendar)",
+      "Bash(curl -s -X POST http://localhost:5000/api/calendar -H \"Content-Type: application/json\" -d '{\"\"date\"\":\"\"2026-03-16\"\",\"\"type\"\":\"\"lesson\"\",\"\"note\"\":\"\"Lesson 5 - tones\"\",\"\"time\"\":\"\"18:00\"\"}')",
+      "Bash(start \"http://localhost:5000/#/calendar\")",
+      "Bash(curl -s -X POST http://localhost:5000/api/calendar -H \"Content-Type: application/json\" -d '{\"\"date\"\":\"\"2026-03-02\"\",\"\"type\"\":\"\"lesson\"\",\"\"note\"\":\"\"Chinese lesson with Barbora\"\",\"\"time\"\":\"\"18:00\"\",\"\"repeat\"\":\"\"weekly\"\",\"\"repeatEnd\"\":\"\"2026-05-01\"\"}')",
+      "Bash(curl -s \"http://localhost:5000/api/calendar?from=2026-03-01&to=2026-03-31\")",
+      "Bash(python -c \"import sys,json; evts=json.load\\(sys.stdin\\); print\\(f''''{len\\(evts\\)} events in March''''\\); [print\\(f''''  {e[\"\"date\"\"]} {e[\"\"type\"\"]} - {e[\"\"note\"\"]}''''\\) for e in evts if e.get\\(''''type''''\\)==''''lesson'''']\")",
+      "Bash(curl -s \"http://localhost:5000/api/calendar?from=2026-04-01&to=2026-04-30\")",
+      "Bash(python -c \"import sys,json; evts=json.load\\(sys.stdin\\); print\\(f''''{len\\(evts\\)} events in April''''\\); [print\\(f''''  {e[\"\"date\"\"]} {e[\"\"type\"\"]} - {e[\"\"note\"\"]}''''\\) for e in evts]\")",
+      "Bash(curl -s \"http://localhost:5000/api/calendar?from=2026-05-01&to=2026-05-31\")",
+      "Bash(python -c \"import sys,json; evts=json.load\\(sys.stdin\\); print\\(f''''{len\\(evts\\)} events in May''''\\); [print\\(f''''  {e[\"\"date\"\"]}''''\\) for e in evts]\")",
+      "Bash(curl -s -X DELETE http://localhost:5000/api/calendar/eabff3f81)",
+      "Bash(curl -s http://localhost:5000/api/calendar/raw)",
+      "Bash(curl -s -X PUT http://localhost:5000/api/calendar/e1890bd01 -H \"Content-Type: application/json\" -d '{\"\"date\"\":\"\"2026-03-05\"\",\"\"type\"\":\"\"lesson\"\",\"\"note\"\":\"\"Chinese lesson with Barbora\"\",\"\"time\"\":\"\"18:00\"\",\"\"repeat\"\":\"\"weekly\"\",\"\"repeatEnd\"\":\"\"2026-05-01\"\"}')",
+      "Bash(python -c \"import sys,json; evts=json.load\\(sys.stdin\\); [print\\(f''''{e[\"\"date\"\"]} \\({__import__\\(\"\"datetime\"\"\\).date.fromisoformat\\(e[\"\"date\"\"]\\).strftime\\(\"\"%A\"\"\\)}\\) - {e[\"\"note\"\"]}''''\\) for e in evts]\")",
+      "Bash(curl -s http://localhost:5000/api/worksheets)",
+      "Bash(python -c \"import sys,json; ws=json.load\\(sys.stdin\\); [print\\(f''''  {w[\"\"filename\"\"]} \\({w[\"\"size_kb\"\"]} KB\\)''''\\) for w in ws]\")"
+    ]
+  }
+}
