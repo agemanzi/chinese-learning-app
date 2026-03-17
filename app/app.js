@@ -1128,39 +1128,78 @@
       retroflex: {
         label: 'Retroflex',
         sounds: [
-          { pinyin:'zh', ipa:'ʈʂ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Tip curls back to post-alveolar ridge. No teeth contact.', lips:'neutral', voiced:false, aspirated:false, manner:'affricate', trap:'NOT Czech č — tip must curl BACKWARD. Czech č contacts forward at alveolar ridge.', anchor:null, drill:'Whisper "dr" as in drum. Freeze at the r-position. Close and release from there.' },
-          { pinyin:'ch', ipa:'ʈʂʰ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Same curled-back tip as zh, released with a burst of air.', lips:'neutral', voiced:false, aspirated:true, manner:'affricate', trap:'NOT Czech č. Retroflex position + strong aspiration. Two things at once.', anchor:null, drill:'Achieve zh. Now release with a strong puff — hold paper in front: it must move.' },
-          { pinyin:'sh', ipa:'ʂ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Tip curls back, held near (not touching) post-alveolar zone. Steady friction.', lips:'slightly rounded', voiced:false, aspirated:false, manner:'fricative', trap:'NOT Czech š [ʃ]. Same family of sound but tongue curls BACK. Czech š is a forward contact.', anchor:null, drill:'Curl tongue tip back and up until you feel friction without full contact. Lips gently rounded.' },
-          { pinyin:'r', ipa:'ɻ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Tip curls back, voiced, tongue relaxed. No trill — no vibration at all.', lips:'slightly rounded', voiced:true, aspirated:false, manner:'approximant', trap:'NO Czech equivalent. NOT a trill. NOT Czech r [r]. Hold sh and add voice — that is all.', anchor:null, drill:'Hold sh [ʂ]. Add voicing from your throat (a buzz). Relax the airflow. Done.' },
+          { pinyin:'zh', ipa:'ʈʂ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Tongue TIP (apical) rises to post-alveolar region. Full closure then release into fricative. Tongue body stays low and retracted — a sublingual cavity forms, giving the sound its "thick" quality.', lips:'neutral', voiced:false, aspirated:false, manner:'affricate',
+            trap:'Czech č [tʃ] uses the tongue BLADE (laminal) at the palato-alveolar region. Mandarin zh uses the tongue TIP (apical) further BACK. Czech č will sound too thin and fronted to Chinese ears.',
+            anchor:null,
+            drill:'Place tongue tip against roof of mouth, just behind the alveolar ridge bump. Make a "t" from there, release into "sh". Contrast drill: alternate zh–j, zh–j to feel tip-up vs. tip-down.' },
+          { pinyin:'ch', ipa:'ʈʂʰ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Identical tip position to zh. Full closure then release with a STRONG burst of air. The only difference from zh is aspiration.', lips:'neutral', voiced:false, aspirated:true, manner:'affricate',
+            trap:'Czech č [tʃ] is (1) blade-based not tip-based, and (2) unaspirated. Mandarin ch requires BOTH retroflex position AND strong aspiration — two adjustments at once.',
+            anchor:null,
+            drill:'Master zh first. Then add a strong puff — tissue held 5 cm away must flutter for ch but NOT for zh. Pair drill: zhā/chā, zhī/chī repeatedly.' },
+          { pinyin:'sh', ipa:'ʂ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Tongue tip approaches (does NOT touch) the post-alveolar region. Continuous friction through a narrow gap. Sublingual cavity gives it a "dark, heavy" quality vs. English/Czech sh.', lips:'neutral', voiced:false, aspirated:false, manner:'fricative',
+            trap:'Czech š [ʃ] is laminal (blade-based) and palato-alveolar — more forward and "thinner." Mandarin sh is apical (tip-based) and further back. If your sh sounds like Czech š, move the tip BACK and keep lips neutral (less rounded than English sh).',
+            anchor:null,
+            drill:'Say English "r" (as in red), feel where the tip is. From that position, make a voiceless hiss. That gets you close to ʂ. Keep lips neutral — NOT rounded like English "sh."' },
+          { pinyin:'r', ipa:'ʐ', zone:'post-alv', tonguePart:'tip', tongueDesc:'Voiced retroflex fricative (varies to approximant [ɻ] in casual speech). Tongue tip in same position as sh, but with vocal cord vibration. No tongue trilling whatsoever.', lips:'neutral', voiced:true, aspirated:false, manner:'fricative',
+            trap:'NOT Czech r [r] (alveolar trill) — no vibration! NOT Czech ř [r̝] (fricative trill) — completely different mechanism. NOT English r [ɹ] — less lip rounding, further back. Mandarin r is simply: voiced sh.',
+            anchor:null,
+            drill:'Hold sh [ʂ] steadily. Keep tongue exactly there. Now add voicing (vibrate vocal cords = buzz from throat). The friction may soften — that is fine. For Czech speakers: say ž [ʒ] then slide the tip BACK and UP away from alveolar ridge. Do NOT let the tip vibrate/trill.' },
         ]
       },
       palatal: {
-        label: 'Palatal',
+        label: 'Alveolo-palatal',
         sounds: [
-          { pinyin:'j', ipa:'tɕ', zone:'palatal', tonguePart:'blade', tongueDesc:'Blade (just behind tip) contacts hard palate. Lips spread wide like a smile.', lips:'spread — smile wide', voiced:false, aspirated:false, manner:'affricate', trap:'Between Czech č and c in space. Must be palatal (not alveolar). Spread lips is not optional.', anchor:null, drill:'Wide smile, teeth showing. Say Czech c [ts] with this smile. Move contact slightly back.' },
-          { pinyin:'q', ipa:'tɕʰ', zone:'palatal', tonguePart:'blade', tongueDesc:'Identical blade position to j, released with strong aspiration.', lips:'spread — smile wide', voiced:false, aspirated:true, manner:'affricate', trap:'No Czech equivalent. Build from j — add a strong air burst after the release.', anchor:null, drill:'Master j first. Add aspiration: j + puff. Paper in front must flutter clearly.' },
-          { pinyin:'x', ipa:'ɕ', zone:'palatal', tonguePart:'blade', tongueDesc:'Blade near (not touching) hard palate. High front hiss. Continuous friction.', lips:'spread — smile wide', voiced:false, aspirated:false, manner:'fricative', trap:'NOT Czech s (too far forward). NOT Czech š (too far back). This is a palatal hiss — in between.', anchor:null, drill:'Wide smile. Push air through with a high-pitched hiss. Blade approaches but does not touch palate.' },
+          { pinyin:'j', ipa:'tɕ', zone:'palatal', tonguePart:'blade', tongueDesc:'Tongue BLADE rises to front of hard palate. Tongue TIP stays DOWN behind lower front teeth — this is the key! Full closure then release. Tongue body pushed high and forward.', lips:'spread (before i), rounded (before ü)', voiced:false, aspirated:false, manner:'affricate',
+            trap:'Czech č [tʃ] has the tip UP — wrong! For j, the tip must stay DOWN behind lower teeth. Czech speakers must decouple the tip from the articulation. Also: č is post-alveolar, j is further forward (palatal).',
+            anchor:null,
+            drill:'Sustain "ee" [i]. While holding it, raise your tongue blade (not tip!) to touch the roof. Release gently without air burst. Mirror check: you should see the tongue tip resting behind lower teeth.' },
+          { pinyin:'q', ipa:'tɕʰ', zone:'palatal', tonguePart:'blade', tongueDesc:'Identical blade-up, tip-down position as j. Released with STRONG aspiration. The sole difference from j is the air burst.', lips:'spread (before i), rounded (before ü)', voiced:false, aspirated:true, manner:'affricate',
+            trap:'No Czech equivalent. Czech č is post-alveolar + unaspirated — wrong on both counts. Build from j, not from č.',
+            anchor:null,
+            drill:'Master j first. Then add aspiration: tissue test — paper must flutter for q, not for j. Practice: jī/qī, jù/qù. Feel the identical tongue position, different airflow.' },
+          { pinyin:'x', ipa:'ɕ', zone:'palatal', tonguePart:'blade', tongueDesc:'Blade approaches (no contact) front hard palate. Continuous high-pitched hiss. Tip stays DOWN behind lower teeth. Sound is "brighter" and "sharper" than sh or Czech š.', lips:'spread (before i), rounded (before ü)', voiced:false, aspirated:false, manner:'fricative',
+            trap:'Czech š [ʃ] is post-alveolar with tip raised — too far back and too "dark." Czech s [s] is dental — too far forward. Mandarin x is in between: palatal, with tip DOWN. If you know German ich-Laut or Japanese shi, that is close.',
+            anchor:null,
+            drill:'Whisper "yee" aggressively — the friction at onset ≈ ɕ. Or: say "ee", then without moving tongue, force air through the gap. Contrast: xi vs. shi (bright vs. dark), xi vs. si (palatal vs. dental).' },
         ]
       },
       sibilant: {
-        label: 'Sibilant',
+        label: 'Dental Sibilant',
         sounds: [
-          { pinyin:'z', ipa:'ts', zone:'alveolar', tonguePart:'tip', tongueDesc:'Tip contacts alveolar ridge. Unaspirated stop-fricative. No voicing.', lips:'neutral', voiced:false, aspirated:false, manner:'affricate', trap:'NOT Czech z [ʒ] (voiced fricative). Completely different. This is an affricate — Czech c.', anchor:'SAME as Czech c [ts] — you own this position.', drill:'Say Czech c quietly. Feel tip at alveolar ridge. No voicing. That is Mandarin z.' },
-          { pinyin:'c', ipa:'tsʰ', zone:'alveolar', tonguePart:'tip', tongueDesc:'Same tip position as z, but with a strong air burst immediately after the release.', lips:'neutral', voiced:false, aspirated:true, manner:'affricate', trap:'Czech c exists but is NOT aspirated. You must add a burst — Czech mouth alone is not enough.', anchor:'Czech c [ts] + aspiration burst', drill:'Say Czech c. Now add a clear puff of air after the release. Paper in front must move.' },
-          { pinyin:'s', ipa:'s', zone:'alveolar', tonguePart:'tip', tongueDesc:'Tip near alveolar ridge, continuous friction. Identical to Czech s.', lips:'neutral', voiced:false, aspirated:false, manner:'fricative', trap:null, anchor:'IDENTICAL to Czech s [s] — no modification needed. You fully own this sound.', drill:'No drill needed. This is pure Czech s. The one Mandarin initial your mouth already knows.' },
+          { pinyin:'z', ipa:'t̪s̪', zone:'dental', tonguePart:'tip', tongueDesc:'Tongue tip/blade contacts back of UPPER TEETH (dental, not alveolar). Full closure then release into dental fricative. Voiceless. Unaspirated.', lips:'neutral', voiced:false, aspirated:false, manner:'affricate',
+            trap:'Pinyin "z" is NOT Czech z [z] (voiced fricative) — completely different sound! Mandarin z = Czech c [ts]. The letter misleads. Also: Mandarin z is dental (teeth), Czech c may be slightly more alveolar.',
+            anchor:'Czech c [ts] as in "cena" — almost identical. Move tongue slightly forward to touch back of teeth.',
+            drill:'Say Czech "c" (as in cena). Move tip slightly forward to upper teeth. That is Mandarin z. Remember: see the letter "z", produce Czech "c".' },
+          { pinyin:'c', ipa:'t̪s̪ʰ', zone:'dental', tonguePart:'tip', tongueDesc:'Same dental position as z. Released with STRONG aspiration burst. This is the aspirated partner of z.', lips:'neutral', voiced:false, aspirated:true, manner:'affricate',
+            trap:'Czech c [ts] is unaspirated — it will sound like Mandarin z, not c! You must consciously add a strong puff. Think of it as Czech c + výdech.',
+            anchor:'Czech c [ts] + add strong aspiration. Think: c...hhh.',
+            drill:'Tissue test: hold paper in front. Mandarin c = paper flutters. Mandarin z = paper still. Drill pairs: zā/cā, zǒu/cóu. Exaggerate the puff on c until automatic.' },
+          { pinyin:'s', ipa:'s̪', zone:'dental', tonguePart:'tip', tongueDesc:'Tip/blade near back of upper teeth. Continuous friction through narrow dental groove. Voiceless.', lips:'neutral', voiced:false, aspirated:false, manner:'fricative',
+            trap:null,
+            anchor:'IDENTICAL to Czech s [s] — your mouth already knows this perfectly. Mandarin s may be slightly more dental (forward) than Czech s, but the difference is negligible.',
+            drill:'No special drill needed. This is Czech s. Focus your practice time on harder sounds instead.' },
         ]
       },
       special: {
         label: 'Special',
         sounds: [
-          { pinyin:'ü', ipa:'y', zone:'palatal', tonguePart:'body', tongueDesc:'Tongue body high and FORWARD (as in Czech i). Lips simultaneously ROUNDED into tight circle.', lips:'tightly rounded (ü)', voiced:true, aspirated:false, manner:'vowel', trap:'NOT Czech ú/ů — those are back-rounded. This is FORWARD tongue + ROUNDED lips. Czech never combines these.', anchor:null, drill:'Say Czech i (ee). Hold tongue exactly there — do not move it. Now slowly round lips into a tight circle.' },
-          { pinyin:'-n', ipa:'n̪', zone:'alveolar', tonguePart:'tip', tongueDesc:'Tip touches alveolar ridge. Nasal resonance. Do not add an extra consonant release.', lips:'neutral', voiced:true, aspirated:false, manner:'nasal', trap:null, anchor:'Same position as Czech n. Focus on the VOWEL before it — -an, -en, -in are three distinct sounds.', drill:'Record yourself. -an / -en / -in must sound clearly different. The n itself is Czech n.' },
-          { pinyin:'-ng', ipa:'ŋ', zone:'velar', tonguePart:'back (body)', tongueDesc:'Back of tongue presses up to velum (soft palate). Nasal resonance held at the throat.', lips:'neutral', voiced:true, aspirated:false, manner:'nasal', trap:'Do NOT release a [g] at the end. Hold the nasal resonance and stop — no consonant release.', anchor:'The nasal resonance in Czech banka/tango — the ng-resonance before k.', drill:'Say "song" and stop BEFORE the g. Freeze at that nasal resonance. That is -ng [ŋ].' },
+          { pinyin:'ü', ipa:'y', zone:'palatal', tonguePart:'body', tongueDesc:'Close front ROUNDED vowel. Tongue high and forward — identical to [i]. Lips simultaneously rounded into tight circle — identical to [u]. The combination of i-tongue + u-lips = ü. Same as German ü or French u.', lips:'tightly rounded (ü)', voiced:true, aspirated:false, manner:'vowel',
+            trap:'Czech has NO front rounded vowel. ú/ů [uː] has rounded lips but tongue is BACK. í [iː] has tongue forward but lips are SPREAD. Mandarin ü combines forward tongue + round lips — Czech phonology treats this as impossible.',
+            anchor:'If you know German: ü in "über" = identical. If you know French: u in "tu" = identical.',
+            drill:'Say Czech "í" (ee). Hold tongue EXACTLY there. Now slowly round lips into small circle (as for ů). Sound transforms into ü. Mirror: check lips are round while sustaining ee-pitch. Minimal pairs: lù 路 (road) vs. lǜ 绿 (green).' },
+          { pinyin:'-n', ipa:'n', zone:'alveolar', tonguePart:'tip', tongueDesc:'Tongue tip makes firm contact with alveolar ridge (denti-alveolar). Complete oral seal — all air exits through nose. Tip clearly UP — this distinguishes -n from -ng.', lips:'neutral', voiced:true, aspirated:false, manner:'nasal',
+            trap:'Czech speakers hear -n and -ng as the same sound (in Czech they are allophones). In Mandarin they are PHONEMIC — different sound = different word: jīn 金 (gold) vs. jīng 京 (capital).',
+            anchor:'Czech n = Mandarin -n (close enough). BUT: the vowel BEFORE -n changes! -an [æn] is more FRONT than Czech "an". -ian is actually [jɛn], not [jan].',
+            drill:'Say the final nasal and HOLD it as a hum. Check: is your tongue TIP touching the ridge? If yes = -n. Practice pairs: bān/bāng, shēn/shēng, jīn/jīng.' },
+          { pinyin:'-ng', ipa:'ŋ', zone:'velar', tonguePart:'back (body)', tongueDesc:'BACK of tongue presses against soft palate (velum). Tip stays DOWN and relaxed. Air exits through nose. No oral release — do NOT add [g] or [k] at the end.', lips:'neutral', voiced:true, aspirated:false, manner:'nasal',
+            trap:'Czech [ŋ] only occurs before k/g (banka, tango) — Czech speakers always release into a stop after it. In Mandarin, -ng ends the syllable with NO release. You must learn to "freeze" the nasal without the k/g.',
+            anchor:'Say Czech "banka" slowly. STOP right before the [k]. That frozen nasal = [ŋ]. You already produce this sound daily — you just need it WITHOUT the k.',
+            drill:'Say "bāng" and sustain the final: "bānggggg..." — continuous nasal hum, no bump/release. If you can hold it forever, there is no [g]. Contrast: hold -n (tip up) then -ng (tip down, back up). Feel the switch.' },
         ]
       }
     };
 
-    const zones = ['lips','alveolar','post-alv','palatal','velar'];
+    const zones = ['lips','dental','alveolar','post-alv','palatal','velar'];
     const tParts = ['tip','blade','body','back (body)'];
     const manners = ['affricate','fricative','nasal','approximant','vowel'];
     let curFamily = 'retroflex';
@@ -1170,6 +1209,7 @@
       // px,py = palate contact point; tx,ty = tongue contact point
       return {
         'lips':    {px:14,py:58, tx:24,ty:74},
+        'dental':  {px:26,py:32, tx:36,ty:68},
         'alveolar':{px:38,py:22, tx:42,ty:66},
         'post-alv':{px:64,py:12, tx:62,ty:60},
         'palatal': {px:108,py:7, tx:100,ty:57},
@@ -1189,7 +1229,8 @@
       // Upper palate segments (roof of mouth)
       const segs = [
         { z:'lips',     d:'M 10,78 L 10,52 L 18,38' },
-        { z:'alveolar', d:'M 18,38 L 30,26 L 46,18' },
+        { z:'dental',   d:'M 18,38 L 24,30 L 32,24' },
+        { z:'alveolar', d:'M 32,24 L 40,20 L 46,18' },
         { z:'post-alv', d:'M 46,18 Q 62,10 84,7' },
         { z:'palatal',  d:'M 84,7 Q 108,5 130,10' },
         { z:'velar',    d:'M 130,10 Q 152,16 168,34 L 176,52' },
@@ -1230,7 +1271,13 @@
           divs: [{x:44,y1:70,y2:78},{x:72,y1:44,y2:78},{x:125,y1:36,y2:78}],
           labels: [{x:36,y:88,part:'tip'},{x:58,y:88,part:'blade'},{x:98,y:88,part:'body'},{x:144,y:88,part:'back'}],
         },
-        // Sibilant: tip reaches up to alveolar ridge, rest relatively flat
+        // Dental sibilant: tip/blade reaches forward to back of upper teeth, rest flat
+        dental: {
+          path: 'M 26,78 Q 30,72 34,66 Q 36,56 38,46 Q 40,38 36,34 Q 32,36 30,44 Q 34,54 48,60 Q 72,58 100,58 Q 130,58 156,66 L 168,78 Z',
+          divs: [{x:42,y1:56,y2:78},{x:72,y1:58,y2:78},{x:120,y1:58,y2:78}],
+          labels: [{x:34,y:88,part:'tip'},{x:56,y:88,part:'blade'},{x:96,y:88,part:'body'},{x:140,y:88,part:'back'}],
+        },
+        // Alveolar nasal (-n): tip reaches up to alveolar ridge, rest relatively flat
         alveolar: {
           path: 'M 26,78 Q 32,72 38,64 Q 42,52 44,44 Q 46,40 42,38 Q 38,40 36,48 Q 40,56 52,62 Q 72,60 100,58 Q 130,58 156,66 L 168,78 Z',
           divs: [{x:46,y1:56,y2:78},{x:72,y1:60,y2:78},{x:120,y1:58,y2:78}],
@@ -1255,6 +1302,7 @@
       if (s.zone === 'post-alv') shapeKey = 'retroflex';
       else if (s.zone === 'palatal' && s.manner === 'vowel') shapeKey = 'palatal_vowel';
       else if (s.zone === 'palatal') shapeKey = 'palatal';
+      else if (s.zone === 'dental') shapeKey = 'dental';
       else if (s.zone === 'alveolar') shapeKey = 'alveolar';
       else if (s.zone === 'velar') shapeKey = 'velar';
       else shapeKey = 'alveolar'; // fallback
@@ -1291,7 +1339,8 @@
       // Anatomical region labels along the palate
       const regionLabels = [
         { z:'lips',     x:4,  y:48, anchor:'start',  label:'Rty' },
-        { z:'alveolar', x:32, y:14, anchor:'middle', label:'Dásně' },
+        { z:'dental',   x:22, y:22, anchor:'middle', label:'Zuby' },
+        { z:'alveolar', x:40, y:14, anchor:'middle', label:'Dásně' },
         { z:'post-alv', x:64, y:4,  anchor:'middle', label:'Post-alv.' },
         { z:'palatal',  x:108,y:3,  anchor:'middle', label:'Patro' },
         { z:'velar',    x:160,y:26, anchor:'middle', label:'Velum' },
@@ -1312,6 +1361,7 @@
         'neutral':               `<ellipse cx="6" cy="68" rx="3" ry="6" fill="none" stroke="${bc}" stroke-width="1.2"/>`,
         'slightly rounded':      `<ellipse cx="6" cy="68" rx="4" ry="5" fill="${bg}" fill-opacity="0.3" stroke="${ic}" stroke-width="1.2"/>`,
         'spread — smile wide':   `<path d="M 2,66 Q 6,72 10,66" fill="none" stroke="${ic}" stroke-width="1.2"/>`,
+        'spread (before i), rounded (before ü)': `<path d="M 2,66 Q 6,72 10,66" fill="none" stroke="${ic}" stroke-width="1.2"/>`,
         'tightly rounded (ü)':   `<circle cx="6" cy="68" r="2.5" fill="${bg}" fill-opacity="0.4" stroke="${ic}" stroke-width="1.5"/>`,
       };
       const lipShape = lipShapes[s.lips] || lipShapes['neutral'];
@@ -1529,22 +1579,22 @@
             body: `<div class="tutor-false-friends">
                 <div class="tutor-ff-item">
                   <div class="tutor-ff-py">zh, ch, sh</div>
-                  <div class="tutor-ff-trap">Vypadají jako č, š — ale jazyk musí být sbalený DOZADU (retroflex). České č a š jsou přední zvuky.</div>
+                  <div class="tutor-ff-trap">České č [tʃ] a š [ʃ] jsou LAMINÁLNÍ (jazyk čepelí) na palato-alveolárním místě. Čínské zh/ch/sh jsou APIKÁLNÍ (hrotem jazyka) dále VZADU. Klíčový rozdíl: hrot vs. čepel. Pod jazykem vzniká dutina, která dává zvuku "temnou" kvalitu.</div>
                   <div class="tutor-ff-link"><a href="#/sounds" class="tutor-link">→ Viz Mouth Mechanics: Retroflex</a></div>
                 </div>
                 <div class="tutor-ff-item">
                   <div class="tutor-ff-py">j, q, x</div>
-                  <div class="tutor-ff-trap">Špička jazyka musí zůstat DOLE za spodními zuby. Čech automaticky zvedá hrot nahoru — to je špatně.</div>
+                  <div class="tutor-ff-trap">Špička jazyka musí zůstat DOLE za spodními zuby — Čech automaticky zvedá hrot (jako u č), to je špatně! Čínské j/q/x jsou alveolo-palatální: čepel a tělo jazyka se zvedají k patru. Zkontroluj v zrcadle — hrot musí být viditelný za dolními zuby.</div>
                   <div class="tutor-ff-link"><a href="#/sounds" class="tutor-link">→ Viz Mouth Mechanics: Palatal</a></div>
                 </div>
                 <div class="tutor-ff-item">
-                  <div class="tutor-ff-py">r</div>
-                  <div class="tutor-ff-trap">NENÍ české r (kmitavé). Není ani anglické r. Je to voiced retroflex — drž sh a přidej hlas.</div>
+                  <div class="tutor-ff-py">r [ʐ]</div>
+                  <div class="tutor-ff-trap">NENÍ české r [r] (kmitavé) ani ř [r̝] (třené kmitavé) — žádné kmitání jazyka! NENÍ anglické r [ɹ] — méně zaokrouhlení rtů. Čínské r je znělá retroflexa [ʐ]: drž sh a přidej hlas z hrdla. V běžné řeči se oslabuje na aproximantu [ɻ].</div>
                   <div class="tutor-ff-link"><a href="#/sounds" class="tutor-link">→ Viz Mouth Mechanics: Retroflex → r</a></div>
                 </div>
                 <div class="tutor-ff-item">
                   <div class="tutor-ff-py">z (pinyin)</div>
-                  <div class="tutor-ff-trap">Pinyin "z" = české "c" [ts]. Pinyin "c" = české "c" + výdech. České "z" v čínštině neexistuje.</div>
+                  <div class="tutor-ff-trap">Pinyin "z" [t̪s̪] = české "c" [ts] — NE české "z" [z]! Pinyin "c" [t̪s̪ʰ] = české "c" + silný výdech. České "z" (znělá frikativa) v čínštině neexistuje. Navíc: čínské z/c/s jsou DENTÁLNÍ (jazyk na zuby), české c/s mohou být lehce víc alveolární.</div>
                 </div>
               </div>`
           },

@@ -704,7 +704,7 @@ body {
 .mm-wrap .vcard { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
 .mm-wrap .vcl { font-size: 11px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; font-weight: 600; }
 .mm-wrap .zbar { display: flex; height: 28px; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); margin-bottom: 10px; }
-.mm-wrap .zseg { flex: 1; display: flex; align-items: center; justify-content: center; font-size: 9px; color: var(--text-secondary); border-right: 1px solid var(--border); background: var(--bg); transition: all 0.2s; }
+.mm-wrap .zseg { flex: 1; display: flex; align-items: center; justify-content: center; font-size: 8px; color: var(--text-secondary); border-right: 1px solid var(--border); background: var(--bg); transition: all 0.2s; }
 .mm-wrap .zseg:last-child { border-right: none; }
 .mm-wrap .zseg.on { background: var(--color-background-info); color: var(--color-text-info); font-weight: 600; }
 .mm-wrap .tparts { display: flex; flex-direction: column; gap: 5px; margin-bottom: 8px; }
