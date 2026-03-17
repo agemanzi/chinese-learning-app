@@ -572,13 +572,57 @@ def generate_reference_pdf(chars: list[str], lesson_name: str, output_path: str,
     print(f"  Reference sheet: {output_path}")
 
 
-def merge_pdfs(worksheet_path: str, reference_path: str, output_path: str):
-    """Merge worksheet and reference PDFs into one file."""
-    merger = PdfMerger()
-    merger.append(worksheet_path)
-    merger.append(reference_path)
-    merger.write(output_path)
-    merger.close()
+def _create_stamp_page(text: str, page_width: float, page_height: float) -> str:
+    """Create a single-page transparent PDF with small gray footer text."""
+    from reportlab.pdfgen import canvas as rl_canvas
+    from io import BytesIO
+
+    buf = BytesIO()
+    c = rl_canvas.Canvas(buf, pagesize=(page_width, page_height))
+
+    # Register a font that supports Czech diacritics
+    font_name = "Helvetica"
+    for fp in ["C:/Windows/Fonts/segoeui.ttf", "C:/Windows/Fonts/arial.ttf"]:
+        if os.path.exists(fp):
+            try:
+                pdfmetrics.registerFont(TTFont("StampFont", fp))
+                font_name = "StampFont"
+                break
+            except Exception:
+                pass
+
+    c.setFont(font_name, 7)
+    c.setFillColor(colors.HexColor("#AAAAAA"))
+    c.drawString(10*mm, 5*mm, text)
+    c.showPage()
+    c.save()
+    buf.seek(0)
+    return buf
+
+
+def merge_pdfs(worksheet_path: str, reference_path: str, output_path: str,
+               lesson_name: str = ""):
+    """Merge worksheet and reference PDFs, stamping every page with version info."""
+    from PyPDF2 import PdfReader, PdfWriter
+
+    version = get_version()
+    stamp_text = f"{lesson_name}  |  {version}"
+
+    writer = PdfWriter()
+
+    for pdf_path in [worksheet_path, reference_path]:
+        reader = PdfReader(pdf_path)
+        for page in reader.pages:
+            # Create a stamp overlay matching this page's dimensions
+            pw = float(page.mediabox.width)
+            ph = float(page.mediabox.height)
+            stamp_buf = _create_stamp_page(stamp_text, pw, ph)
+            stamp_reader = PdfReader(stamp_buf)
+            page.merge_page(stamp_reader.pages[0])
+            writer.add_page(page)
+
+    with open(output_path, "wb") as f:
+        writer.write(f)
 
 
 def main():
@@ -663,7 +707,7 @@ def main():
 
             # 3. Merge into one PDF
             print(f"  Merging into final PDF...")
-            merge_pdfs(ws_path, ref_path, final_path)
+            merge_pdfs(ws_path, ref_path, final_path, lesson_name)
             print(f"  Final: {final_path}")
 
             # Clean up temp files
