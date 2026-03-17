@@ -3,7 +3,15 @@ __pycache__/
 venv/
 .env
 *.tmp
-worksheets/_tmp_*
+
+# Sensitive / copyrighted materials (tutor's PPTs, generated worksheets)
+resources/
+worksheets/
+
+# Personal data
+calendar.json
+progress.json
+
 generator_page.html
 explore_site.py
 .claude/settings.local.json
