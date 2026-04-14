@@ -1,0 +1,10063 @@
+[
+ {
+  "simplified": "的",
+  "traditional": "的",
+  "pinyin": "de",
+  "syllables": [
+   "de"
+  ],
+  "tones": [
+   5
+  ],
+  "meaning": "of; ~'s (possessive particle); (used after an attribute)",
+  "radical": "白",
+  "frequency": 1,
+  "pos": [
+   "u",
+   "n"
+  ],
+  "meaning_cz": "částice (přivlastňovací); čí (pojí přívlastek)"
+ },
+ {
+  "simplified": "了",
+  "traditional": "了",
+  "pinyin": "le",
+  "syllables": [
+   "le"
+  ],
+  "tones": [
+   5
+  ],
+  "meaning": "(completed action marker); (modal particle indicating change of state, situation now)",
+  "radical": "亅",
+  "frequency": 3,
+  "pos": [
+   "y",
+   "u",
+   "v"
+  ],
+  "meaning_cz": "částice dokončeného děje; částice změny stavu"
+ },
+ {
+  "simplified": "我",
+  "traditional": "我",
+  "pinyin": "wǒ",
+  "syllables": [
+   "wo"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "I; me; my",
+  "radical": "戈",
+  "frequency": 3,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "já; mě; můj"
+ },
+ {
+  "simplified": "是",
+  "traditional": "是",
+  "pinyin": "shì",
+  "syllables": [
+   "shi"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to be (followed by substantives only); correct; right; true",
+  "radical": "日",
+  "frequency": 4,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "být; správný; pravdivý"
+ },
+ {
+  "simplified": "你",
+  "traditional": "你",
+  "pinyin": "nǐ",
+  "syllables": [
+   "ni"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "you (informal, as opposed to courteous 您)",
+  "radical": "亻",
+  "frequency": 5,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "ty (neformálně)"
+ },
+ {
+  "simplified": "在",
+  "traditional": "在",
+  "pinyin": "zài",
+  "syllables": [
+   "zai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to exist; to be alive; (of sb or sth) to be (located) at",
+  "radical": "土",
+  "frequency": 5,
+  "pos": [
+   "p",
+   "v",
+   "d"
+  ],
+  "meaning_cz": "existovat; být; nacházet se"
+ },
+ {
+  "simplified": "不",
+  "traditional": "不",
+  "pinyin": "bù",
+  "syllables": [
+   "bu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "no; not so; (bound form) not; un-",
+  "radical": "一",
+  "frequency": 9,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "ne; nikoli"
+ },
+ {
+  "simplified": "有",
+  "traditional": "有",
+  "pinyin": "yǒu",
+  "syllables": [
+   "you"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 意 intentional)",
+  "radical": "月",
+  "frequency": 9,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "mít; existuje (něco)"
+ },
+ {
+  "simplified": "他",
+  "traditional": "他",
+  "pinyin": "tā",
+  "syllables": [
+   "ta"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "he; him (used for either sex when the sex is unknown or unimportant); (used before sb's name for emphasis)",
+  "radical": "亻",
+  "frequency": 10,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "on; jeho"
+ },
+ {
+  "simplified": "这",
+  "traditional": "這",
+  "pinyin": "zhè",
+  "syllables": [
+   "zhe"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "(pronoun) this; these; (bound form) this; the (followed by a noun)",
+  "radical": "辶",
+  "frequency": 11,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "to; tyto"
+ },
+ {
+  "simplified": "就",
+  "traditional": "就",
+  "pinyin": "jiù",
+  "syllables": [
+   "jiu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after",
+  "radical": "尢",
+  "frequency": 15,
+  "pos": [
+   "d",
+   "p",
+   "c",
+   "v"
+  ],
+  "meaning_cz": "pak; hned; právě"
+ },
+ {
+  "simplified": "个",
+  "traditional": "個",
+  "pinyin": "gě",
+  "syllables": [
+   "ge"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "used in 自个儿",
+  "radical": "丨",
+  "frequency": 19,
+  "pos": [
+   "q",
+   "g"
+  ],
+  "meaning_cz": "klasifikátor (obecný)"
+ },
+ {
+  "simplified": "和",
+  "traditional": "咊",
+  "pinyin": "hé",
+  "syllables": [
+   "he"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "old variant of 和",
+  "radical": "口",
+  "frequency": 19,
+  "pos": [
+   "cc",
+   "p",
+   "v",
+   "qv",
+   "g",
+   "n"
+  ],
+  "meaning_cz": "a; s"
+ },
+ {
+  "simplified": "人",
+  "traditional": "人",
+  "pinyin": "rén",
+  "syllables": [
+   "ren"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "person; people",
+  "radical": "人",
+  "frequency": 19,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "člověk; lidé"
+ },
+ {
+  "simplified": "说",
+  "traditional": "說",
+  "pinyin": "shuì",
+  "syllables": [
+   "shui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to persuade",
+  "radical": "讠",
+  "frequency": 19,
+  "pos": [
+   "v",
+   "g"
+  ],
+  "meaning_cz": "říkat; mluvit"
+ },
+ {
+  "simplified": "我们",
+  "traditional": "我們",
+  "pinyin": "wǒ men",
+  "syllables": [
+   "wo",
+   "men"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "we; us",
+  "radical": "戈",
+  "frequency": 19,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "my; nás"
+ },
+ {
+  "simplified": "要",
+  "traditional": "要",
+  "pinyin": "yāo",
+  "syllables": [
+   "yao"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "(bound form) to demand; to coerce",
+  "radical": "覀",
+  "frequency": 19,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "chtít; potřebovat; muset"
+ },
+ {
+  "simplified": "好",
+  "traditional": "好",
+  "pinyin": "hǎo",
+  "syllables": [
+   "hao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "good; appropriate; proper",
+  "radical": "女",
+  "frequency": 20,
+  "pos": [
+   "a",
+   "d",
+   "v"
+  ],
+  "meaning_cz": "dobrý; správný"
+ },
+ {
+  "simplified": "一",
+  "traditional": "一",
+  "pinyin": "yī",
+  "syllables": [
+   "yi"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "one; single",
+  "radical": "一",
+  "frequency": 21,
+  "pos": [
+   "m",
+   "d",
+   "t"
+  ],
+  "meaning_cz": "jedna; 1"
+ },
+ {
+  "simplified": "会",
+  "traditional": "會",
+  "pinyin": "huì",
+  "syllables": [
+   "hui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "can; to have the skill; to know how to; to be likely to; to be sure to",
+  "radical": "人",
+  "frequency": 23,
+  "pos": [
+   "v",
+   "n"
+  ],
+  "meaning_cz": "umět; moci; schopný"
+ },
+ {
+  "simplified": "也",
+  "traditional": "也",
+  "pinyin": "Yě",
+  "syllables": [
+   "ye"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "surname Ye",
+  "radical": "乚",
+  "frequency": 23,
+  "pos": [
+   "d",
+   "y",
+   "u",
+   "b"
+  ],
+  "meaning_cz": "také; rovněž"
+ },
+ {
+  "simplified": "都",
+  "traditional": "都",
+  "pinyin": "Dū",
+  "syllables": [
+   "du"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Du",
+  "radical": "阝",
+  "frequency": 25,
+  "pos": [
+   "d",
+   "g"
+  ],
+  "meaning_cz": "všichni; vše"
+ },
+ {
+  "simplified": "对",
+  "traditional": "對",
+  "pinyin": "duì",
+  "syllables": [
+   "dui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "right; correct; towards; at; for",
+  "radical": "寸",
+  "frequency": 28,
+  "pos": [
+   "p",
+   "v",
+   "q",
+   "a"
+  ],
+  "meaning_cz": "správný; vůči; pro"
+ },
+ {
+  "simplified": "到",
+  "traditional": "到",
+  "pinyin": "dào",
+  "syllables": [
+   "dao"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to reach; to arrive; to leave for; to go to",
+  "radical": "刂",
+  "frequency": 29,
+  "pos": [
+   "v",
+   "p"
+  ],
+  "meaning_cz": "dojít; přijít; k (cíl)"
+ },
+ {
+  "simplified": "上",
+  "traditional": "上",
+  "pinyin": "shǎng",
+  "syllables": [
+   "shang"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "used in 上声",
+  "radical": "一",
+  "frequency": 29,
+  "pos": [
+   "f",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "nahoře; na; jít nahoru"
+ },
+ {
+  "simplified": "来",
+  "traditional": "來",
+  "pinyin": "lái",
+  "syllables": [
+   "lai"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "to come; (used as a substitute for a more specific verb)",
+  "radical": "木",
+  "frequency": 31,
+  "pos": [
+   "v",
+   "f",
+   "m",
+   "u",
+   "y"
+  ],
+  "meaning_cz": "přijít"
+ },
+ {
+  "simplified": "很",
+  "traditional": "很",
+  "pinyin": "hěn",
+  "syllables": [
+   "hen"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "(adverb of degree); quite",
+  "radical": "彳",
+  "frequency": 35,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "velmi; dost"
+ },
+ {
+  "simplified": "还",
+  "traditional": "還",
+  "pinyin": "Huán",
+  "syllables": [
+   "huan"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Huan",
+  "radical": "辶",
+  "frequency": 37,
+  "pos": [
+   "d",
+   "v"
+  ],
+  "meaning_cz": "ještě; stále; také"
+ },
+ {
+  "simplified": "去",
+  "traditional": "去",
+  "pinyin": "qù",
+  "syllables": [
+   "qu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to go; to go to (a place)",
+  "radical": "厶",
+  "frequency": 38,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "jít; odejít"
+ },
+ {
+  "simplified": "她",
+  "traditional": "她",
+  "pinyin": "tā",
+  "syllables": [
+   "ta"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "she",
+  "radical": "女",
+  "frequency": 38,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "ona (žena)"
+ },
+ {
+  "simplified": "着",
+  "traditional": "著",
+  "pinyin": "zhāo",
+  "syllables": [
+   "zhao"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "(chess) move; trick",
+  "radical": "目",
+  "frequency": 38,
+  "pos": [
+   "u",
+   "v",
+   "n",
+   "q"
+  ],
+  "meaning_cz": "průběhová částice"
+ },
+ {
+  "simplified": "想",
+  "traditional": "想",
+  "pinyin": "xiǎng",
+  "syllables": [
+   "xiang"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to think (about); to think of; to devise",
+  "radical": "心",
+  "frequency": 44,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "myslet (na); přemýšlet"
+ },
+ {
+  "simplified": "给",
+  "traditional": "給",
+  "pinyin": "gěi",
+  "syllables": [
+   "gei"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to; for",
+  "radical": "纟",
+  "frequency": 46,
+  "pos": [
+   "p",
+   "v",
+   "u"
+  ],
+  "meaning_cz": "dát; pro; směrem k"
+ },
+ {
+  "simplified": "没有",
+  "traditional": "沒有",
+  "pinyin": "méi yǒu",
+  "syllables": [
+   "mei",
+   "you"
+  ],
+  "tones": [
+   2,
+   3
+  ],
+  "meaning": "haven't; hasn't",
+  "radical": "氵",
+  "frequency": 46,
+  "pos": [
+   "v",
+   "d"
+  ],
+  "meaning_cz": "nemít"
+ },
+ {
+  "simplified": "能",
+  "traditional": "能",
+  "pinyin": "Néng",
+  "syllables": [
+   "neng"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Neng",
+  "radical": "⺼",
+  "frequency": 46,
+  "pos": [
+   "v",
+   "g"
+  ],
+  "meaning_cz": "moci; být schopen"
+ },
+ {
+  "simplified": "那",
+  "traditional": "那",
+  "pinyin": "Nā",
+  "syllables": [
+   "na"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Na",
+  "radical": "阝",
+  "frequency": 48,
+  "pos": [
+   "r",
+   "c"
+  ],
+  "meaning_cz": "ten; tamten"
+ },
+ {
+  "simplified": "他们",
+  "traditional": "他們",
+  "pinyin": "tā men",
+  "syllables": [
+   "ta",
+   "men"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "they",
+  "radical": "亻",
+  "frequency": 49,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "oni; je"
+ },
+ {
+  "simplified": "看",
+  "traditional": "看",
+  "pinyin": "kān",
+  "syllables": [
+   "kan"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to look after; to take care of",
+  "radical": "目",
+  "frequency": 52,
+  "pos": [
+   "v",
+   "u"
+  ],
+  "meaning_cz": "dívat se; koukat"
+ },
+ {
+  "simplified": "做",
+  "traditional": "做",
+  "pinyin": "zuò",
+  "syllables": [
+   "zuo"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to make; to produce; to write; to compose",
+  "radical": "亻",
+  "frequency": 53,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "dělat; vyrábět"
+ },
+ {
+  "simplified": "什么",
+  "traditional": "什麼",
+  "pinyin": "shén me",
+  "syllables": [
+   "shen",
+   "me"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "what?; something",
+  "radical": "亻",
+  "frequency": 55,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "co? co; něco"
+ },
+ {
+  "simplified": "吧",
+  "traditional": "吧",
+  "pinyin": "bā",
+  "syllables": [
+   "ba"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "bar (loanword) (serving drinks, or providing Internet access etc); to puff (on a pipe etc)",
+  "radical": "口",
+  "frequency": 58,
+  "pos": [
+   "y"
+  ],
+  "meaning_cz": "částice na konci věty (návrh)"
+ },
+ {
+  "simplified": "点",
+  "traditional": "點",
+  "pinyin": "diǎn",
+  "syllables": [
+   "dian"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "point; dot",
+  "radical": "灬",
+  "frequency": 58,
+  "pos": [
+   "qt",
+   "n",
+   "t",
+   "v"
+  ],
+  "meaning_cz": "bod; tečka; hodina"
+ },
+ {
+  "simplified": "过",
+  "traditional": "過",
+  "pinyin": "Guō",
+  "syllables": [
+   "guo"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Guo",
+  "radical": "辶",
+  "frequency": 60,
+  "pos": [
+   "u",
+   "v",
+   "d",
+   "g"
+  ],
+  "meaning_cz": "projít; přejít; minulost"
+ },
+ {
+  "simplified": "没",
+  "traditional": "沒",
+  "pinyin": "méi",
+  "syllables": [
+   "mei"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "(negative prefix for verbs) have not; not",
+  "radical": "氵",
+  "frequency": 63,
+  "pos": [
+   "d",
+   "v"
+  ],
+  "meaning_cz": "ne (před slovesy); ještě ne"
+ },
+ {
+  "simplified": "大",
+  "traditional": "大",
+  "pinyin": "dà",
+  "syllables": [
+   "da"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "big; large; great; older (than another person)",
+  "radical": "大",
+  "frequency": 66,
+  "pos": [
+   "a",
+   "d",
+   "n",
+   "g"
+  ],
+  "meaning_cz": "velký; starší"
+ },
+ {
+  "simplified": "从",
+  "traditional": "从",
+  "pinyin": "cóng",
+  "syllables": [
+   "cong"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "variant of 从",
+  "radical": "人",
+  "frequency": 70,
+  "pos": [
+   "p",
+   "g"
+  ],
+  "meaning_cz": "z; od"
+ },
+ {
+  "simplified": "下",
+  "traditional": "下",
+  "pinyin": "xià",
+  "syllables": [
+   "xia"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "down; downwards",
+  "radical": "一",
+  "frequency": 70,
+  "pos": [
+   "v",
+   "f",
+   "qt",
+   "g"
+  ],
+  "meaning_cz": "dole; sestoupit; pod"
+ },
+ {
+  "simplified": "中",
+  "traditional": "中",
+  "pinyin": "Zhōng",
+  "syllables": [
+   "zhong"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "China; Chinese",
+  "radical": "丨",
+  "frequency": 71,
+  "pos": [
+   "f",
+   "b",
+   "v"
+  ],
+  "meaning_cz": "střed; Čína (zkr.)"
+ },
+ {
+  "simplified": "里",
+  "traditional": "裏",
+  "pinyin": "lǐ",
+  "syllables": [
+   "li"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "variant of 里",
+  "radical": "里",
+  "frequency": 75,
+  "pos": [
+   "f",
+   "q"
+  ],
+  "meaning_cz": "uvnitř; v"
+ },
+ {
+  "simplified": "真",
+  "traditional": "真",
+  "pinyin": "zhēn",
+  "syllables": [
+   "zhen"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "really; truly",
+  "radical": "目",
+  "frequency": 76,
+  "pos": [
+   "d",
+   "a",
+   "g"
+  ],
+  "meaning_cz": "opravdu; skutečně"
+ },
+ {
+  "simplified": "现在",
+  "traditional": "現在",
+  "pinyin": "xiàn zài",
+  "syllables": [
+   "xian",
+   "zai"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "now; at present",
+  "radical": "王",
+  "frequency": 77,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "nyní; teď"
+ },
+ {
+  "simplified": "年",
+  "traditional": "年",
+  "pinyin": "Nián",
+  "syllables": [
+   "nian"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Nian",
+  "radical": "干",
+  "frequency": 79,
+  "pos": [
+   "qt",
+   "t",
+   "n"
+  ],
+  "meaning_cz": "rok"
+ },
+ {
+  "simplified": "用",
+  "traditional": "用",
+  "pinyin": "yòng",
+  "syllables": [
+   "yong"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to use; to employ",
+  "radical": "用",
+  "frequency": 79,
+  "pos": [
+   "v",
+   "p",
+   "g"
+  ],
+  "meaning_cz": "používat; užívat"
+ },
+ {
+  "simplified": "多",
+  "traditional": "多",
+  "pinyin": "duō",
+  "syllables": [
+   "duo"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "many; much; too many; in excess",
+  "radical": "夕",
+  "frequency": 80,
+  "pos": [
+   "a",
+   "m",
+   "ad",
+   "d",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "mnoho; hodně; příliš"
+ },
+ {
+  "simplified": "两",
+  "traditional": "兩",
+  "pinyin": "liǎng",
+  "syllables": [
+   "liang"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "two; both",
+  "radical": "一",
+  "frequency": 81,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "dva; oba"
+ },
+ {
+  "simplified": "等",
+  "traditional": "等",
+  "pinyin": "děng",
+  "syllables": [
+   "deng"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "class; rank",
+  "radical": "⺮",
+  "frequency": 83,
+  "pos": [
+   "v",
+   "u"
+  ],
+  "meaning_cz": "čekat; skupina; třída"
+ },
+ {
+  "simplified": "吗",
+  "traditional": "嗎",
+  "pinyin": "má",
+  "syllables": [
+   "ma"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "(coll.) what?",
+  "radical": "口",
+  "frequency": 83,
+  "pos": [
+   "y"
+  ],
+  "meaning_cz": "částice otázky (ano/ne)"
+ },
+ {
+  "simplified": "天",
+  "traditional": "天",
+  "pinyin": "tiān",
+  "syllables": [
+   "tian"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "day; sky",
+  "radical": "大",
+  "frequency": 83,
+  "pos": [
+   "qt",
+   "n"
+  ],
+  "meaning_cz": "den; obloha; nebe"
+ },
+ {
+  "simplified": "出",
+  "traditional": "出",
+  "pinyin": "chū",
+  "syllables": [
+   "chu"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to go out; to come out",
+  "radical": "凵",
+  "frequency": 85,
+  "pos": [
+   "v",
+   "q"
+  ],
+  "meaning_cz": "vyjít; vydat se ven"
+ },
+ {
+  "simplified": "太",
+  "traditional": "太",
+  "pinyin": "tài",
+  "syllables": [
+   "tai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "highest; greatest",
+  "radical": "大",
+  "frequency": 87,
+  "pos": [
+   "d",
+   "b"
+  ],
+  "meaning_cz": "příliš; nejvyšší"
+ },
+ {
+  "simplified": "最",
+  "traditional": "㝡",
+  "pinyin": "zuì",
+  "syllables": [
+   "zui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "variant of 最",
+  "radical": "曰",
+  "frequency": 89,
+  "pos": [
+   "d",
+   "g"
+  ],
+  "meaning_cz": "nejvíc; nejvíce"
+ },
+ {
+  "simplified": "再",
+  "traditional": "再",
+  "pinyin": "zài",
+  "syllables": [
+   "zai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "again; once more; re-; second; another",
+  "radical": "冂",
+  "frequency": 91,
+  "pos": [
+   "d",
+   "g"
+  ],
+  "meaning_cz": "znovu; zase"
+ },
+ {
+  "simplified": "呢",
+  "traditional": "呢",
+  "pinyin": "ne",
+  "syllables": [
+   "ne"
+  ],
+  "tones": [
+   5
+  ],
+  "meaning": "particle indicating that a previously asked question is to be applied to the preceding word (\"What about ...?\", \"And ...?\"); particle for inquiring about location (\"Where is ...?\")",
+  "radical": "口",
+  "frequency": 96,
+  "pos": [
+   "y"
+  ],
+  "meaning_cz": "částice (a co ...?)"
+ },
+ {
+  "simplified": "次",
+  "traditional": "次",
+  "pinyin": "cì",
+  "syllables": [
+   "ci"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "next in sequence; second",
+  "radical": "欠",
+  "frequency": 99,
+  "pos": [
+   "qv",
+   "a",
+   "g"
+  ],
+  "meaning_cz": "další; příští (v pořadí)"
+ },
+ {
+  "simplified": "小",
+  "traditional": "小",
+  "pinyin": "xiǎo",
+  "syllables": [
+   "xiao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "small; tiny",
+  "radical": "小",
+  "frequency": 100,
+  "pos": [
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "malý; drobný"
+ },
+ {
+  "simplified": "知道",
+  "traditional": "知道",
+  "pinyin": "zhī dào",
+  "syllables": [
+   "zhi",
+   "dao"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to know; to become aware of; also pr. [zhī dao]",
+  "radical": "矢",
+  "frequency": 105,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vědět; znát"
+ },
+ {
+  "simplified": "时候",
+  "traditional": "時候",
+  "pinyin": "shí hou",
+  "syllables": [
+   "shi",
+   "hou"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "time; length of time",
+  "radical": "日",
+  "frequency": 107,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "čas; doba"
+ },
+ {
+  "simplified": "走",
+  "traditional": "走",
+  "pinyin": "zǒu",
+  "syllables": [
+   "zou"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to walk; to go",
+  "radical": "走",
+  "frequency": 109,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "jít; chodit"
+ },
+ {
+  "simplified": "工作",
+  "traditional": "工作",
+  "pinyin": "gōng zuò",
+  "syllables": [
+   "gong",
+   "zuo"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to work; (of a machine) to operate",
+  "radical": "工",
+  "frequency": 111,
+  "pos": [
+   "vn",
+   "v",
+   "n"
+  ],
+  "meaning_cz": "pracovat; práce"
+ },
+ {
+  "simplified": "事",
+  "traditional": "事",
+  "pinyin": "shì",
+  "syllables": [
+   "shi"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "matter; thing",
+  "radical": "亅",
+  "frequency": 113,
+  "pos": [
+   "n",
+   "g"
+  ],
+  "meaning_cz": "věc; záležitost"
+ },
+ {
+  "simplified": "后",
+  "traditional": "后",
+  "pinyin": "Hòu",
+  "syllables": [
+   "hou"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "surname Hou",
+  "radical": "口",
+  "frequency": 115,
+  "pos": [
+   "f",
+   "g",
+   "t"
+  ],
+  "meaning_cz": "po; potom; za"
+ },
+ {
+  "simplified": "家",
+  "traditional": "傢",
+  "pinyin": "jiā",
+  "syllables": [
+   "jia"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "used in 家伙 and 家俱",
+  "radical": "宀",
+  "frequency": 124,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "rodina; dům; domov"
+ },
+ {
+  "simplified": "你们",
+  "traditional": "你們",
+  "pinyin": "nǐ men",
+  "syllables": [
+   "ni",
+   "men"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "you (plural)",
+  "radical": "亻",
+  "frequency": 127,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "vy (množné číslo)"
+ },
+ {
+  "simplified": "前",
+  "traditional": "前",
+  "pinyin": "qián",
+  "syllables": [
+   "qian"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "front; forward",
+  "radical": "刂",
+  "frequency": 127,
+  "pos": [
+   "f",
+   "v"
+  ],
+  "meaning_cz": "přední; vepředu; dříve"
+ },
+ {
+  "simplified": "时间",
+  "traditional": "時間",
+  "pinyin": "shí jiān",
+  "syllables": [
+   "shi",
+   "jian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "time; period",
+  "radical": "日",
+  "frequency": 127,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "čas; období"
+ },
+ {
+  "simplified": "怎么",
+  "traditional": "怎麼",
+  "pinyin": "zěn me",
+  "syllables": [
+   "zen",
+   "me"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "how?; what?",
+  "radical": "心",
+  "frequency": 128,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "jak?; jakým způsobem"
+ },
+ {
+  "simplified": "爱",
+  "traditional": "愛",
+  "pinyin": "ài",
+  "syllables": [
+   "ai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to love; to be fond of; to like; affection",
+  "radical": "爫",
+  "frequency": 130,
+  "pos": [
+   "v",
+   "vn",
+   "b"
+  ],
+  "meaning_cz": "milovat; mít rád"
+ },
+ {
+  "simplified": "地",
+  "traditional": "地",
+  "pinyin": "de",
+  "syllables": [
+   "de"
+  ],
+  "tones": [
+   5
+  ],
+  "meaning": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct",
+  "radical": "土",
+  "frequency": 132,
+  "pos": [
+   "u",
+   "n"
+  ],
+  "meaning_cz": "částice (-ě, -e u příslovcí)"
+ },
+ {
+  "simplified": "这些",
+  "traditional": "這些",
+  "pinyin": "zhè xiē",
+  "syllables": [
+   "zhe",
+   "xie"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "these",
+  "radical": "辶",
+  "frequency": 132,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "tyto; tihle"
+ },
+ {
+  "simplified": "跟",
+  "traditional": "跟",
+  "pinyin": "gēn",
+  "syllables": [
+   "gen"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "heel; to follow closely",
+  "radical": "足",
+  "frequency": 135,
+  "pos": [
+   "p",
+   "v"
+  ],
+  "meaning_cz": "pata; následovat; s"
+ },
+ {
+  "simplified": "喜欢",
+  "traditional": "喜歡",
+  "pinyin": "xǐ huan",
+  "syllables": [
+   "xi",
+   "huan"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "to like; to be fond of",
+  "radical": "口",
+  "frequency": 139,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "mít rád; líbit se"
+ },
+ {
+  "simplified": "吃",
+  "traditional": "吃",
+  "pinyin": "chī",
+  "syllables": [
+   "chi"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to eat; to consume; to eat at (a cafeteria etc)",
+  "radical": "口",
+  "frequency": 142,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "jíst"
+ },
+ {
+  "simplified": "谁",
+  "traditional": "誰",
+  "pinyin": "shéi",
+  "syllables": [
+   "shei"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "who; also pr. [shuí]",
+  "radical": "讠",
+  "frequency": 142,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "kdo?"
+ },
+ {
+  "simplified": "新",
+  "traditional": "新",
+  "pinyin": "Xīn",
+  "syllables": [
+   "xin"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "abbr. for Xinjiang 疆 or Singapore 坡; surname Xin",
+  "radical": "斤",
+  "frequency": 150,
+  "pos": [
+   "a",
+   "d",
+   "b"
+  ],
+  "meaning_cz": "nový"
+ },
+ {
+  "simplified": "找",
+  "traditional": "找",
+  "pinyin": "zhǎo",
+  "syllables": [
+   "zhao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to try to find; to look for",
+  "radical": "扌",
+  "frequency": 152,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "hledat; najít"
+ },
+ {
+  "simplified": "打",
+  "traditional": "打",
+  "pinyin": "dá",
+  "syllables": [
+   "da"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "dozen (loanword)",
+  "radical": "扌",
+  "frequency": 153,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "bít; udeřit; hrát (míč)"
+ },
+ {
+  "simplified": "还有",
+  "traditional": "還有",
+  "pinyin": "hái yǒu",
+  "syllables": [
+   "hai",
+   "you"
+  ],
+  "tones": [
+   2,
+   3
+  ],
+  "meaning": "furthermore; in addition",
+  "radical": "辶",
+  "frequency": 153,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "dále; navíc"
+ },
+ {
+  "simplified": "快",
+  "traditional": "快",
+  "pinyin": "kuài",
+  "syllables": [
+   "kuai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "rapid; quick",
+  "radical": "忄",
+  "frequency": 153,
+  "pos": [
+   "a",
+   "d",
+   "g"
+  ],
+  "meaning_cz": "rychlý; brzy"
+ },
+ {
+  "simplified": "比",
+  "traditional": "比",
+  "pinyin": "Bǐ",
+  "syllables": [
+   "bi"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "Belgium; Belgian",
+  "radical": "比",
+  "frequency": 155,
+  "pos": [
+   "p",
+   "v",
+   "n",
+   "b"
+  ],
+  "meaning_cz": "porovnat; než"
+ },
+ {
+  "simplified": "今天",
+  "traditional": "今天",
+  "pinyin": "jīn tiān",
+  "syllables": [
+   "jin",
+   "tian"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "today; at the present",
+  "radical": "人",
+  "frequency": 155,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "dnes; dnešek"
+ },
+ {
+  "simplified": "话",
+  "traditional": "話",
+  "pinyin": "huà",
+  "syllables": [
+   "hua"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "dialect; language",
+  "radical": "讠",
+  "frequency": 157,
+  "pos": [
+   "n",
+   "v"
+  ],
+  "meaning_cz": "slovo; řeč; jazyk"
+ },
+ {
+  "simplified": "还是",
+  "traditional": "還是",
+  "pinyin": "hái shi",
+  "syllables": [
+   "hai",
+   "shi"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "still (as before); had better",
+  "radical": "辶",
+  "frequency": 160,
+  "pos": [
+   "c",
+   "d",
+   "v"
+  ],
+  "meaning_cz": "stále; raději"
+ },
+ {
+  "simplified": "觉得",
+  "traditional": "覺得",
+  "pinyin": "jué de",
+  "syllables": [
+   "jue",
+   "de"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "to think that ...; to feel that ...; to feel (uncomfortable etc)",
+  "radical": "见",
+  "frequency": 161,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "myslet si; cítit"
+ },
+ {
+  "simplified": "月",
+  "traditional": "月",
+  "pinyin": "yuè",
+  "syllables": [
+   "yue"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "moon; month",
+  "radical": "月",
+  "frequency": 161,
+  "pos": [
+   "n",
+   "t"
+  ],
+  "meaning_cz": "měsíc (kalendářní i nebeský)"
+ },
+ {
+  "simplified": "看到",
+  "traditional": "看到",
+  "pinyin": "kàn dào",
+  "syllables": [
+   "kan",
+   "dao"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to see",
+  "radical": "目",
+  "frequency": 169,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vidět; spatřit"
+ },
+ {
+  "simplified": "起来",
+  "traditional": "起來",
+  "pinyin": "qǐ lai",
+  "syllables": [
+   "qi",
+   "lai"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "to stand up; to get up",
+  "radical": "走",
+  "frequency": 172,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vstát; postavit se"
+ },
+ {
+  "simplified": "一起",
+  "traditional": "一起",
+  "pinyin": "yī qǐ",
+  "syllables": [
+   "yi",
+   "qi"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "in the same place; together",
+  "radical": "一",
+  "frequency": 172,
+  "pos": [
+   "s",
+   "d",
+   "nr"
+  ],
+  "meaning_cz": "spolu; dohromady"
+ },
+ {
+  "simplified": "起",
+  "traditional": "起",
+  "pinyin": "qǐ",
+  "syllables": [
+   "qi"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to rise; to raise",
+  "radical": "走",
+  "frequency": 174,
+  "pos": [
+   "v",
+   "q",
+   "f"
+  ],
+  "meaning_cz": "vstát; začít"
+ },
+ {
+  "simplified": "几",
+  "traditional": "几",
+  "pinyin": "jī",
+  "syllables": [
+   "ji"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "small table",
+  "radical": "几",
+  "frequency": 178,
+  "pos": [
+   "m",
+   "d"
+  ],
+  "meaning_cz": "několik; kolik?"
+ },
+ {
+  "simplified": "见",
+  "traditional": "見",
+  "pinyin": "jiàn",
+  "syllables": [
+   "jian"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to see; to meet",
+  "radical": "见",
+  "frequency": 178,
+  "pos": [
+   "v",
+   "g"
+  ],
+  "meaning_cz": "vidět; setkat se"
+ },
+ {
+  "simplified": "车",
+  "traditional": "車",
+  "pinyin": "Chē",
+  "syllables": [
+   "che"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Che",
+  "radical": "车",
+  "frequency": 186,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "auto; vozidlo"
+ },
+ {
+  "simplified": "一些",
+  "traditional": "一些",
+  "pinyin": "yī xiē",
+  "syllables": [
+   "yi",
+   "xie"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "some; a few",
+  "radical": "一",
+  "frequency": 187,
+  "pos": [
+   "mq"
+  ],
+  "meaning_cz": "několik; pár; trochu"
+ },
+ {
+  "simplified": "找到",
+  "traditional": "找到",
+  "pinyin": "zhǎo dào",
+  "syllables": [
+   "zhao",
+   "dao"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "to find",
+  "radical": "扌",
+  "frequency": 188,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "najít; nalézt"
+ },
+ {
+  "simplified": "手",
+  "traditional": "手",
+  "pinyin": "shǒu",
+  "syllables": [
+   "shou"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "hand; (formal) to hold",
+  "radical": "手",
+  "frequency": 190,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "ruka"
+ },
+ {
+  "simplified": "听",
+  "traditional": "听",
+  "pinyin": "yǐn",
+  "syllables": [
+   "yin"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "smile (archaic)",
+  "radical": "口",
+  "frequency": 190,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "poslouchat; slyšet"
+ },
+ {
+  "simplified": "非常",
+  "traditional": "非常",
+  "pinyin": "fēi cháng",
+  "syllables": [
+   "fei",
+   "chang"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "very; really; unusual; extraordinary",
+  "radical": "非",
+  "frequency": 194,
+  "pos": [
+   "d",
+   "b"
+  ],
+  "meaning_cz": "velmi; neobyčejně"
+ },
+ {
+  "simplified": "开",
+  "traditional": "開",
+  "pinyin": "kāi",
+  "syllables": [
+   "kai"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to open (transitive or intransitive); (of ships, vehicles, troops etc) to start",
+  "radical": "廾",
+  "frequency": 195,
+  "pos": [
+   "v",
+   "q"
+  ],
+  "meaning_cz": "otevřít; začít"
+ },
+ {
+  "simplified": "叫",
+  "traditional": "叫",
+  "pinyin": "jiào",
+  "syllables": [
+   "jiao"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to shout; to call",
+  "radical": "口",
+  "frequency": 200,
+  "pos": [
+   "v",
+   "p",
+   "n"
+  ],
+  "meaning_cz": "volat; křičet; jmenovat se"
+ },
+ {
+  "simplified": "孩子",
+  "traditional": "孩子",
+  "pinyin": "hái zi",
+  "syllables": [
+   "hai",
+   "zi"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "child",
+  "radical": "子",
+  "frequency": 207,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "dítě"
+ },
+ {
+  "simplified": "这里",
+  "traditional": "這裏",
+  "pinyin": "zhè lǐ",
+  "syllables": [
+   "zhe",
+   "li"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "variant of 这里",
+  "radical": "辶",
+  "frequency": 209,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "zde; tady"
+ },
+ {
+  "simplified": "别",
+  "traditional": "別",
+  "pinyin": "Bié",
+  "syllables": [
+   "bie"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Bie",
+  "radical": "刂",
+  "frequency": 214,
+  "pos": [
+   "d",
+   "v",
+   "r",
+   "vn"
+  ],
+  "meaning_cz": "jiný; nedělej (zákaz)"
+ },
+ {
+  "simplified": "请",
+  "traditional": "請",
+  "pinyin": "qǐng",
+  "syllables": [
+   "qing"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to ask; to invite",
+  "radical": "讠",
+  "frequency": 216,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "prosit; zvát; prosím"
+ },
+ {
+  "simplified": "钱",
+  "traditional": "錢",
+  "pinyin": "Qián",
+  "syllables": [
+   "qian"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Qian",
+  "radical": "钅",
+  "frequency": 218,
+  "pos": [
+   "n",
+   "nr"
+  ],
+  "meaning_cz": "peníze"
+ },
+ {
+  "simplified": "本",
+  "traditional": "本",
+  "pinyin": "běn",
+  "syllables": [
+   "ben"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "root; stem",
+  "radical": "木",
+  "frequency": 222,
+  "pos": [
+   "r",
+   "q",
+   "d",
+   "n"
+  ],
+  "meaning_cz": "kořen; stonek; původní"
+ },
+ {
+  "simplified": "回",
+  "traditional": "回",
+  "pinyin": "huí",
+  "syllables": [
+   "hui"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "to circle; to go back",
+  "radical": "囗",
+  "frequency": 225,
+  "pos": [
+   "v",
+   "qv"
+  ],
+  "meaning_cz": "vrátit se; kroužit; krát"
+ },
+ {
+  "simplified": "东西",
+  "traditional": "東西",
+  "pinyin": "dōng xī",
+  "syllables": [
+   "dong",
+   "xi"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "east and west",
+  "radical": "一",
+  "frequency": 226,
+  "pos": [
+   "n",
+   "f",
+   "nr"
+  ],
+  "meaning_cz": "věci; předměty (východ-západ)"
+ },
+ {
+  "simplified": "三",
+  "traditional": "三",
+  "pinyin": "Sān",
+  "syllables": [
+   "san"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname San",
+  "radical": "一",
+  "frequency": 233,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "tři; 3"
+ },
+ {
+  "simplified": "一样",
+  "traditional": "一樣",
+  "pinyin": "yī yàng",
+  "syllables": [
+   "yi",
+   "yang"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "same; like",
+  "radical": "一",
+  "frequency": 235,
+  "pos": [
+   "u",
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "stejný; podobný"
+ },
+ {
+  "simplified": "买",
+  "traditional": "買",
+  "pinyin": "mǎi",
+  "syllables": [
+   "mai"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to buy; to purchase",
+  "radical": "大",
+  "frequency": 240,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "koupit"
+ },
+ {
+  "simplified": "重要",
+  "traditional": "重要",
+  "pinyin": "zhòng yào",
+  "syllables": [
+   "zhong",
+   "yao"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "important; significant",
+  "radical": "里",
+  "frequency": 240,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "důležitý; významný"
+ },
+ {
+  "simplified": "问",
+  "traditional": "問",
+  "pinyin": "wèn",
+  "syllables": [
+   "wen"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to ask; to inquire",
+  "radical": "门",
+  "frequency": 246,
+  "pos": [
+   "v",
+   "g",
+   "vn"
+  ],
+  "meaning_cz": "ptát se; otázka"
+ },
+ {
+  "simplified": "告诉",
+  "traditional": "告訴",
+  "pinyin": "gào sù",
+  "syllables": [
+   "gao",
+   "su"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to press charges; to file a complaint",
+  "radical": "口",
+  "frequency": 252,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "říct; sdělit; oznámit"
+ },
+ {
+  "simplified": "出来",
+  "traditional": "出來",
+  "pinyin": "chū lái",
+  "syllables": [
+   "chu",
+   "lai"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "to come out; to appear",
+  "radical": "凵",
+  "frequency": 254,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vyjít ven; objevit se"
+ },
+ {
+  "simplified": "地方",
+  "traditional": "地方",
+  "pinyin": "dì fāng",
+  "syllables": [
+   "di",
+   "fang"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "region; regional (away from the central administration)",
+  "radical": "土",
+  "frequency": 254,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "místo; oblast"
+ },
+ {
+  "simplified": "最后",
+  "traditional": "最後",
+  "pinyin": "zuì hòu",
+  "syllables": [
+   "zui",
+   "hou"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "final; last",
+  "radical": "曰",
+  "frequency": 261,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "nakonec; poslední"
+ },
+ {
+  "simplified": "老",
+  "traditional": "老",
+  "pinyin": "lǎo",
+  "syllables": [
+   "lao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people)",
+  "radical": "老",
+  "frequency": 266,
+  "pos": [
+   "a",
+   "d",
+   "g"
+  ],
+  "meaning_cz": "starý (člověk); prefix úcty"
+ },
+ {
+  "simplified": "岁",
+  "traditional": "嵗",
+  "pinyin": "suì",
+  "syllables": [
+   "sui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "variant of 岁, year; years old",
+  "radical": "山",
+  "frequency": 266,
+  "pos": [
+   "qt"
+  ],
+  "meaning_cz": "rok (věk); let"
+ },
+ {
+  "simplified": "行",
+  "traditional": "行",
+  "pinyin": "háng",
+  "syllables": [
+   "hang"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "row; line",
+  "radical": "行",
+  "frequency": 272,
+  "pos": [
+   "v",
+   "g",
+   "q",
+   "a",
+   "n"
+  ],
+  "meaning_cz": "řada; jít; v pořádku; povolání"
+ },
+ {
+  "simplified": "号",
+  "traditional": "號",
+  "pinyin": "háo",
+  "syllables": [
+   "hao"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "roar; cry",
+  "radical": "口",
+  "frequency": 278,
+  "pos": [
+   "q",
+   "n",
+   "v"
+  ],
+  "meaning_cz": "číslo; označení"
+ },
+ {
+  "simplified": "放",
+  "traditional": "放",
+  "pinyin": "fàng",
+  "syllables": [
+   "fang"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to put; to place",
+  "radical": "攵",
+  "frequency": 280,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "dát; položit; pustit"
+ },
+ {
+  "simplified": "朋友",
+  "traditional": "朋友",
+  "pinyin": "péng you",
+  "syllables": [
+   "peng",
+   "you"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "friend",
+  "radical": "月",
+  "frequency": 280,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "kamarád; přítel"
+ },
+ {
+  "simplified": "住",
+  "traditional": "住",
+  "pinyin": "zhù",
+  "syllables": [
+   "zhu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to live; to dwell",
+  "radical": "亻",
+  "frequency": 280,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "bydlet; žít"
+ },
+ {
+  "simplified": "拿",
+  "traditional": "㧱",
+  "pinyin": "ná",
+  "syllables": [
+   "na"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "old variant of 拿",
+  "radical": "手",
+  "frequency": 287,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vzít; držet"
+ },
+ {
+  "simplified": "高",
+  "traditional": "高",
+  "pinyin": "Gāo",
+  "syllables": [
+   "gao"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Gao",
+  "radical": "高",
+  "frequency": 290,
+  "pos": [
+   "a",
+   "ad",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "vysoký; vysoce"
+ },
+ {
+  "simplified": "正",
+  "traditional": "正",
+  "pinyin": "zhēng",
+  "syllables": [
+   "zheng"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "first month of the lunar year",
+  "radical": "止",
+  "frequency": 294,
+  "pos": [
+   "d",
+   "b",
+   "a",
+   "v"
+  ],
+  "meaning_cz": "právě; přesně; rovný"
+ },
+ {
+  "simplified": "先",
+  "traditional": "先",
+  "pinyin": "xiān",
+  "syllables": [
+   "xian"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "early; prior",
+  "radical": "儿",
+  "frequency": 306,
+  "pos": [
+   "d",
+   "g"
+  ],
+  "meaning_cz": "dříve; první; napřed"
+ },
+ {
+  "simplified": "得到",
+  "traditional": "得到",
+  "pinyin": "dé dào",
+  "syllables": [
+   "de",
+   "dao"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "to get; to obtain",
+  "radical": "彳",
+  "frequency": 308,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "dostat; získat"
+ },
+ {
+  "simplified": "那些",
+  "traditional": "那些",
+  "pinyin": "nà xiē",
+  "syllables": [
+   "na",
+   "xie"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "those",
+  "radical": "阝",
+  "frequency": 326,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "ty (tamty)"
+ },
+ {
+  "simplified": "准备",
+  "traditional": "準備",
+  "pinyin": "zhǔn bèi",
+  "syllables": [
+   "zhun",
+   "bei"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "preparation; to prepare",
+  "radical": "冫",
+  "frequency": 333,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "připravit; příprava"
+ },
+ {
+  "simplified": "水",
+  "traditional": "水",
+  "pinyin": "Shuǐ",
+  "syllables": [
+   "shui"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "surname Shui",
+  "radical": "水",
+  "frequency": 335,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "voda"
+ },
+ {
+  "simplified": "进",
+  "traditional": "進",
+  "pinyin": "jìn",
+  "syllables": [
+   "jin"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to go forward; to advance",
+  "radical": "辶",
+  "frequency": 338,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "jít vpřed; vejít"
+ },
+ {
+  "simplified": "写",
+  "traditional": "寫",
+  "pinyin": "xiě",
+  "syllables": [
+   "xie"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to write",
+  "radical": "冖",
+  "frequency": 352,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "psát"
+ },
+ {
+  "simplified": "国家",
+  "traditional": "國家",
+  "pinyin": "guó jiā",
+  "syllables": [
+   "guo",
+   "jia"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "country; nation; state",
+  "radical": "囗",
+  "frequency": 356,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "země; stát; národ"
+ },
+ {
+  "simplified": "您",
+  "traditional": "您",
+  "pinyin": "nín",
+  "syllables": [
+   "nin"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "you (courteous, as opposed to informal 你)",
+  "radical": "心",
+  "frequency": 357,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "Vy (zdvořile)"
+ },
+ {
+  "simplified": "电话",
+  "traditional": "電話",
+  "pinyin": "diàn huà",
+  "syllables": [
+   "dian",
+   "hua"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "telephone; phone call",
+  "radical": "曰",
+  "frequency": 359,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "telefon; telefonát"
+ },
+ {
+  "simplified": "女",
+  "traditional": "女",
+  "pinyin": "nǚ",
+  "syllables": [
+   "nü"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "female; woman",
+  "radical": "女",
+  "frequency": 368,
+  "pos": [
+   "b",
+   "g"
+  ],
+  "meaning_cz": "žena; ženský"
+ },
+ {
+  "simplified": "送",
+  "traditional": "送",
+  "pinyin": "sòng",
+  "syllables": [
+   "song"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to send; to deliver; to transmit; to give (as a present)",
+  "radical": "辶",
+  "frequency": 370,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "poslat; doručit; darovat"
+ },
+ {
+  "simplified": "分",
+  "traditional": "分",
+  "pinyin": "fēn",
+  "syllables": [
+   "fen"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to divide; to separate; to distribute; to allocate",
+  "radical": "刀",
+  "frequency": 372,
+  "pos": [
+   "t",
+   "qt",
+   "v",
+   "g",
+   "n",
+   "d"
+  ],
+  "meaning_cz": "rozdělit; minuta; bod"
+ },
+ {
+  "simplified": "笑",
+  "traditional": "咲",
+  "pinyin": "xiào",
+  "syllables": [
+   "xiao"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "old variant of 笑",
+  "radical": "⺮",
+  "frequency": 382,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "smát se; úsměv"
+ },
+ {
+  "simplified": "女人",
+  "traditional": "女人",
+  "pinyin": "nǚ rén",
+  "syllables": [
+   "nü",
+   "ren"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "woman",
+  "radical": "女",
+  "frequency": 383,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "žena; ženská"
+ },
+ {
+  "simplified": "小时",
+  "traditional": "小時",
+  "pinyin": "xiǎo shí",
+  "syllables": [
+   "xiao",
+   "shi"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "hour",
+  "radical": "小",
+  "frequency": 389,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "hodina"
+ },
+ {
+  "simplified": "有些",
+  "traditional": "有些",
+  "pinyin": "yǒu xiē",
+  "syllables": [
+   "you",
+   "xie"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "some; somewhat",
+  "radical": "月",
+  "frequency": 394,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "některé; trochu"
+ },
+ {
+  "simplified": "帮",
+  "traditional": "幇",
+  "pinyin": "bāng",
+  "syllables": [
+   "bang"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "old variant of 帮",
+  "radical": "巾",
+  "frequency": 395,
+  "pos": [
+   "v",
+   "q"
+  ],
+  "meaning_cz": "pomoci; pomáhat"
+ },
+ {
+  "simplified": "日",
+  "traditional": "日",
+  "pinyin": "Rì",
+  "syllables": [
+   "ri"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "abbr. for 本, Japan",
+  "radical": "日",
+  "frequency": 395,
+  "pos": [
+   "t",
+   "g",
+   "b",
+   "qt"
+  ],
+  "meaning_cz": "den; Japonsko (zkr.)"
+ },
+ {
+  "simplified": "别人",
+  "traditional": "別人",
+  "pinyin": "bié ren",
+  "syllables": [
+   "bie",
+   "ren"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "other people; others; other person",
+  "radical": "刂",
+  "frequency": 397,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "jiní lidé; ostatní"
+ },
+ {
+  "simplified": "站",
+  "traditional": "站",
+  "pinyin": "zhàn",
+  "syllables": [
+   "zhan"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "station; to stand",
+  "radical": "立",
+  "frequency": 399,
+  "pos": [
+   "v",
+   "n",
+   "q"
+  ],
+  "meaning_cz": "stanice; stát (stojím)"
+ },
+ {
+  "simplified": "路",
+  "traditional": "路",
+  "pinyin": "Lù",
+  "syllables": [
+   "lu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "surname Lu",
+  "radical": "足",
+  "frequency": 409,
+  "pos": [
+   "n",
+   "qv"
+  ],
+  "meaning_cz": "cesta; silnice"
+ },
+ {
+  "simplified": "男人",
+  "traditional": "男人",
+  "pinyin": "nán rén",
+  "syllables": [
+   "nan",
+   "ren"
+  ],
+  "tones": [
+   2,
+   2
+  ],
+  "meaning": "a man; a male",
+  "radical": "田",
+  "frequency": 415,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "muž; mužský"
+ },
+ {
+  "simplified": "正在",
+  "traditional": "正在",
+  "pinyin": "zhèng zài",
+  "syllables": [
+   "zheng",
+   "zai"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "just at (that time); right in (that place)",
+  "radical": "止",
+  "frequency": 420,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "právě (probíhá); zrovna"
+ },
+ {
+  "simplified": "门",
+  "traditional": "門",
+  "pinyin": "Mén",
+  "syllables": [
+   "men"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Men",
+  "radical": "门",
+  "frequency": 422,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "dveře; brána"
+ },
+ {
+  "simplified": "喝",
+  "traditional": "喝",
+  "pinyin": "hē",
+  "syllables": [
+   "he"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to drink; variant of 嗬",
+  "radical": "口",
+  "frequency": 428,
+  "pos": [
+   "g",
+   "vn"
+  ],
+  "meaning_cz": "pít"
+ },
+ {
+  "simplified": "穿",
+  "traditional": "穿",
+  "pinyin": "chuān",
+  "syllables": [
+   "chuan"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to wear; to put on",
+  "radical": "穴",
+  "frequency": 430,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "obléci si; nosit"
+ },
+ {
+  "simplified": "学校",
+  "traditional": "學校",
+  "pinyin": "xué xiào",
+  "syllables": [
+   "xue",
+   "xiao"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "school",
+  "radical": "子",
+  "frequency": 430,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "škola"
+ },
+ {
+  "simplified": "花",
+  "traditional": "花",
+  "pinyin": "Huā",
+  "syllables": [
+   "hua"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Hua",
+  "radical": "艹",
+  "frequency": 435,
+  "pos": [
+   "v",
+   "n",
+   "a"
+  ],
+  "meaning_cz": "květina"
+ },
+ {
+  "simplified": "坐",
+  "traditional": "坐",
+  "pinyin": "Zuò",
+  "syllables": [
+   "zuo"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "surname Zuo",
+  "radical": "土",
+  "frequency": 435,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "sedět; cestovat (vozem)"
+ },
+ {
+  "simplified": "早",
+  "traditional": "早",
+  "pinyin": "zǎo",
+  "syllables": [
+   "zao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "early; morning",
+  "radical": "日",
+  "frequency": 445,
+  "pos": [
+   "ad",
+   "a",
+   "tg"
+  ],
+  "meaning_cz": "ráno; brzy"
+ },
+ {
+  "simplified": "们",
+  "traditional": "們",
+  "pinyin": "men",
+  "syllables": [
+   "men"
+  ],
+  "tones": [
+   5
+  ],
+  "meaning": "plural marker for pronouns, and nouns referring to individuals",
+  "radical": "亻",
+  "frequency": 457,
+  "pos": [
+   "k"
+  ],
+  "meaning_cz": "přípona množného čísla (u osob)"
+ },
+ {
+  "simplified": "身上",
+  "traditional": "身上",
+  "pinyin": "shēn shang",
+  "syllables": [
+   "shen",
+   "shang"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "on the body; at hand",
+  "radical": "身",
+  "frequency": 460,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "na těle; po ruce"
+ },
+ {
+  "simplified": "干",
+  "traditional": "乹",
+  "pinyin": "gān",
+  "syllables": [
+   "gan"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "old variant of 干",
+  "radical": "十",
+  "frequency": 463,
+  "pos": [
+   "v",
+   "a"
+  ],
+  "meaning_cz": "suchý; dělat"
+ },
+ {
+  "simplified": "认识",
+  "traditional": "認識",
+  "pinyin": "rèn shi",
+  "syllables": [
+   "ren",
+   "shi"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "to know; to recognize",
+  "radical": "讠",
+  "frequency": 463,
+  "pos": [
+   "v",
+   "n",
+   "vn"
+  ],
+  "meaning_cz": "znát; poznávat"
+ },
+ {
+  "simplified": "睡",
+  "traditional": "睡",
+  "pinyin": "shuì",
+  "syllables": [
+   "shui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to sleep; to lie down",
+  "radical": "目",
+  "frequency": 464,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "spát"
+ },
+ {
+  "simplified": "明天",
+  "traditional": "明天",
+  "pinyin": "míng tiān",
+  "syllables": [
+   "ming",
+   "tian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "tomorrow",
+  "radical": "日",
+  "frequency": 469,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "zítra"
+ },
+ {
+  "simplified": "回来",
+  "traditional": "回來",
+  "pinyin": "huí lai",
+  "syllables": [
+   "hui",
+   "lai"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "to return; to come back",
+  "radical": "囗",
+  "frequency": 480,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vrátit se zpět"
+ },
+ {
+  "simplified": "四",
+  "traditional": "四",
+  "pinyin": "sì",
+  "syllables": [
+   "si"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "four; 4",
+  "radical": "囗",
+  "frequency": 481,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "čtyři; 4"
+ },
+ {
+  "simplified": "块",
+  "traditional": "塊",
+  "pinyin": "kuài",
+  "syllables": [
+   "kuai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "lump; chunk; piece; classifier for pieces of cloth, cake, soap etc",
+  "radical": "土",
+  "frequency": 483,
+  "pos": [
+   "q",
+   "g"
+  ],
+  "meaning_cz": "kus; kousek (klasifikátor)"
+ },
+ {
+  "simplified": "外",
+  "traditional": "外",
+  "pinyin": "wài",
+  "syllables": [
+   "wai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "outside; in addition",
+  "radical": "夕",
+  "frequency": 489,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "venku; vnější; navíc"
+ },
+ {
+  "simplified": "晚上",
+  "traditional": "晚上",
+  "pinyin": "wǎn shang",
+  "syllables": [
+   "wan",
+   "shang"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "evening; night",
+  "radical": "日",
+  "frequency": 502,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "večer; noc"
+ },
+ {
+  "simplified": "妈",
+  "traditional": "媽",
+  "pinyin": "mā",
+  "syllables": [
+   "ma"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "ma; mom",
+  "radical": "女",
+  "frequency": 517,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "máma"
+ },
+ {
+  "simplified": "球",
+  "traditional": "球",
+  "pinyin": "qiú",
+  "syllables": [
+   "qiu"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "ball; sphere",
+  "radical": "王",
+  "frequency": 518,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "míč; koule"
+ },
+ {
+  "simplified": "谢谢",
+  "traditional": "謝謝",
+  "pinyin": "xiè xie",
+  "syllables": [
+   "xie",
+   "xie"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "to thank; thanks",
+  "radical": "讠",
+  "frequency": 520,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "děkuji"
+ },
+ {
+  "simplified": "学",
+  "traditional": "學",
+  "pinyin": "xué",
+  "syllables": [
+   "xue"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "to learn; to study",
+  "radical": "子",
+  "frequency": 524,
+  "pos": [
+   "v",
+   "g"
+  ],
+  "meaning_cz": "učit se; studovat"
+ },
+ {
+  "simplified": "多少",
+  "traditional": "多少",
+  "pinyin": "duō shǎo",
+  "syllables": [
+   "duo",
+   "shao"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "number; amount",
+  "radical": "夕",
+  "frequency": 526,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "kolik?; množství"
+ },
+ {
+  "simplified": "第二",
+  "traditional": "第二",
+  "pinyin": "dì èr",
+  "syllables": [
+   "di",
+   "er"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "second; number two",
+  "radical": "⺮",
+  "frequency": 527,
+  "pos": [
+   "m"
+  ],
+  "meaning_cz": "druhý; číslo dva"
+ },
+ {
+  "simplified": "妈妈",
+  "traditional": "媽媽",
+  "pinyin": "mā ma",
+  "syllables": [
+   "ma",
+   "ma"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "mama; mommy",
+  "radical": "女",
+  "frequency": 527,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "maminka; mamka"
+ },
+ {
+  "simplified": "错",
+  "traditional": "錯",
+  "pinyin": "Cuò",
+  "syllables": [
+   "cuo"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "surname Cuo",
+  "radical": "钅",
+  "frequency": 531,
+  "pos": [
+   "v",
+   "n"
+  ],
+  "meaning_cz": "chyba; špatný"
+ },
+ {
+  "simplified": "少",
+  "traditional": "少",
+  "pinyin": "shǎo",
+  "syllables": [
+   "shao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "few; less",
+  "radical": "小",
+  "frequency": 538,
+  "pos": [
+   "a",
+   "ad",
+   "v",
+   "d",
+   "g"
+  ],
+  "meaning_cz": "málo; méně"
+ },
+ {
+  "simplified": "别的",
+  "traditional": "別的",
+  "pinyin": "bié de",
+  "syllables": [
+   "bie",
+   "de"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "else; other",
+  "radical": "刂",
+  "frequency": 543,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "jiný; ostatní"
+ },
+ {
+  "simplified": "难",
+  "traditional": "難",
+  "pinyin": "nán",
+  "syllables": [
+   "nan"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "difficult (to...); problem",
+  "radical": "又",
+  "frequency": 544,
+  "pos": [
+   "ad",
+   "a",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "těžký; obtížný"
+ },
+ {
+  "simplified": "电影",
+  "traditional": "電影",
+  "pinyin": "diàn yǐng",
+  "syllables": [
+   "dian",
+   "ying"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "movie; film",
+  "radical": "曰",
+  "frequency": 546,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "film; kino"
+ },
+ {
+  "simplified": "间",
+  "traditional": "間",
+  "pinyin": "jiān",
+  "syllables": [
+   "jian"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "between; among",
+  "radical": "门",
+  "frequency": 546,
+  "pos": [
+   "q",
+   "f",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "mezi; mezera; místnost"
+ },
+ {
+  "simplified": "哪",
+  "traditional": "哪",
+  "pinyin": "nǎ",
+  "syllables": [
+   "na"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "how; which",
+  "radical": "口",
+  "frequency": 547,
+  "pos": [
+   "r",
+   "y"
+  ],
+  "meaning_cz": "který?; jak?"
+ },
+ {
+  "simplified": "跑",
+  "traditional": "跑",
+  "pinyin": "páo",
+  "syllables": [
+   "pao"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "(of an animal) to paw (the ground)",
+  "radical": "足",
+  "frequency": 553,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "běžet"
+ },
+ {
+  "simplified": "回家",
+  "traditional": "回家",
+  "pinyin": "huí jiā",
+  "syllables": [
+   "hui",
+   "jia"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "to return home",
+  "radical": "囗",
+  "frequency": 554,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vrátit se domů"
+ },
+ {
+  "simplified": "昨天",
+  "traditional": "昨天",
+  "pinyin": "zuó tiān",
+  "syllables": [
+   "zuo",
+   "tian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "yesterday",
+  "radical": "日",
+  "frequency": 557,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "včera"
+ },
+ {
+  "simplified": "晚",
+  "traditional": "晚",
+  "pinyin": "wǎn",
+  "syllables": [
+   "wan"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "evening; night",
+  "radical": "日",
+  "frequency": 558,
+  "pos": [
+   "tg",
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "večer; pozdě"
+ },
+ {
+  "simplified": "书",
+  "traditional": "書",
+  "pinyin": "Shū",
+  "syllables": [
+   "shu"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "abbr. for 书经",
+  "radical": "丨",
+  "frequency": 560,
+  "pos": [
+   "n",
+   "g"
+  ],
+  "meaning_cz": "kniha"
+ },
+ {
+  "simplified": "五",
+  "traditional": "五",
+  "pinyin": "wǔ",
+  "syllables": [
+   "wu"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "five; 5",
+  "radical": "二",
+  "frequency": 563,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "pět; 5"
+ },
+ {
+  "simplified": "先生",
+  "traditional": "先生",
+  "pinyin": "xiān sheng",
+  "syllables": [
+   "xian",
+   "sheng"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "teacher; gentleman; sir; mister (Mr.)",
+  "radical": "儿",
+  "frequency": 586,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "pán; pan; učitel"
+ },
+ {
+  "simplified": "男",
+  "traditional": "男",
+  "pinyin": "nán",
+  "syllables": [
+   "nan"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "male; Baron, lowest of five orders of nobility 位",
+  "radical": "田",
+  "frequency": 587,
+  "pos": [
+   "b",
+   "g"
+  ],
+  "meaning_cz": "muž; mužský"
+ },
+ {
+  "simplified": "动",
+  "traditional": "動",
+  "pinyin": "dòng",
+  "syllables": [
+   "dong"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "(of sth) to move; to set in movement",
+  "radical": "力",
+  "frequency": 588,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "hýbat se; pohyb"
+ },
+ {
+  "simplified": "医院",
+  "traditional": "醫院",
+  "pinyin": "yī yuàn",
+  "syllables": [
+   "yi",
+   "yuan"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "hospital",
+  "radical": "匸",
+  "frequency": 608,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "nemocnice"
+ },
+ {
+  "simplified": "重",
+  "traditional": "重",
+  "pinyin": "chóng",
+  "syllables": [
+   "chong"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "to repeat; repetition",
+  "radical": "里",
+  "frequency": 608,
+  "pos": [
+   "a",
+   "d",
+   "v",
+   "q",
+   "g"
+  ],
+  "meaning_cz": "těžký; opakovat; znovu"
+ },
+ {
+  "simplified": "真的",
+  "traditional": "真的",
+  "pinyin": "zhēn de",
+  "syllables": [
+   "zhen",
+   "de"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "really, truly, indeed",
+  "radical": "目",
+  "frequency": 622,
+  "pos": [
+   "d",
+   "a"
+  ],
+  "meaning_cz": "opravdu; skutečně"
+ },
+ {
+  "simplified": "子",
+  "traditional": "子",
+  "pinyin": "zǐ",
+  "syllables": [
+   "zi"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "son; child",
+  "radical": "子",
+  "frequency": 627,
+  "pos": [
+   "g",
+   "q"
+  ],
+  "meaning_cz": "syn; dítě; přípona"
+ },
+ {
+  "simplified": "远",
+  "traditional": "遠",
+  "pinyin": "yuǎn",
+  "syllables": [
+   "yuan"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "far; distant",
+  "radical": "辶",
+  "frequency": 635,
+  "pos": [
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "daleký; vzdálený"
+ },
+ {
+  "simplified": "口",
+  "traditional": "口",
+  "pinyin": "kǒu",
+  "syllables": [
+   "kou"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "mouth; classifier for things with mouths (people, domestic animals, cannons, wells etc)",
+  "radical": "口",
+  "frequency": 637,
+  "pos": [
+   "q",
+   "n"
+  ],
+  "meaning_cz": "ústa; otvor (klasifikátor)"
+ },
+ {
+  "simplified": "学生",
+  "traditional": "學生",
+  "pinyin": "xué sheng",
+  "syllables": [
+   "xue",
+   "sheng"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "student; schoolchild",
+  "radical": "子",
+  "frequency": 651,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "student; žák"
+ },
+ {
+  "simplified": "二",
+  "traditional": "二",
+  "pinyin": "èr",
+  "syllables": [
+   "er"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "two; 2",
+  "radical": "二",
+  "frequency": 664,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "dva; 2"
+ },
+ {
+  "simplified": "儿子",
+  "traditional": "兒子",
+  "pinyin": "ér zi",
+  "syllables": [
+   "er",
+   "zi"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "son",
+  "radical": "儿",
+  "frequency": 665,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "syn"
+ },
+ {
+  "simplified": "明白",
+  "traditional": "明白",
+  "pinyin": "míng bai",
+  "syllables": [
+   "ming",
+   "bai"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "clear; obvious",
+  "radical": "日",
+  "frequency": 676,
+  "pos": [
+   "v",
+   "a",
+   "an"
+  ],
+  "meaning_cz": "rozumět; jasný; chápat"
+ },
+ {
+  "simplified": "杯",
+  "traditional": "杯",
+  "pinyin": "bēi",
+  "syllables": [
+   "bei"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "cup; trophy cup",
+  "radical": "木",
+  "frequency": 684,
+  "pos": [
+   "q",
+   "g"
+  ],
+  "meaning_cz": "šálek; pohár"
+ },
+ {
+  "simplified": "记得",
+  "traditional": "記得",
+  "pinyin": "jì de",
+  "syllables": [
+   "ji",
+   "de"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "to remember",
+  "radical": "讠",
+  "frequency": 699,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "pamatovat si"
+ },
+ {
+  "simplified": "歌",
+  "traditional": "歌",
+  "pinyin": "gē",
+  "syllables": [
+   "ge"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "song; to sing",
+  "radical": "欠",
+  "frequency": 702,
+  "pos": [
+   "n",
+   "g"
+  ],
+  "meaning_cz": "píseň; zpívat"
+ },
+ {
+  "simplified": "半",
+  "traditional": "半",
+  "pinyin": "bàn",
+  "syllables": [
+   "ban"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "half; semi-",
+  "radical": "十",
+  "frequency": 727,
+  "pos": [
+   "m"
+  ],
+  "meaning_cz": "polovina; polo-"
+ },
+ {
+  "simplified": "中国",
+  "traditional": "中國",
+  "pinyin": "Zhōng guó",
+  "syllables": [
+   "zhong",
+   "guo"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "China",
+  "radical": "丨",
+  "frequency": 729,
+  "pos": [
+   "ns"
+  ],
+  "meaning_cz": "Čína"
+ },
+ {
+  "simplified": "身体",
+  "traditional": "身體",
+  "pinyin": "shēn tǐ",
+  "syllables": [
+   "shen",
+   "ti"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "the body; one's health",
+  "radical": "身",
+  "frequency": 731,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "tělo; zdraví"
+ },
+ {
+  "simplified": "元",
+  "traditional": "元",
+  "pinyin": "Yuán",
+  "syllables": [
+   "yuan"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Yuan; the Yuan or Mongol dynasty (1279-1368)",
+  "radical": "儿",
+  "frequency": 744,
+  "pos": [
+   "q",
+   "tg"
+  ],
+  "meaning_cz": "jüan (měna); prvotní"
+ },
+ {
+  "simplified": "哪里",
+  "traditional": "哪裏",
+  "pinyin": "nǎ lǐ",
+  "syllables": [
+   "na",
+   "li"
+  ],
+  "tones": [
+   3,
+   3
+  ],
+  "meaning": "where?; somewhere",
+  "radical": "口",
+  "frequency": 750,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "kde?; někde"
+ },
+ {
+  "simplified": "包",
+  "traditional": "包",
+  "pinyin": "Bāo",
+  "syllables": [
+   "bao"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Bao",
+  "radical": "勹",
+  "frequency": 755,
+  "pos": [
+   "v",
+   "n",
+   "q"
+  ],
+  "meaning_cz": "balíček; taška; zabalit"
+ },
+ {
+  "simplified": "楼",
+  "traditional": "樓",
+  "pinyin": "Lóu",
+  "syllables": [
+   "lou"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Lou",
+  "radical": "木",
+  "frequency": 765,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "poschodí; budova"
+ },
+ {
+  "simplified": "那里",
+  "traditional": "那裏",
+  "pinyin": "nà li",
+  "syllables": [
+   "na",
+   "li"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "there; that place",
+  "radical": "阝",
+  "frequency": 770,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "tam; to místo"
+ },
+ {
+  "simplified": "电视",
+  "traditional": "電視",
+  "pinyin": "diàn shì",
+  "syllables": [
+   "dian",
+   "shi"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "television; TV",
+  "radical": "曰",
+  "frequency": 779,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "televize"
+ },
+ {
+  "simplified": "飞",
+  "traditional": "飛",
+  "pinyin": "fēi",
+  "syllables": [
+   "fei"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "to fly",
+  "radical": "飞",
+  "frequency": 779,
+  "pos": [
+   "v",
+   "g",
+   "vn"
+  ],
+  "meaning_cz": "létat"
+ },
+ {
+  "simplified": "介绍",
+  "traditional": "介紹",
+  "pinyin": "jiè shào",
+  "syllables": [
+   "jie",
+   "shao"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to introduce (sb to sb); to give a presentation",
+  "radical": "人",
+  "frequency": 779,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "představit; seznámit"
+ },
+ {
+  "simplified": "下午",
+  "traditional": "下午",
+  "pinyin": "xià wǔ",
+  "syllables": [
+   "xia",
+   "wu"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "afternoon; p.m.",
+  "radical": "一",
+  "frequency": 782,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "odpoledne"
+ },
+ {
+  "simplified": "出去",
+  "traditional": "出去",
+  "pinyin": "chū qù",
+  "syllables": [
+   "chu",
+   "qu"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to go out",
+  "radical": "凵",
+  "frequency": 784,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "jít ven"
+ },
+ {
+  "simplified": "学习",
+  "traditional": "學習",
+  "pinyin": "xué xí",
+  "syllables": [
+   "xue",
+   "xi"
+  ],
+  "tones": [
+   2,
+   2
+  ],
+  "meaning": "to learn; to study",
+  "radical": "子",
+  "frequency": 789,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "učit se; studovat"
+ },
+ {
+  "simplified": "老师",
+  "traditional": "老師",
+  "pinyin": "lǎo shī",
+  "syllables": [
+   "lao",
+   "shi"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "teacher",
+  "radical": "老",
+  "frequency": 799,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "učitel"
+ },
+ {
+  "simplified": "六",
+  "traditional": "六",
+  "pinyin": "liù",
+  "syllables": [
+   "liu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "six; 6",
+  "radical": "八",
+  "frequency": 802,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "šest; 6"
+ },
+ {
+  "simplified": "唱",
+  "traditional": "唱",
+  "pinyin": "chàng",
+  "syllables": [
+   "chang"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to sing; to call loudly",
+  "radical": "口",
+  "frequency": 813,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "zpívat"
+ },
+ {
+  "simplified": "大学",
+  "traditional": "大學",
+  "pinyin": "Dà xué",
+  "syllables": [
+   "da",
+   "xue"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "the Great Learning, one of the Four Books 四书 in Confucianism",
+  "radical": "大",
+  "frequency": 814,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "univerzita"
+ },
+ {
+  "simplified": "病",
+  "traditional": "病",
+  "pinyin": "bìng",
+  "syllables": [
+   "bing"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "illness; disease",
+  "radical": "疒",
+  "frequency": 827,
+  "pos": [
+   "n",
+   "v"
+  ],
+  "meaning_cz": "nemoc; choroba"
+ },
+ {
+  "simplified": "医生",
+  "traditional": "醫生",
+  "pinyin": "yī shēng",
+  "syllables": [
+   "yi",
+   "sheng"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "doctor",
+  "radical": "匸",
+  "frequency": 827,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "lékař; doktor"
+ },
+ {
+  "simplified": "名字",
+  "traditional": "名字",
+  "pinyin": "míng zi",
+  "syllables": [
+   "ming",
+   "zi"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "name (of a person or thing)",
+  "radical": "口",
+  "frequency": 829,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "jméno"
+ },
+ {
+  "simplified": "她们",
+  "traditional": "她們",
+  "pinyin": "tā men",
+  "syllables": [
+   "ta",
+   "men"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "they; them (for females)",
+  "radical": "女",
+  "frequency": 836,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "ony (ženy)"
+ },
+ {
+  "simplified": "马上",
+  "traditional": "馬上",
+  "pinyin": "mǎ shàng",
+  "syllables": [
+   "ma",
+   "shang"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "at once; right away",
+  "radical": "马",
+  "frequency": 847,
+  "pos": [
+   "d",
+   "s"
+  ],
+  "meaning_cz": "ihned; hned"
+ },
+ {
+  "simplified": "今年",
+  "traditional": "今年",
+  "pinyin": "jīn nián",
+  "syllables": [
+   "jin",
+   "nian"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "this year",
+  "radical": "人",
+  "frequency": 851,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "letos; tento rok"
+ },
+ {
+  "simplified": "手机",
+  "traditional": "手機",
+  "pinyin": "shǒu jī",
+  "syllables": [
+   "shou",
+   "ji"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "cell phone; mobile phone",
+  "radical": "手",
+  "frequency": 857,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "mobilní telefon"
+ },
+ {
+  "simplified": "忙",
+  "traditional": "忙",
+  "pinyin": "máng",
+  "syllables": [
+   "mang"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "busy; hurriedly",
+  "radical": "忄",
+  "frequency": 859,
+  "pos": [
+   "v",
+   "a",
+   "ad",
+   "g",
+   "an"
+  ],
+  "meaning_cz": "zaneprázdněný; spěchat"
+ },
+ {
+  "simplified": "十",
+  "traditional": "十",
+  "pinyin": "shí",
+  "syllables": [
+   "shi"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "ten; 10",
+  "radical": "十",
+  "frequency": 865,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "deset; 10"
+ },
+ {
+  "simplified": "看见",
+  "traditional": "看見",
+  "pinyin": "kàn jiàn",
+  "syllables": [
+   "kan",
+   "jian"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to see; to catch sight of",
+  "radical": "目",
+  "frequency": 870,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vidět; spatřit"
+ },
+ {
+  "simplified": "听到",
+  "traditional": "聽到",
+  "pinyin": "tīng dào",
+  "syllables": [
+   "ting",
+   "dao"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to hear",
+  "radical": "口",
+  "frequency": 877,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "slyšet"
+ },
+ {
+  "simplified": "女儿",
+  "traditional": "女兒",
+  "pinyin": "nǚ ér",
+  "syllables": [
+   "nü",
+   "er"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "daughter",
+  "radical": "女",
+  "frequency": 879,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "dcera"
+ },
+ {
+  "simplified": "说话",
+  "traditional": "說話",
+  "pinyin": "shuō huà",
+  "syllables": [
+   "shuo",
+   "hua"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to speak; to say",
+  "radical": "讠",
+  "frequency": 880,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "mluvit; povídat"
+ },
+ {
+  "simplified": "汽车",
+  "traditional": "汽車",
+  "pinyin": "qì chē",
+  "syllables": [
+   "qi",
+   "che"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "car; automobile",
+  "radical": "氵",
+  "frequency": 898,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "auto; automobil"
+ },
+ {
+  "simplified": "爸爸",
+  "traditional": "爸爸",
+  "pinyin": "bà ba",
+  "syllables": [
+   "ba",
+   "ba"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "(coll.) father; dad",
+  "radical": "父",
+  "frequency": 908,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "táta; tatínek"
+ },
+ {
+  "simplified": "字",
+  "traditional": "字",
+  "pinyin": "zì",
+  "syllables": [
+   "zi"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "letter; symbol",
+  "radical": "子",
+  "frequency": 913,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "znak; písmeno"
+ },
+ {
+  "simplified": "高兴",
+  "traditional": "高興",
+  "pinyin": "gāo xìng",
+  "syllables": [
+   "gao",
+   "xing"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "happy; glad",
+  "radical": "高",
+  "frequency": 920,
+  "pos": [
+   "a",
+   "an"
+  ],
+  "meaning_cz": "veselý; radostný"
+ },
+ {
+  "simplified": "白",
+  "traditional": "白",
+  "pinyin": "Bái",
+  "syllables": [
+   "bai"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Bai",
+  "radical": "白",
+  "frequency": 930,
+  "pos": [
+   "a",
+   "nr",
+   "d",
+   "b",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "bílý; marně"
+ },
+ {
+  "simplified": "去年",
+  "traditional": "去年",
+  "pinyin": "qù nián",
+  "syllables": [
+   "qu",
+   "nian"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "last year",
+  "radical": "厶",
+  "frequency": 933,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "loni; minulý rok"
+ },
+ {
+  "simplified": "热",
+  "traditional": "熱",
+  "pinyin": "rè",
+  "syllables": [
+   "re"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to warm up; to heat up",
+  "radical": "灬",
+  "frequency": 938,
+  "pos": [
+   "a",
+   "n",
+   "k",
+   "v",
+   "ad",
+   "an"
+  ],
+  "meaning_cz": "horký; teplý"
+ },
+ {
+  "simplified": "试",
+  "traditional": "試",
+  "pinyin": "shì",
+  "syllables": [
+   "shi"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to test; to try",
+  "radical": "讠",
+  "frequency": 938,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "zkusit; test"
+ },
+ {
+  "simplified": "来到",
+  "traditional": "來到",
+  "pinyin": "lái dào",
+  "syllables": [
+   "lai",
+   "dao"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "to arrive; to come",
+  "radical": "木",
+  "frequency": 943,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "přijít; dorazit"
+ },
+ {
+  "simplified": "睡觉",
+  "traditional": "睡覺",
+  "pinyin": "shuì jiào",
+  "syllables": [
+   "shui",
+   "jiao"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to go to bed; to sleep",
+  "radical": "目",
+  "frequency": 944,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "spát; jít spát"
+ },
+ {
+  "simplified": "电脑",
+  "traditional": "電腦",
+  "pinyin": "diàn nǎo",
+  "syllables": [
+   "dian",
+   "nao"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "computer",
+  "radical": "曰",
+  "frequency": 946,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "počítač"
+ },
+ {
+  "simplified": "票",
+  "traditional": "票",
+  "pinyin": "piào",
+  "syllables": [
+   "piao"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "ticket; ballot",
+  "radical": "示",
+  "frequency": 956,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "lístek; vstupenka"
+ },
+ {
+  "simplified": "西",
+  "traditional": "西",
+  "pinyin": "Xī",
+  "syllables": [
+   "xi"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "the West; abbr. for Spain 牙",
+  "radical": "西",
+  "frequency": 958,
+  "pos": [
+   "f",
+   "b"
+  ],
+  "meaning_cz": "západ; Španělsko (zkr.)"
+ },
+ {
+  "simplified": "床",
+  "traditional": "床",
+  "pinyin": "chuáng",
+  "syllables": [
+   "chuang"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "bed; couch",
+  "radical": "广",
+  "frequency": 961,
+  "pos": [
+   "n",
+   "q"
+  ],
+  "meaning_cz": "postel"
+ },
+ {
+  "simplified": "第",
+  "traditional": "第",
+  "pinyin": "dì",
+  "syllables": [
+   "di"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "(prefix indicating ordinal number, as in 六 \"sixth\"); (literary) grades in which successful candidates in the imperial examinations were placed",
+  "radical": "⺮",
+  "frequency": 962,
+  "pos": [
+   "m"
+  ],
+  "meaning_cz": "číslovková předpona (řadová)"
+ },
+ {
+  "simplified": "回到",
+  "traditional": "回到",
+  "pinyin": "huí dào",
+  "syllables": [
+   "hui",
+   "dao"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "to return to",
+  "radical": "囗",
+  "frequency": 962,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vrátit se (kam)"
+ },
+ {
+  "simplified": "差",
+  "traditional": "差",
+  "pinyin": "chā",
+  "syllables": [
+   "cha"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "difference; discrepancy; (math.) difference (amount remaining after a subtraction)",
+  "radical": "工",
+  "frequency": 968,
+  "pos": [
+   "a",
+   "v",
+   "g"
+  ],
+  "meaning_cz": "rozdíl; špatný"
+ },
+ {
+  "simplified": "家里",
+  "traditional": "家裡",
+  "pinyin": "jiā lǐ",
+  "syllables": [
+   "jia",
+   "li"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "home",
+  "radical": "宀",
+  "frequency": 973,
+  "pos": [
+   "s",
+   "n"
+  ],
+  "meaning_cz": "doma"
+ },
+ {
+  "simplified": "教",
+  "traditional": "教",
+  "pinyin": "Jiào",
+  "syllables": [
+   "jiao"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "surname Jiao",
+  "radical": "攵",
+  "frequency": 988,
+  "pos": [
+   "v",
+   "g"
+  ],
+  "meaning_cz": "učit; vyučovat"
+ },
+ {
+  "simplified": "不用",
+  "traditional": "不用",
+  "pinyin": "bù yòng",
+  "syllables": [
+   "bu",
+   "yong"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "need not",
+  "radical": "一",
+  "frequency": 1013,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "není třeba; netřeba"
+ },
+ {
+  "simplified": "读",
+  "traditional": "讀",
+  "pinyin": "dòu",
+  "syllables": [
+   "dou"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "comma; phrase marked by pause",
+  "radical": "讠",
+  "frequency": 1013,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "číst; studovat"
+ },
+ {
+  "simplified": "忘",
+  "traditional": "忘",
+  "pinyin": "wàng",
+  "syllables": [
+   "wang"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to forget; to overlook",
+  "radical": "心",
+  "frequency": 1015,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "zapomenout"
+ },
+ {
+  "simplified": "认真",
+  "traditional": "認真",
+  "pinyin": "rèn zhēn",
+  "syllables": [
+   "ren",
+   "zhen"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "conscientious; earnest",
+  "radical": "讠",
+  "frequency": 1020,
+  "pos": [
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "svědomitý; vážný"
+ },
+ {
+  "simplified": "电",
+  "traditional": "電",
+  "pinyin": "diàn",
+  "syllables": [
+   "dian"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "lightning; electricity",
+  "radical": "曰",
+  "frequency": 1027,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "elektřina; blesk"
+ },
+ {
+  "simplified": "房子",
+  "traditional": "房子",
+  "pinyin": "fáng zi",
+  "syllables": [
+   "fang",
+   "zi"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "house; building (single- or two-story)",
+  "radical": "户",
+  "frequency": 1027,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "dům; budova"
+ },
+ {
+  "simplified": "冷",
+  "traditional": "冷",
+  "pinyin": "Lěng",
+  "syllables": [
+   "leng"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "surname Leng",
+  "radical": "冫",
+  "frequency": 1027,
+  "pos": [
+   "a",
+   "ad",
+   "g"
+  ],
+  "meaning_cz": "chladný; studený"
+ },
+ {
+  "simplified": "山",
+  "traditional": "山",
+  "pinyin": "Shān",
+  "syllables": [
+   "shan"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Shan",
+  "radical": "山",
+  "frequency": 1030,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "hora"
+ },
+ {
+  "simplified": "常",
+  "traditional": "常",
+  "pinyin": "Cháng",
+  "syllables": [
+   "chang"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Chang",
+  "radical": "巾",
+  "frequency": 1057,
+  "pos": [
+   "d",
+   "nr"
+  ],
+  "meaning_cz": "často; běžný"
+ },
+ {
+  "simplified": "飞机",
+  "traditional": "飛機",
+  "pinyin": "fēi jī",
+  "syllables": [
+   "fei",
+   "ji"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "airplane",
+  "radical": "飞",
+  "frequency": 1067,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "letadlo"
+ },
+ {
+  "simplified": "早上",
+  "traditional": "早上",
+  "pinyin": "zǎo shang",
+  "syllables": [
+   "zao",
+   "shang"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "early morning",
+  "radical": "日",
+  "frequency": 1092,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "ráno (brzké)"
+ },
+ {
+  "simplified": "回答",
+  "traditional": "回答",
+  "pinyin": "huí dá",
+  "syllables": [
+   "hui",
+   "da"
+  ],
+  "tones": [
+   2,
+   2
+  ],
+  "meaning": "to reply; to answer; reply; answer",
+  "radical": "囗",
+  "frequency": 1100,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "odpovědět; odpověď"
+ },
+ {
+  "simplified": "记",
+  "traditional": "記",
+  "pinyin": "jì",
+  "syllables": [
+   "ji"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to record; to note",
+  "radical": "讠",
+  "frequency": 1123,
+  "pos": [
+   "v",
+   "g",
+   "q"
+  ],
+  "meaning_cz": "zaznamenat; zapsat si"
+ },
+ {
+  "simplified": "关",
+  "traditional": "關",
+  "pinyin": "Guān",
+  "syllables": [
+   "guan"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Guan",
+  "radical": "丷",
+  "frequency": 1129,
+  "pos": [
+   "v",
+   "n",
+   "nr"
+  ],
+  "meaning_cz": "zavřít; vypnout"
+ },
+ {
+  "simplified": "哥",
+  "traditional": "哥",
+  "pinyin": "gē",
+  "syllables": [
+   "ge"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "elder brother",
+  "radical": "口",
+  "frequency": 1132,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "starší bratr"
+ },
+ {
+  "simplified": "爸",
+  "traditional": "爸",
+  "pinyin": "bà",
+  "syllables": [
+   "ba"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "father; dad",
+  "radical": "父",
+  "frequency": 1142,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "táta; tatínek"
+ },
+ {
+  "simplified": "风",
+  "traditional": "風",
+  "pinyin": "fēng",
+  "syllables": [
+   "feng"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "wind; news",
+  "radical": "风",
+  "frequency": 1150,
+  "pos": [
+   "n",
+   "g"
+  ],
+  "meaning_cz": "vítr; zprávy"
+ },
+ {
+  "simplified": "回去",
+  "traditional": "回去",
+  "pinyin": "huí qu",
+  "syllables": [
+   "hui",
+   "qu"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "to return; to go back",
+  "radical": "囗",
+  "frequency": 1160,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vrátit se zpět"
+ },
+ {
+  "simplified": "累",
+  "traditional": "累",
+  "pinyin": "lěi",
+  "syllables": [
+   "lei"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to accumulate; to involve or implicate (Taiwan pr. [lèi])",
+  "radical": "糸",
+  "frequency": 1197,
+  "pos": [
+   "a",
+   "v",
+   "an"
+  ],
+  "meaning_cz": "unavený"
+ },
+ {
+  "simplified": "打开",
+  "traditional": "打開",
+  "pinyin": "dǎ kāi",
+  "syllables": [
+   "da",
+   "kai"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "to open; to show (a ticket)",
+  "radical": "扌",
+  "frequency": 1199,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "otevřít; zapnout"
+ },
+ {
+  "simplified": "病人",
+  "traditional": "病人",
+  "pinyin": "bìng rén",
+  "syllables": [
+   "bing",
+   "ren"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "sick person; patient",
+  "radical": "疒",
+  "frequency": 1209,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "pacient"
+ },
+ {
+  "simplified": "肉",
+  "traditional": "肉",
+  "pinyin": "ròu",
+  "syllables": [
+   "rou"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "meat; flesh",
+  "radical": "肉",
+  "frequency": 1215,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "maso"
+ },
+ {
+  "simplified": "打电话",
+  "traditional": "打電話",
+  "pinyin": "dǎ diàn huà",
+  "syllables": [
+   "da",
+   "dian",
+   "hua"
+  ],
+  "tones": [
+   3,
+   4,
+   4
+  ],
+  "meaning": "to make a telephone call",
+  "radical": "扌",
+  "frequency": 1218,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "telefonovat; zavolat"
+ },
+ {
+  "simplified": "休息",
+  "traditional": "休息",
+  "pinyin": "xiū xi",
+  "syllables": [
+   "xiu",
+   "xi"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "rest; to rest",
+  "radical": "亻",
+  "frequency": 1225,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "odpočívat; odpočinek"
+ },
+ {
+  "simplified": "班",
+  "traditional": "班",
+  "pinyin": "Bān",
+  "syllables": [
+   "ban"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Ban",
+  "radical": "王",
+  "frequency": 1238,
+  "pos": [
+   "n",
+   "q",
+   "nr"
+  ],
+  "meaning_cz": "třída (skupina)"
+ },
+ {
+  "simplified": "坏",
+  "traditional": "壞",
+  "pinyin": "huài",
+  "syllables": [
+   "huai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "bad; spoiled",
+  "radical": "土",
+  "frequency": 1239,
+  "pos": [
+   "a",
+   "v"
+  ],
+  "meaning_cz": "špatný; zkažený"
+ },
+ {
+  "simplified": "一边",
+  "traditional": "一邊",
+  "pinyin": "yī biān",
+  "syllables": [
+   "yi",
+   "bian"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "one side; either side",
+  "radical": "一",
+  "frequency": 1241,
+  "pos": [
+   "d",
+   "f"
+  ],
+  "meaning_cz": "jedna strana; současně"
+ },
+ {
+  "simplified": "洗",
+  "traditional": "洗",
+  "pinyin": "xǐ",
+  "syllables": [
+   "xi"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to wash; to bathe; to develop (photographs)",
+  "radical": "氵",
+  "frequency": 1298,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "mýt; prát"
+ },
+ {
+  "simplified": "有的",
+  "traditional": "有的",
+  "pinyin": "yǒu de",
+  "syllables": [
+   "you",
+   "de"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "(there are) some (who are...); some (exist)",
+  "radical": "月",
+  "frequency": 1300,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "někteří; nějaký"
+ },
+ {
+  "simplified": "毛",
+  "traditional": "毛",
+  "pinyin": "Máo",
+  "syllables": [
+   "mao"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Mao",
+  "radical": "毛",
+  "frequency": 1319,
+  "pos": [
+   "nr",
+   "n",
+   "q"
+  ],
+  "meaning_cz": "srst; chlupy"
+ },
+ {
+  "simplified": "忘记",
+  "traditional": "忘記",
+  "pinyin": "wàng jì",
+  "syllables": [
+   "wang",
+   "ji"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to forget",
+  "radical": "心",
+  "frequency": 1335,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "zapomenout"
+ },
+ {
+  "simplified": "房间",
+  "traditional": "房間",
+  "pinyin": "fáng jiān",
+  "syllables": [
+   "fang",
+   "jian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "room",
+  "radical": "户",
+  "frequency": 1357,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "místnost; pokoj"
+ },
+ {
+  "simplified": "八",
+  "traditional": "八",
+  "pinyin": "bā",
+  "syllables": [
+   "ba"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "eight; 8",
+  "radical": "八",
+  "frequency": 1362,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "osm; 8"
+ },
+ {
+  "simplified": "左",
+  "traditional": "左",
+  "pinyin": "Zuǒ",
+  "syllables": [
+   "zuo"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "surname Zuo",
+  "radical": "工",
+  "frequency": 1382,
+  "pos": [
+   "f",
+   "a"
+  ],
+  "meaning_cz": "vlevo; levý"
+ },
+ {
+  "simplified": "吃饭",
+  "traditional": "吃飯",
+  "pinyin": "chī fàn",
+  "syllables": [
+   "chi",
+   "fan"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to have a meal; to eat",
+  "radical": "口",
+  "frequency": 1415,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "jíst (jídlo); jíst"
+ },
+ {
+  "simplified": "动作",
+  "traditional": "動作",
+  "pinyin": "dòng zuò",
+  "syllables": [
+   "dong",
+   "zuo"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "movement; motion; action; to act; to move",
+  "radical": "力",
+  "frequency": 1418,
+  "pos": [
+   "n",
+   "v"
+  ],
+  "meaning_cz": "pohyb; akce"
+ },
+ {
+  "simplified": "七",
+  "traditional": "七",
+  "pinyin": "qī",
+  "syllables": [
+   "qi"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "seven; 7",
+  "radical": "一",
+  "frequency": 1419,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "sedm; 7"
+ },
+ {
+  "simplified": "菜",
+  "traditional": "菜",
+  "pinyin": "cài",
+  "syllables": [
+   "cai"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "dish (type of food); vegetable",
+  "radical": "艹",
+  "frequency": 1448,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "jídlo; zelenina"
+ },
+ {
+  "simplified": "衣服",
+  "traditional": "衣服",
+  "pinyin": "yī fu",
+  "syllables": [
+   "yi",
+   "fu"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "clothes",
+  "radical": "衣",
+  "frequency": 1472,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "oblečení"
+ },
+ {
+  "simplified": "饿",
+  "traditional": "餓",
+  "pinyin": "è",
+  "syllables": [
+   "e"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "to be hungry; hungry",
+  "radical": "饣",
+  "frequency": 1477,
+  "pos": [
+   "v",
+   "a"
+  ],
+  "meaning_cz": "hladový"
+ },
+ {
+  "simplified": "树",
+  "traditional": "樹",
+  "pinyin": "shù",
+  "syllables": [
+   "shu"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "tree; to cultivate",
+  "radical": "木",
+  "frequency": 1481,
+  "pos": [
+   "n",
+   "v"
+  ],
+  "meaning_cz": "strom"
+ },
+ {
+  "simplified": "右",
+  "traditional": "右",
+  "pinyin": "yòu",
+  "syllables": [
+   "you"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "(bound form) right; right-hand side; (bound form) (politics) right of center",
+  "radical": "口",
+  "frequency": 1481,
+  "pos": [
+   "f",
+   "a"
+  ],
+  "meaning_cz": "vpravo; pravý"
+ },
+ {
+  "simplified": "上班",
+  "traditional": "上班",
+  "pinyin": "shàng bān",
+  "syllables": [
+   "shang",
+   "ban"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "to go to work; to be on duty",
+  "radical": "一",
+  "frequency": 1495,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "jít do práce"
+ },
+ {
+  "simplified": "生日",
+  "traditional": "生日",
+  "pinyin": "shēng rì",
+  "syllables": [
+   "sheng",
+   "ri"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "birthday",
+  "radical": "生",
+  "frequency": 1506,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "narozeniny"
+ },
+ {
+  "simplified": "东",
+  "traditional": "東",
+  "pinyin": "Dōng",
+  "syllables": [
+   "dong"
+  ],
+  "tones": [
+   1
+  ],
+  "meaning": "surname Dong",
+  "radical": "一",
+  "frequency": 1509,
+  "pos": [
+   "f",
+   "b"
+  ],
+  "meaning_cz": "východ"
+ },
+ {
+  "simplified": "姐姐",
+  "traditional": "姐姐",
+  "pinyin": "jiě jie",
+  "syllables": [
+   "jie",
+   "jie"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "older sister",
+  "radical": "女",
+  "frequency": 1513,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "starší sestra"
+ },
+ {
+  "simplified": "课",
+  "traditional": "課",
+  "pinyin": "kè",
+  "syllables": [
+   "ke"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "subject; course",
+  "radical": "讠",
+  "frequency": 1517,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "předmět; hodina (škola)"
+ },
+ {
+  "simplified": "国",
+  "traditional": "國",
+  "pinyin": "Guó",
+  "syllables": [
+   "guo"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Guo",
+  "radical": "囗",
+  "frequency": 1527,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "země; stát"
+ },
+ {
+  "simplified": "饭",
+  "traditional": "飯",
+  "pinyin": "fàn",
+  "syllables": [
+   "fan"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "cooked rice; meal",
+  "radical": "饣",
+  "frequency": 1529,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "rýže (vařená); jídlo"
+ },
+ {
+  "simplified": "一半",
+  "traditional": "一半",
+  "pinyin": "yī bàn",
+  "syllables": [
+   "yi",
+   "ban"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "half",
+  "radical": "一",
+  "frequency": 1554,
+  "pos": [
+   "m"
+  ],
+  "meaning_cz": "polovina"
+ },
+ {
+  "simplified": "家人",
+  "traditional": "家人",
+  "pinyin": "jiā rén",
+  "syllables": [
+   "jia",
+   "ren"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "family member; (old) servant",
+  "radical": "宀",
+  "frequency": 1562,
+  "pos": [
+   "n",
+   "nr"
+  ],
+  "meaning_cz": "člen rodiny"
+ },
+ {
+  "simplified": "有时",
+  "traditional": "有時",
+  "pinyin": "yǒu shí",
+  "syllables": [
+   "you",
+   "shi"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "sometimes; now and then",
+  "radical": "月",
+  "frequency": 1568,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "občas; někdy"
+ },
+ {
+  "simplified": "小姐",
+  "traditional": "小姐",
+  "pinyin": "xiǎo jie",
+  "syllables": [
+   "xiao",
+   "jie"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "young lady; miss",
+  "radical": "小",
+  "frequency": 1575,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "slečna; mladá dáma"
+ },
+ {
+  "simplified": "对不起",
+  "traditional": "對不起",
+  "pinyin": "duì bu qǐ",
+  "syllables": [
+   "dui",
+   "bu",
+   "qi"
+  ],
+  "tones": [
+   4,
+   5,
+   3
+  ],
+  "meaning": "I'm sorry; excuse me; I beg your pardon; to let (sb) down; to disappoint",
+  "radical": "寸",
+  "frequency": 1577,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "promiň; omlouvám se"
+ },
+ {
+  "simplified": "进去",
+  "traditional": "進去",
+  "pinyin": "jìn qù",
+  "syllables": [
+   "jin",
+   "qu"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to go in",
+  "radical": "辶",
+  "frequency": 1624,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vejít dovnitř"
+ },
+ {
+  "simplified": "哥哥",
+  "traditional": "哥哥",
+  "pinyin": "gē ge",
+  "syllables": [
+   "ge",
+   "ge"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "older brother",
+  "radical": "口",
+  "frequency": 1655,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "starší bratr"
+ },
+ {
+  "simplified": "没什么",
+  "traditional": "沒什麼",
+  "pinyin": "méi shén me",
+  "syllables": [
+   "mei",
+   "shen",
+   "me"
+  ],
+  "tones": [
+   2,
+   2,
+   5
+  ],
+  "meaning": "nothing; it doesn't matter",
+  "radical": "氵",
+  "frequency": 1659,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "nic; nevadí"
+ },
+ {
+  "simplified": "路上",
+  "traditional": "路上",
+  "pinyin": "lù shang",
+  "syllables": [
+   "lu",
+   "shang"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "on the road; on a journey",
+  "radical": "足",
+  "frequency": 1669,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "na cestě"
+ },
+ {
+  "simplified": "天气",
+  "traditional": "天氣",
+  "pinyin": "tiān qì",
+  "syllables": [
+   "tian",
+   "qi"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "weather",
+  "radical": "大",
+  "frequency": 1675,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "počasí"
+ },
+ {
+  "simplified": "最好",
+  "traditional": "最好",
+  "pinyin": "zuì hǎo",
+  "syllables": [
+   "zui",
+   "hao"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "best; (you) had better (do what we suggest)",
+  "radical": "曰",
+  "frequency": 1704,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "nejlepší; bys měl"
+ },
+ {
+  "simplified": "南",
+  "traditional": "南",
+  "pinyin": "Nán",
+  "syllables": [
+   "nan"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "surname Nan",
+  "radical": "十",
+  "frequency": 1709,
+  "pos": [
+   "b",
+   "f"
+  ],
+  "meaning_cz": "jih"
+ },
+ {
+  "simplified": "考试",
+  "traditional": "考試",
+  "pinyin": "kǎo shì",
+  "syllables": [
+   "kao",
+   "shi"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "to take an exam; exam",
+  "radical": "耂",
+  "frequency": 1718,
+  "pos": [
+   "vn",
+   "v"
+  ],
+  "meaning_cz": "zkouška; skládat zkoušku"
+ },
+ {
+  "simplified": "有时候",
+  "traditional": "有時候",
+  "pinyin": "yǒu shí hou",
+  "syllables": [
+   "you",
+   "shi",
+   "hou"
+  ],
+  "tones": [
+   3,
+   2,
+   5
+  ],
+  "meaning": "sometimes",
+  "radical": "月",
+  "frequency": 1725,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "někdy; občas"
+ },
+ {
+  "simplified": "慢",
+  "traditional": "慢",
+  "pinyin": "màn",
+  "syllables": [
+   "man"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "slow",
+  "radical": "忄",
+  "frequency": 1770,
+  "pos": [
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "pomalý"
+ },
+ {
+  "simplified": "旁边",
+  "traditional": "旁邊",
+  "pinyin": "páng biān",
+  "syllables": [
+   "pang",
+   "bian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "side; adjacent place",
+  "radical": "方",
+  "frequency": 1815,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "vedle; u"
+ },
+ {
+  "simplified": "同学",
+  "traditional": "同學",
+  "pinyin": "tóng xué",
+  "syllables": [
+   "tong",
+   "xue"
+  ],
+  "tones": [
+   2,
+   2
+  ],
+  "meaning": "to study at the same school; fellow student",
+  "radical": "口",
+  "frequency": 1828,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "spolužák"
+ },
+ {
+  "simplified": "北",
+  "traditional": "北",
+  "pinyin": "běi",
+  "syllables": [
+   "bei"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "north; (classical) to be defeated",
+  "radical": "匕",
+  "frequency": 1835,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "sever"
+ },
+ {
+  "simplified": "帮忙",
+  "traditional": "幫忙",
+  "pinyin": "bāng máng",
+  "syllables": [
+   "bang",
+   "mang"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "to help; to lend a hand",
+  "radical": "巾",
+  "frequency": 1860,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "pomáhat; pomoc"
+ },
+ {
+  "simplified": "进来",
+  "traditional": "進來",
+  "pinyin": "jìn lái",
+  "syllables": [
+   "jin",
+   "lai"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "to come in",
+  "radical": "辶",
+  "frequency": 1870,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vejít; přijít dovnitř"
+ },
+ {
+  "simplified": "见面",
+  "traditional": "見面",
+  "pinyin": "jiàn miàn",
+  "syllables": [
+   "jian",
+   "mian"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to meet; to see each other",
+  "radical": "见",
+  "frequency": 1876,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "setkat se; potkat"
+ },
+ {
+  "simplified": "好看",
+  "traditional": "好看",
+  "pinyin": "hǎo kàn",
+  "syllables": [
+   "hao",
+   "kan"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "good-looking; nice-looking",
+  "radical": "女",
+  "frequency": 1877,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "hezký; pěkně vypadající"
+ },
+ {
+  "simplified": "中间",
+  "traditional": "中間",
+  "pinyin": "zhōng jiān",
+  "syllables": [
+   "zhong",
+   "jian"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "the middle; the inside; in the middle; within; between; among",
+  "radical": "丨",
+  "frequency": 1889,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "uprostřed; střed; mezi"
+ },
+ {
+  "simplified": "女生",
+  "traditional": "女生",
+  "pinyin": "nǚ shēng",
+  "syllables": [
+   "nü",
+   "sheng"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "schoolgirl; female student",
+  "radical": "女",
+  "frequency": 1894,
+  "pos": [
+   "n",
+   "nr"
+  ],
+  "meaning_cz": "studentka; žákyně"
+ },
+ {
+  "simplified": "茶",
+  "traditional": "茶",
+  "pinyin": "chá",
+  "syllables": [
+   "cha"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "tea; tea plant",
+  "radical": "艹",
+  "frequency": 1910,
+  "pos": [
+   "n",
+   "g"
+  ],
+  "meaning_cz": "čaj"
+ },
+ {
+  "simplified": "地点",
+  "traditional": "地點",
+  "pinyin": "dì diǎn",
+  "syllables": [
+   "di",
+   "dian"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "place; site",
+  "radical": "土",
+  "frequency": 1921,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "místo; lokalita"
+ },
+ {
+  "simplified": "雨",
+  "traditional": "雨",
+  "pinyin": "yǔ",
+  "syllables": [
+   "yu"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "rain",
+  "radical": "雨",
+  "frequency": 1929,
+  "pos": [
+   "n",
+   "g"
+  ],
+  "meaning_cz": "déšť"
+ },
+ {
+  "simplified": "星期",
+  "traditional": "星期",
+  "pinyin": "xīng qī",
+  "syllables": [
+   "xing",
+   "qi"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "week; day of the week",
+  "radical": "日",
+  "frequency": 1956,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "týden; den v týdnu"
+ },
+ {
+  "simplified": "车上",
+  "traditional": "車上",
+  "pinyin": "chē shàng",
+  "syllables": [
+   "che",
+   "shang"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "Car",
+  "radical": "车",
+  "frequency": 1997,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "v autě; ve vlaku"
+ },
+ {
+  "simplified": "考",
+  "traditional": "攷",
+  "pinyin": "kǎo",
+  "syllables": [
+   "kao"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "to beat; to hit",
+  "radical": "耂",
+  "frequency": 2030,
+  "pos": [
+   "v",
+   "g"
+  ],
+  "meaning_cz": "skládat zkoušku"
+ },
+ {
+  "simplified": "九",
+  "traditional": "九",
+  "pinyin": "jiǔ",
+  "syllables": [
+   "jiu"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "nine; 9",
+  "radical": "乙",
+  "frequency": 2040,
+  "pos": [
+   "m",
+   "t",
+   "b"
+  ],
+  "meaning_cz": "devět; 9"
+ },
+ {
+  "simplified": "妹妹",
+  "traditional": "妹妹",
+  "pinyin": "mèi mei",
+  "syllables": [
+   "mei",
+   "mei"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "younger sister; young woman",
+  "radical": "女",
+  "frequency": 2093,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "mladší sestra"
+ },
+ {
+  "simplified": "生气",
+  "traditional": "生氣",
+  "pinyin": "shēng qì",
+  "syllables": [
+   "sheng",
+   "qi"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to get angry; to take offense",
+  "radical": "生",
+  "frequency": 2113,
+  "pos": [
+   "a",
+   "n",
+   "v",
+   "an"
+  ],
+  "meaning_cz": "rozzlobit se"
+ },
+ {
+  "simplified": "地上",
+  "traditional": "地上",
+  "pinyin": "dì shang",
+  "syllables": [
+   "di",
+   "shang"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "on the ground; on the floor",
+  "radical": "土",
+  "frequency": 2185,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "na zemi"
+ },
+ {
+  "simplified": "上午",
+  "traditional": "上午",
+  "pinyin": "shàng wǔ",
+  "syllables": [
+   "shang",
+   "wu"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "morning",
+  "radical": "一",
+  "frequency": 2188,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "dopoledne"
+ },
+ {
+  "simplified": "一会儿",
+  "traditional": "一會兒",
+  "pinyin": "yī huì r",
+  "syllables": [
+   "yi",
+   "hui",
+   "r"
+  ],
+  "tones": [
+   1,
+   4,
+   5
+  ],
+  "meaning": "a moment; a while",
+  "radical": "一",
+  "frequency": 2207,
+  "pos": [
+   "mq"
+  ],
+  "meaning_cz": "chvíli; chvilku"
+ },
+ {
+  "simplified": "贵",
+  "traditional": "貴",
+  "pinyin": "guì",
+  "syllables": [
+   "gui"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "expensive; noble",
+  "radical": "贝",
+  "frequency": 2239,
+  "pos": [
+   "a",
+   "r",
+   "b",
+   "g"
+  ],
+  "meaning_cz": "drahý; vzácný"
+ },
+ {
+  "simplified": "记住",
+  "traditional": "記住",
+  "pinyin": "jì zhu",
+  "syllables": [
+   "ji",
+   "zhu"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "to remember; to bear in mind",
+  "radical": "讠",
+  "frequency": 2266,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "zapamatovat si"
+ },
+ {
+  "simplified": "下次",
+  "traditional": "下次",
+  "pinyin": "xià cì",
+  "syllables": [
+   "xia",
+   "ci"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "next time",
+  "radical": "一",
+  "frequency": 2268,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "příště"
+ },
+ {
+  "simplified": "知识",
+  "traditional": "知識",
+  "pinyin": "zhī shi",
+  "syllables": [
+   "zhi",
+   "shi"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "knowledge; intellectual",
+  "radical": "矢",
+  "frequency": 2284,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "znalosti; vědomosti"
+ },
+ {
+  "simplified": "机场",
+  "traditional": "機場",
+  "pinyin": "jī chǎng",
+  "syllables": [
+   "ji",
+   "chang"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "airport; airfield; (slang) service provider for Shadowsocks or similar software for circumventing Internet censorship",
+  "radical": "木",
+  "frequency": 2308,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "letiště"
+ },
+ {
+  "simplified": "学院",
+  "traditional": "學院",
+  "pinyin": "xué yuàn",
+  "syllables": [
+   "xue",
+   "yuan"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "college; educational institute",
+  "radical": "子",
+  "frequency": 2360,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "vysoká škola; institut"
+ },
+ {
+  "simplified": "老人",
+  "traditional": "老人",
+  "pinyin": "lǎo rén",
+  "syllables": [
+   "lao",
+   "ren"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "old man or woman; the elderly",
+  "radical": "老",
+  "frequency": 2395,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "starý člověk; senior"
+ },
+ {
+  "simplified": "页",
+  "traditional": "頁",
+  "pinyin": "xié",
+  "syllables": [
+   "xie"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "head",
+  "radical": "页",
+  "frequency": 2404,
+  "pos": [
+   "q",
+   "g"
+  ],
+  "meaning_cz": "stránka"
+ },
+ {
+  "simplified": "工人",
+  "traditional": "工人",
+  "pinyin": "gōng rén",
+  "syllables": [
+   "gong",
+   "ren"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "worker",
+  "radical": "工",
+  "frequency": 2405,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "dělník; pracovník"
+ },
+ {
+  "simplified": "那边",
+  "traditional": "那邊",
+  "pinyin": "nà bian",
+  "syllables": [
+   "na",
+   "bian"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "over there; yonder",
+  "radical": "阝",
+  "frequency": 2415,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "tam; támhle"
+ },
+ {
+  "simplified": "弟弟",
+  "traditional": "弟弟",
+  "pinyin": "dì di",
+  "syllables": [
+   "di",
+   "di"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "younger brother",
+  "radical": "弓",
+  "frequency": 2424,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "mladší bratr"
+ },
+ {
+  "simplified": "干净",
+  "traditional": "乾淨",
+  "pinyin": "gān jìng",
+  "syllables": [
+   "gan",
+   "jing"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "clean; neat",
+  "radical": "十",
+  "frequency": 2430,
+  "pos": [
+   "a",
+   "ad"
+  ],
+  "meaning_cz": "čistý; uklizený"
+ },
+ {
+  "simplified": "在家",
+  "traditional": "在家",
+  "pinyin": "zài jiā",
+  "syllables": [
+   "zai",
+   "jia"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "to be at home; (at a workplace) to be in (as opposed to being away on official business 差)",
+  "radical": "土",
+  "frequency": 2444,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "být doma; být v práci"
+ },
+ {
+  "simplified": "百",
+  "traditional": "百",
+  "pinyin": "Bǎi",
+  "syllables": [
+   "bai"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "surname Bai",
+  "radical": "白",
+  "frequency": 2455,
+  "pos": [
+   "m",
+   "t"
+  ],
+  "meaning_cz": "sto; 100"
+ },
+ {
+  "simplified": "网上",
+  "traditional": "網上",
+  "pinyin": "wǎng shàng",
+  "syllables": [
+   "wang",
+   "shang"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "online",
+  "radical": "网",
+  "frequency": 2474,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "online; na internetu"
+ },
+ {
+  "simplified": "好吃",
+  "traditional": "好吃",
+  "pinyin": "hǎo chī",
+  "syllables": [
+   "hao",
+   "chi"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "tasty; delicious",
+  "radical": "女",
+  "frequency": 2484,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "chutný; dobrý"
+ },
+ {
+  "simplified": "明年",
+  "traditional": "明年",
+  "pinyin": "míng nián",
+  "syllables": [
+   "ming",
+   "nian"
+  ],
+  "tones": [
+   2,
+   2
+  ],
+  "meaning": "next year",
+  "radical": "日",
+  "frequency": 2487,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "příští rok"
+ },
+ {
+  "simplified": "再见",
+  "traditional": "再見",
+  "pinyin": "zài jiàn",
+  "syllables": [
+   "zai",
+   "jian"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "goodbye; see you again later",
+  "radical": "冂",
+  "frequency": 2487,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "nashledanou"
+ },
+ {
+  "simplified": "妹",
+  "traditional": "妹",
+  "pinyin": "mèi",
+  "syllables": [
+   "mei"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "younger sister",
+  "radical": "女",
+  "frequency": 2496,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "mladší sestra"
+ },
+ {
+  "simplified": "这儿",
+  "traditional": "這兒",
+  "pinyin": "zhè r",
+  "syllables": [
+   "zhe",
+   "r"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "here",
+  "radical": "辶",
+  "frequency": 2522,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "tady; zde"
+ },
+ {
+  "simplified": "哪儿",
+  "traditional": "哪兒",
+  "pinyin": "nǎ r",
+  "syllables": [
+   "na",
+   "r"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "where?; wherever; anywhere; somewhere",
+  "radical": "口",
+  "frequency": 2534,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "kde?; někde; kamkoli"
+ },
+ {
+  "simplified": "不对",
+  "traditional": "不對",
+  "pinyin": "bù duì",
+  "syllables": [
+   "bu",
+   "dui"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "incorrect; wrong",
+  "radical": "一",
+  "frequency": 2598,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "špatně; nesprávně"
+ },
+ {
+  "simplified": "中午",
+  "traditional": "中午",
+  "pinyin": "zhōng wǔ",
+  "syllables": [
+   "zhong",
+   "wu"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "noon; midday",
+  "radical": "丨",
+  "frequency": 2600,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "poledne"
+ },
+ {
+  "simplified": "起床",
+  "traditional": "起床",
+  "pinyin": "qǐ chuáng",
+  "syllables": [
+   "qi",
+   "chuang"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "to get out of bed; to get up",
+  "radical": "走",
+  "frequency": 2645,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vstát (z postele)"
+ },
+ {
+  "simplified": "是不是",
+  "traditional": "是不是",
+  "pinyin": "shì bù shì",
+  "syllables": [
+   "shi",
+   "bu",
+   "shi"
+  ],
+  "tones": [
+   4,
+   4,
+   4
+  ],
+  "meaning": "is or isn't; yes or no",
+  "radical": "日",
+  "frequency": 2655,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "je-li tomu tak; ano/ne"
+ },
+ {
+  "simplified": "开车",
+  "traditional": "開車",
+  "pinyin": "kāi chē",
+  "syllables": [
+   "kai",
+   "che"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "to drive a car",
+  "radical": "廾",
+  "frequency": 2670,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "řídit auto"
+ },
+ {
+  "simplified": "干什么",
+  "traditional": "幹什麼",
+  "pinyin": "gàn shén me",
+  "syllables": [
+   "gan",
+   "shen",
+   "me"
+  ],
+  "tones": [
+   4,
+   2,
+   5
+  ],
+  "meaning": "what are you doing?; what's he up to?",
+  "radical": "十",
+  "frequency": 2714,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "co to děláš?"
+ },
+ {
+  "simplified": "奶",
+  "traditional": "奶",
+  "pinyin": "nǎi",
+  "syllables": [
+   "nai"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "breast; milk",
+  "radical": "女",
+  "frequency": 2758,
+  "pos": [
+   "n",
+   "v"
+  ],
+  "meaning_cz": "mléko; prso"
+ },
+ {
+  "simplified": "门口",
+  "traditional": "門口",
+  "pinyin": "mén kǒu",
+  "syllables": [
+   "men",
+   "kou"
+  ],
+  "tones": [
+   2,
+   3
+  ],
+  "meaning": "doorway; gate",
+  "radical": "门",
+  "frequency": 2762,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "vchod; přede dveřmi"
+ },
+ {
+  "simplified": "常常",
+  "traditional": "常常",
+  "pinyin": "cháng cháng",
+  "syllables": [
+   "chang",
+   "chang"
+  ],
+  "tones": [
+   2,
+   2
+  ],
+  "meaning": "frequently; often",
+  "radical": "巾",
+  "frequency": 2773,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "často; pravidelně"
+ },
+ {
+  "simplified": "这边",
+  "traditional": "這邊",
+  "pinyin": "zhè biān",
+  "syllables": [
+   "zhe",
+   "bian"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "this side; here",
+  "radical": "辶",
+  "frequency": 2774,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "tato strana; tady"
+ },
+ {
+  "simplified": "男生",
+  "traditional": "男生",
+  "pinyin": "nán shēng",
+  "syllables": [
+   "nan",
+   "sheng"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "schoolboy; male student",
+  "radical": "田",
+  "frequency": 2784,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "student; žák"
+ },
+ {
+  "simplified": "火车",
+  "traditional": "火車",
+  "pinyin": "huǒ chē",
+  "syllables": [
+   "huo",
+   "che"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "train",
+  "radical": "火",
+  "frequency": 2791,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "vlak"
+ },
+ {
+  "simplified": "奶奶",
+  "traditional": "奶奶",
+  "pinyin": "nǎi nai",
+  "syllables": [
+   "nai",
+   "nai"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "(informal) grandma (paternal grandmother); (respectful) mistress of the house",
+  "radical": "女",
+  "frequency": 2809,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "babička (z otcovy strany)"
+ },
+ {
+  "simplified": "上次",
+  "traditional": "上次",
+  "pinyin": "shàng cì",
+  "syllables": [
+   "shang",
+   "ci"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "last time",
+  "radical": "一",
+  "frequency": 2829,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "minule; minulý"
+ },
+ {
+  "simplified": "唱歌",
+  "traditional": "唱歌",
+  "pinyin": "chàng gē",
+  "syllables": [
+   "chang",
+   "ge"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "to sing a song",
+  "radical": "口",
+  "frequency": 2876,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "zpívat píseň"
+ },
+ {
+  "simplified": "右边",
+  "traditional": "右邊",
+  "pinyin": "yòu bian",
+  "syllables": [
+   "you",
+   "bian"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "right side; right, to the right",
+  "radical": "口",
+  "frequency": 2906,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "pravá strana; napravo"
+ },
+ {
+  "simplified": "上学",
+  "traditional": "上學",
+  "pinyin": "shàng xué",
+  "syllables": [
+   "shang",
+   "xue"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "to go to school; to attend school",
+  "radical": "一",
+  "frequency": 2965,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "jít do školy"
+ },
+ {
+  "simplified": "牛奶",
+  "traditional": "牛奶",
+  "pinyin": "niú nǎi",
+  "syllables": [
+   "niu",
+   "nai"
+  ],
+  "tones": [
+   2,
+   3
+  ],
+  "meaning": "cow's milk",
+  "radical": "牛",
+  "frequency": 2986,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "kravské mléko"
+ },
+ {
+  "simplified": "女朋友",
+  "traditional": "女朋友",
+  "pinyin": "nǚ péng you",
+  "syllables": [
+   "nü",
+   "peng",
+   "you"
+  ],
+  "tones": [
+   3,
+   2,
+   5
+  ],
+  "meaning": "girlfriend",
+  "radical": "女",
+  "frequency": 3004,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "přítelkyně (milenka)"
+ },
+ {
+  "simplified": "上课",
+  "traditional": "上課",
+  "pinyin": "shàng kè",
+  "syllables": [
+   "shang",
+   "ke"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to go to class; to attend class",
+  "radical": "一",
+  "frequency": 3042,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "mít vyučování"
+ },
+ {
+  "simplified": "爷爷",
+  "traditional": "爺爺",
+  "pinyin": "yé ye",
+  "syllables": [
+   "ye",
+   "ye"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "(coll.) father's father; paternal grandfather",
+  "radical": "父",
+  "frequency": 3099,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "děda (z otcovy strany)"
+ },
+ {
+  "simplified": "听见",
+  "traditional": "聽見",
+  "pinyin": "tīng jiàn",
+  "syllables": [
+   "ting",
+   "jian"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to hear",
+  "radical": "口",
+  "frequency": 3114,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "slyšet"
+ },
+ {
+  "simplified": "新年",
+  "traditional": "新年",
+  "pinyin": "xīn nián",
+  "syllables": [
+   "xin",
+   "nian"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "New Year",
+  "radical": "斤",
+  "frequency": 3160,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "Nový rok"
+ },
+ {
+  "simplified": "男朋友",
+  "traditional": "男朋友",
+  "pinyin": "nán péng you",
+  "syllables": [
+   "nan",
+   "peng",
+   "you"
+  ],
+  "tones": [
+   2,
+   2,
+   5
+  ],
+  "meaning": "boyfriend",
+  "radical": "田",
+  "frequency": 3176,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "přítel (milenec)"
+ },
+ {
+  "simplified": "下班",
+  "traditional": "下班",
+  "pinyin": "xià bān",
+  "syllables": [
+   "xia",
+   "ban"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "to finish work; to get off work",
+  "radical": "一",
+  "frequency": 3207,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "skončit v práci"
+ },
+ {
+  "simplified": "水果",
+  "traditional": "水果",
+  "pinyin": "shuǐ guǒ",
+  "syllables": [
+   "shui",
+   "guo"
+  ],
+  "tones": [
+   3,
+   3
+  ],
+  "meaning": "fruit",
+  "radical": "水",
+  "frequency": 3271,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "ovoce"
+ },
+ {
+  "simplified": "读书",
+  "traditional": "讀書",
+  "pinyin": "dú shū",
+  "syllables": [
+   "du",
+   "shu"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "to read a book; to study",
+  "radical": "讠",
+  "frequency": 3285,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "číst knihu; studovat"
+ },
+ {
+  "simplified": "那儿",
+  "traditional": "那兒",
+  "pinyin": "nà r",
+  "syllables": [
+   "na",
+   "r"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "there",
+  "radical": "阝",
+  "frequency": 3421,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "tam"
+ },
+ {
+  "simplified": "商店",
+  "traditional": "商店",
+  "pinyin": "shāng diàn",
+  "syllables": [
+   "shang",
+   "dian"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "store; shop",
+  "radical": "口",
+  "frequency": 3479,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "obchod; prodejna"
+ },
+ {
+  "simplified": "鸡蛋",
+  "traditional": "雞蛋",
+  "pinyin": "jī dàn",
+  "syllables": [
+   "ji",
+   "dan"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "(chicken) egg; hen's egg",
+  "radical": "鸟",
+  "frequency": 3501,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "slepičí vejce"
+ },
+ {
+  "simplified": "没关系",
+  "traditional": "沒關係",
+  "pinyin": "méi guān xi",
+  "syllables": [
+   "mei",
+   "guan",
+   "xi"
+  ],
+  "tones": [
+   2,
+   1,
+   5
+  ],
+  "meaning": "it doesn't matter",
+  "radical": "氵",
+  "frequency": 3541,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "nevadí; není zač"
+ },
+ {
+  "simplified": "地图",
+  "traditional": "地圖",
+  "pinyin": "dì tú",
+  "syllables": [
+   "di",
+   "tu"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "map",
+  "radical": "土",
+  "frequency": 3548,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "mapa"
+ },
+ {
+  "simplified": "姐",
+  "traditional": "姐",
+  "pinyin": "jiě",
+  "syllables": [
+   "jie"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "older sister",
+  "radical": "女",
+  "frequency": 3576,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "starší sestra"
+ },
+ {
+  "simplified": "坐下",
+  "traditional": "坐下",
+  "pinyin": "zuò xia",
+  "syllables": [
+   "zuo",
+   "xia"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "to sit down",
+  "radical": "土",
+  "frequency": 3600,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "posadit se"
+ },
+ {
+  "simplified": "零",
+  "traditional": "零",
+  "pinyin": "líng",
+  "syllables": [
+   "ling"
+  ],
+  "tones": [
+   2
+  ],
+  "meaning": "zero; nought",
+  "radical": "雨",
+  "frequency": 3623,
+  "pos": [
+   "m",
+   "t",
+   "g"
+  ],
+  "meaning_cz": "nula; 0"
+ },
+ {
+  "simplified": "桌子",
+  "traditional": "桌子",
+  "pinyin": "zhuō zi",
+  "syllables": [
+   "zhuo",
+   "zi"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "table; desk",
+  "radical": "木",
+  "frequency": 3639,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "stůl"
+ },
+ {
+  "simplified": "白天",
+  "traditional": "白天",
+  "pinyin": "bái tiān",
+  "syllables": [
+   "bai",
+   "tian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "daytime; during the day",
+  "radical": "白",
+  "frequency": 3645,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "den; za dne"
+ },
+ {
+  "simplified": "请问",
+  "traditional": "請問",
+  "pinyin": "qǐng wèn",
+  "syllables": [
+   "qing",
+   "wen"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "Excuse me, may I ask...?",
+  "radical": "讠",
+  "frequency": 3689,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "prosím, smím se zeptat?"
+ },
+ {
+  "simplified": "哪些",
+  "traditional": "哪些",
+  "pinyin": "nǎ xiē",
+  "syllables": [
+   "na",
+   "xie"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "which ones?; who?",
+  "radical": "口",
+  "frequency": 3741,
+  "pos": [
+   "r"
+  ],
+  "meaning_cz": "které?; kdo?"
+ },
+ {
+  "simplified": "晚饭",
+  "traditional": "晚飯",
+  "pinyin": "wǎn fàn",
+  "syllables": [
+   "wan",
+   "fan"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "evening meal; dinner",
+  "radical": "日",
+  "frequency": 3794,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "večeře"
+ },
+ {
+  "simplified": "小学",
+  "traditional": "小學",
+  "pinyin": "xiǎo xué",
+  "syllables": [
+   "xiao",
+   "xue"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "elementary school; primary school",
+  "radical": "小",
+  "frequency": 3819,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "základní škola"
+ },
+ {
+  "simplified": "图书馆",
+  "traditional": "圖書館",
+  "pinyin": "tú shū guǎn",
+  "syllables": [
+   "tu",
+   "shu",
+   "guan"
+  ],
+  "tones": [
+   2,
+   1,
+   3
+  ],
+  "meaning": "library",
+  "radical": "囗",
+  "frequency": 3836,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "knihovna"
+ },
+ {
+  "simplified": "开玩笑",
+  "traditional": "開玩笑",
+  "pinyin": "kāi wán xiào",
+  "syllables": [
+   "kai",
+   "wan",
+   "xiao"
+  ],
+  "tones": [
+   1,
+   2,
+   4
+  ],
+  "meaning": "to play a joke; to make fun of",
+  "radical": "廾",
+  "frequency": 3878,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "žertovat; vtipkovat"
+ },
+ {
+  "simplified": "国外",
+  "traditional": "國外",
+  "pinyin": "guó wài",
+  "syllables": [
+   "guo",
+   "wai"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "abroad; external (affairs)",
+  "radical": "囗",
+  "frequency": 3896,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "zahraničí; v cizině"
+ },
+ {
+  "simplified": "日期",
+  "traditional": "日期",
+  "pinyin": "rì qī",
+  "syllables": [
+   "ri",
+   "qi"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "date",
+  "radical": "日",
+  "frequency": 3928,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "datum"
+ },
+ {
+  "simplified": "饭店",
+  "traditional": "飯店",
+  "pinyin": "fàn diàn",
+  "syllables": [
+   "fan",
+   "dian"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "restaurant; hotel",
+  "radical": "饣",
+  "frequency": 3998,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "restaurace; hotel"
+ },
+ {
+  "simplified": "中学",
+  "traditional": "中學",
+  "pinyin": "zhōng xué",
+  "syllables": [
+   "zhong",
+   "xue"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "middle school",
+  "radical": "丨",
+  "frequency": 4042,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "střední škola"
+ },
+ {
+  "simplified": "上网",
+  "traditional": "上網",
+  "pinyin": "shàng wǎng",
+  "syllables": [
+   "shang",
+   "wang"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "to go online; to connect to the Internet",
+  "radical": "一",
+  "frequency": 4061,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "být online"
+ },
+ {
+  "simplified": "商场",
+  "traditional": "商場",
+  "pinyin": "shāng chǎng",
+  "syllables": [
+   "shang",
+   "chang"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "shopping mall; shopping center",
+  "radical": "口",
+  "frequency": 4093,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "obchodní centrum"
+ },
+ {
+  "simplified": "楼下",
+  "traditional": "樓下",
+  "pinyin": "lóu xià",
+  "syllables": [
+   "lou",
+   "xia"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "downstairs",
+  "radical": "木",
+  "frequency": 4135,
+  "pos": [
+   "s"
+  ],
+  "meaning_cz": "dole (v budově)"
+ },
+ {
+  "simplified": "面包",
+  "traditional": "麵包",
+  "pinyin": "miàn bāo",
+  "syllables": [
+   "mian",
+   "bao"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "bread",
+  "radical": "面",
+  "frequency": 4138,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "chléb"
+ },
+ {
+  "simplified": "外国",
+  "traditional": "外國",
+  "pinyin": "wài guó",
+  "syllables": [
+   "wai",
+   "guo"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "foreign (country)",
+  "radical": "夕",
+  "frequency": 4151,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "zahraniční; cizí země"
+ },
+ {
+  "simplified": "生病",
+  "traditional": "生病",
+  "pinyin": "shēng bìng",
+  "syllables": [
+   "sheng",
+   "bing"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to fall ill",
+  "radical": "生",
+  "frequency": 4336,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "onemocnět"
+ },
+ {
+  "simplified": "好听",
+  "traditional": "好聽",
+  "pinyin": "hǎo tīng",
+  "syllables": [
+   "hao",
+   "ting"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "pleasant to hear",
+  "radical": "女",
+  "frequency": 4355,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "příjemný na poslech"
+ },
+ {
+  "simplified": "开会",
+  "traditional": "開會",
+  "pinyin": "kāi huì",
+  "syllables": [
+   "kai",
+   "hui"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to hold a meeting; to attend a meeting",
+  "radical": "廾",
+  "frequency": 4398,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "mít schůzi; jednání"
+ },
+ {
+  "simplified": "钱包",
+  "traditional": "錢包",
+  "pinyin": "qián bāo",
+  "syllables": [
+   "qian",
+   "bao"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "purse; wallet",
+  "radical": "钅",
+  "frequency": 4411,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "peněženka"
+ },
+ {
+  "simplified": "大学生",
+  "traditional": "大學生",
+  "pinyin": "dà xué shēng",
+  "syllables": [
+   "da",
+   "xue",
+   "sheng"
+  ],
+  "tones": [
+   4,
+   2,
+   1
+  ],
+  "meaning": "university student; college student",
+  "radical": "大",
+  "frequency": 4422,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "vysokoškolský student"
+ },
+ {
+  "simplified": "车站",
+  "traditional": "車站",
+  "pinyin": "chē zhàn",
+  "syllables": [
+   "che",
+   "zhan"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "rail station; bus stop",
+  "radical": "车",
+  "frequency": 4480,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "zastávka; nádraží"
+ },
+ {
+  "simplified": "走路",
+  "traditional": "走路",
+  "pinyin": "zǒu lù",
+  "syllables": [
+   "zou",
+   "lu"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "to walk; to go on foot",
+  "radical": "走",
+  "frequency": 4517,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "chodit; jít pěšky"
+ },
+ {
+  "simplified": "小朋友",
+  "traditional": "小朋友",
+  "pinyin": "xiǎo péng yǒu",
+  "syllables": [
+   "xiao",
+   "peng",
+   "you"
+  ],
+  "tones": [
+   3,
+   2,
+   3
+  ],
+  "meaning": "child",
+  "radical": "小",
+  "frequency": 4536,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "dítě (malé)"
+ },
+ {
+  "simplified": "左边",
+  "traditional": "左邊",
+  "pinyin": "zuǒ bian",
+  "syllables": [
+   "zuo",
+   "bian"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "left; the left side",
+  "radical": "工",
+  "frequency": 4584,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "levá strana; vlevo"
+ },
+ {
+  "simplified": "北京",
+  "traditional": "北京",
+  "pinyin": "Běi jīng",
+  "syllables": [
+   "bei",
+   "jing"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "Beijing, capital of the People's Republic of China",
+  "radical": "匕",
+  "frequency": 4799,
+  "pos": [
+   "ns"
+  ],
+  "meaning_cz": "Peking"
+ },
+ {
+  "simplified": "有用",
+  "traditional": "有用",
+  "pinyin": "yǒu yòng",
+  "syllables": [
+   "you",
+   "yong"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "useful",
+  "radical": "月",
+  "frequency": 4834,
+  "pos": [
+   "a",
+   "v"
+  ],
+  "meaning_cz": "užitečný"
+ },
+ {
+  "simplified": "爱好",
+  "traditional": "愛好",
+  "pinyin": "ài hào",
+  "syllables": [
+   "ai",
+   "hao"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to like; to be fond of; to take pleasure in; to be keen on; interest; hobby",
+  "radical": "爫",
+  "frequency": 4902,
+  "pos": [
+   "n",
+   "v"
+  ],
+  "meaning_cz": "koníček; zájem; mít rád"
+ },
+ {
+  "simplified": "不大",
+  "traditional": "不大",
+  "pinyin": "bù dà",
+  "syllables": [
+   "bu",
+   "da"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "not very; not too",
+  "radical": "一",
+  "frequency": 4915,
+  "pos": [
+   "d"
+  ],
+  "meaning_cz": "ne moc; ne příliš"
+ },
+ {
+  "simplified": "午饭",
+  "traditional": "午飯",
+  "pinyin": "wǔ fàn",
+  "syllables": [
+   "wu",
+   "fan"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "lunch",
+  "radical": "十",
+  "frequency": 4986,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "oběd"
+ },
+ {
+  "simplified": "上车",
+  "traditional": "上車",
+  "pinyin": "shàng chē",
+  "syllables": [
+   "shang",
+   "che"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "to get on or into (a bus, train, car etc)",
+  "radical": "一",
+  "frequency": 5091,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "nastoupit do (auto, vlak)"
+ },
+ {
+  "simplified": "马路",
+  "traditional": "馬路",
+  "pinyin": "mǎ lù",
+  "syllables": [
+   "ma",
+   "lu"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "street; road",
+  "radical": "马",
+  "frequency": 5119,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "silnice; ulice"
+ },
+ {
+  "simplified": "门票",
+  "traditional": "門票",
+  "pinyin": "mén piào",
+  "syllables": [
+   "men",
+   "piao"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "ticket (for theater, cinema etc)",
+  "radical": "门",
+  "frequency": 5140,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "vstupenka (do divadla, kina)"
+ },
+ {
+  "simplified": "机票",
+  "traditional": "機票",
+  "pinyin": "jī piào",
+  "syllables": [
+   "ji",
+   "piao"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "air ticket; passenger ticket",
+  "radical": "木",
+  "frequency": 5209,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "letenka"
+ },
+ {
+  "simplified": "楼上",
+  "traditional": "樓上",
+  "pinyin": "lóu shàng",
+  "syllables": [
+   "lou",
+   "shang"
+  ],
+  "tones": [
+   2,
+   4
+  ],
+  "meaning": "upstairs; (Internet slang) previous poster in a forum thread",
+  "radical": "木",
+  "frequency": 5267,
+  "pos": [
+   "s",
+   "f"
+  ],
+  "meaning_cz": "nahoře (v budově)"
+ },
+ {
+  "simplified": "打球",
+  "traditional": "打球",
+  "pinyin": "dǎ qiú",
+  "syllables": [
+   "da",
+   "qiu"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "to play ball; to play with a ball",
+  "radical": "扌",
+  "frequency": 5476,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "hrát s míčem"
+ },
+ {
+  "simplified": "下雨",
+  "traditional": "下雨",
+  "pinyin": "xià yǔ",
+  "syllables": [
+   "xia",
+   "yu"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "to rain",
+  "radical": "一",
+  "frequency": 5648,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "pršet"
+ },
+ {
+  "simplified": "下车",
+  "traditional": "下車",
+  "pinyin": "xià chē",
+  "syllables": [
+   "xia",
+   "che"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "to get off or out of (a bus, train, car etc)",
+  "radical": "一",
+  "frequency": 6014,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "vystoupit z (auta, vlaku)"
+ },
+ {
+  "simplified": "杯子",
+  "traditional": "杯子",
+  "pinyin": "bēi zi",
+  "syllables": [
+   "bei",
+   "zi"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "cup; glass",
+  "radical": "木",
+  "frequency": 6162,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "hrnek; sklenice"
+ },
+ {
+  "simplified": "放假",
+  "traditional": "放假",
+  "pinyin": "fàng jià",
+  "syllables": [
+   "fang",
+   "jia"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to have a holiday or vacation",
+  "radical": "攵",
+  "frequency": 6177,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "mít prázdniny"
+ },
+ {
+  "simplified": "路口",
+  "traditional": "路口",
+  "pinyin": "lù kǒu",
+  "syllables": [
+   "lu",
+   "kou"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "crossing; intersection (of roads)",
+  "radical": "足",
+  "frequency": 6184,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "křižovatka"
+ },
+ {
+  "simplified": "有名",
+  "traditional": "有名",
+  "pinyin": "yǒu míng",
+  "syllables": [
+   "you",
+   "ming"
+  ],
+  "tones": [
+   3,
+   2
+  ],
+  "meaning": "famous; well-known",
+  "radical": "月",
+  "frequency": 6219,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "slavný; známý"
+ },
+ {
+  "simplified": "中文",
+  "traditional": "中文",
+  "pinyin": "Zhōng wén",
+  "syllables": [
+   "zhong",
+   "wen"
+  ],
+  "tones": [
+   1,
+   2
+  ],
+  "meaning": "Chinese language",
+  "radical": "丨",
+  "frequency": 6459,
+  "pos": [
+   "nz"
+  ],
+  "meaning_cz": "čínský jazyk; čínština"
+ },
+ {
+  "simplified": "弟",
+  "traditional": "弟",
+  "pinyin": "dì",
+  "syllables": [
+   "di"
+  ],
+  "tones": [
+   4
+  ],
+  "meaning": "younger brother; junior male",
+  "radical": "弓",
+  "frequency": 6568,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "mladší bratr"
+ },
+ {
+  "simplified": "电视机",
+  "traditional": "電視機",
+  "pinyin": "diàn shì jī",
+  "syllables": [
+   "dian",
+   "shi",
+   "ji"
+  ],
+  "tones": [
+   4,
+   4,
+   1
+  ],
+  "meaning": "television set",
+  "radical": "曰",
+  "frequency": 6649,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "televizor"
+ },
+ {
+  "simplified": "早饭",
+  "traditional": "早飯",
+  "pinyin": "zǎo fàn",
+  "syllables": [
+   "zao",
+   "fan"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "breakfast",
+  "radical": "日",
+  "frequency": 6748,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "snídaně"
+ },
+ {
+  "simplified": "一点儿",
+  "traditional": "一點兒",
+  "pinyin": "yī diǎn r",
+  "syllables": [
+   "yi",
+   "dian",
+   "r"
+  ],
+  "tones": [
+   1,
+   3,
+   5
+  ],
+  "meaning": "erhua variant of 一点; a bit; a little bit",
+  "radical": "一",
+  "frequency": 6921,
+  "pos": [
+   "mq"
+  ],
+  "meaning_cz": "trochu; trošku"
+ },
+ {
+  "simplified": "书店",
+  "traditional": "書店",
+  "pinyin": "shū diàn",
+  "syllables": [
+   "shu",
+   "dian"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "bookstore",
+  "radical": "丨",
+  "frequency": 7174,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "knihkupectví"
+ },
+ {
+  "simplified": "放学",
+  "traditional": "放學",
+  "pinyin": "fàng xué",
+  "syllables": [
+   "fang",
+   "xue"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "to dismiss students at the end of the school day",
+  "radical": "攵",
+  "frequency": 7209,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "konec vyučování"
+ },
+ {
+  "simplified": "关上",
+  "traditional": "關上",
+  "pinyin": "guān shàng",
+  "syllables": [
+   "guan",
+   "shang"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "to close (a door); to turn off (light, electrical equipment etc)",
+  "radical": "丷",
+  "frequency": 7234,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "zavřít (dveře); vypnout"
+ },
+ {
+  "simplified": "玩儿",
+  "traditional": "玩兒",
+  "pinyin": "wán r",
+  "syllables": [
+   "wan",
+   "r"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "to play; to have fun",
+  "radical": "王",
+  "frequency": 7297,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "hrát si; bavit se"
+ },
+ {
+  "simplified": "半天",
+  "traditional": "半天",
+  "pinyin": "bàn tiān",
+  "syllables": [
+   "ban",
+   "tian"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "half of the day; a long time",
+  "radical": "十",
+  "frequency": 7467,
+  "pos": [
+   "mq",
+   "t"
+  ],
+  "meaning_cz": "půl dne; dlouho"
+ },
+ {
+  "simplified": "星期天",
+  "traditional": "星期天",
+  "pinyin": "Xīng qī tiān",
+  "syllables": [
+   "xing",
+   "qi",
+   "tian"
+  ],
+  "tones": [
+   1,
+   1,
+   1
+  ],
+  "meaning": "Sunday",
+  "radical": "日",
+  "frequency": 7577,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "neděle"
+ },
+ {
+  "simplified": "车票",
+  "traditional": "車票",
+  "pinyin": "chē piào",
+  "syllables": [
+   "che",
+   "piao"
+  ],
+  "tones": [
+   1,
+   4
+  ],
+  "meaning": "ticket (for a bus or train)",
+  "radical": "车",
+  "frequency": 7701,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "jízdenka"
+ },
+ {
+  "simplified": "看病",
+  "traditional": "看病",
+  "pinyin": "kàn bìng",
+  "syllables": [
+   "kan",
+   "bing"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to visit a doctor; to see a patient",
+  "radical": "目",
+  "frequency": 7705,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "jít k lékaři"
+ },
+ {
+  "simplified": "电影院",
+  "traditional": "電影院",
+  "pinyin": "diàn yǐng yuàn",
+  "syllables": [
+   "dian",
+   "ying",
+   "yuan"
+  ],
+  "tones": [
+   4,
+   3,
+   4
+  ],
+  "meaning": "cinema; movie theater",
+  "radical": "曰",
+  "frequency": 7945,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "kino"
+ },
+ {
+  "simplified": "前天",
+  "traditional": "前天",
+  "pinyin": "qián tiān",
+  "syllables": [
+   "qian",
+   "tian"
+  ],
+  "tones": [
+   2,
+   1
+  ],
+  "meaning": "the day before yesterday",
+  "radical": "刂",
+  "frequency": 8117,
+  "pos": [
+   "t",
+   "n"
+  ],
+  "meaning_cz": "předevčírem"
+ },
+ {
+  "simplified": "后天",
+  "traditional": "後天",
+  "pinyin": "hòu tiān",
+  "syllables": [
+   "hou",
+   "tian"
+  ],
+  "tones": [
+   4,
+   1
+  ],
+  "meaning": "the day after tomorrow; life after birth (the period in which one develops through experiences, contrasted with 天)",
+  "radical": "口",
+  "frequency": 9407,
+  "pos": [
+   "n",
+   "t"
+  ],
+  "meaning_cz": "pozítří"
+ },
+ {
+  "simplified": "渴",
+  "traditional": "渴",
+  "pinyin": "kě",
+  "syllables": [
+   "ke"
+  ],
+  "tones": [
+   3
+  ],
+  "meaning": "thirsty",
+  "radical": "氵",
+  "frequency": 9442,
+  "pos": [
+   "a",
+   "v"
+  ],
+  "meaning_cz": "žíznivý"
+ },
+ {
+  "simplified": "洗手间",
+  "traditional": "洗手間",
+  "pinyin": "xǐ shǒu jiān",
+  "syllables": [
+   "xi",
+   "shou",
+   "jian"
+  ],
+  "tones": [
+   3,
+   3,
+   1
+  ],
+  "meaning": "toilet; lavatory",
+  "radical": "氵",
+  "frequency": 9674,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "toaleta; WC"
+ },
+ {
+  "simplified": "下课",
+  "traditional": "下課",
+  "pinyin": "xià kè",
+  "syllables": [
+   "xia",
+   "ke"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "to finish class; to get out of class",
+  "radical": "一",
+  "frequency": 9694,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "konec hodiny (škola)"
+ },
+ {
+  "simplified": "请假",
+  "traditional": "請假",
+  "pinyin": "qǐng jià",
+  "syllables": [
+   "qing",
+   "jia"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "to request leave of absence",
+  "radical": "讠",
+  "frequency": 10134,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "žádat o volno"
+ },
+ {
+  "simplified": "米饭",
+  "traditional": "米飯",
+  "pinyin": "mǐ fàn",
+  "syllables": [
+   "mi",
+   "fan"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "(cooked) rice",
+  "radical": "米",
+  "frequency": 10194,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "vařená rýže"
+ },
+ {
+  "simplified": "里边",
+  "traditional": "裡邊",
+  "pinyin": "lǐ bian",
+  "syllables": [
+   "li",
+   "bian"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "inside",
+  "radical": "里",
+  "frequency": 10810,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "uvnitř"
+ },
+ {
+  "simplified": "外语",
+  "traditional": "外語",
+  "pinyin": "wài yǔ",
+  "syllables": [
+   "wai",
+   "yu"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "foreign language",
+  "radical": "夕",
+  "frequency": 11159,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "cizí jazyk"
+ },
+ {
+  "simplified": "没事儿",
+  "traditional": "沒事兒",
+  "pinyin": "méi shì r",
+  "syllables": [
+   "mei",
+   "shi",
+   "r"
+  ],
+  "tones": [
+   2,
+   4,
+   5
+  ],
+  "meaning": "to have spare time; free from work",
+  "radical": "氵",
+  "frequency": 11421,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "mít volno; být volný"
+ },
+ {
+  "simplified": "一块儿",
+  "traditional": "一塊兒",
+  "pinyin": "yī kuài r",
+  "syllables": [
+   "yi",
+   "kuai",
+   "r"
+  ],
+  "tones": [
+   1,
+   4,
+   5
+  ],
+  "meaning": "erhua variant of 一块; a piece; a chunk",
+  "radical": "一",
+  "frequency": 11449,
+  "pos": [
+   "d",
+   "s"
+  ],
+  "meaning_cz": "spolu; společně"
+ },
+ {
+  "simplified": "书包",
+  "traditional": "書包",
+  "pinyin": "shū bāo",
+  "syllables": [
+   "shu",
+   "bao"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "schoolbag; satchel",
+  "radical": "丨",
+  "frequency": 11861,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "školní taška"
+ },
+ {
+  "simplified": "小学生",
+  "traditional": "小學生",
+  "pinyin": "xiǎo xué shēng",
+  "syllables": [
+   "xiao",
+   "xue",
+   "sheng"
+  ],
+  "tones": [
+   3,
+   2,
+   1
+  ],
+  "meaning": "primary school student; schoolchild",
+  "radical": "小",
+  "frequency": 12165,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "žák základní školy"
+ },
+ {
+  "simplified": "外边",
+  "traditional": "外邊",
+  "pinyin": "wài bian",
+  "syllables": [
+   "wai",
+   "bian"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "outside; outer surface",
+  "radical": "夕",
+  "frequency": 12319,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "venku; vnější strana"
+ },
+ {
+  "simplified": "中学生",
+  "traditional": "中學生",
+  "pinyin": "zhōng xué shēng",
+  "syllables": [
+   "zhong",
+   "xue",
+   "sheng"
+  ],
+  "tones": [
+   1,
+   2,
+   1
+  ],
+  "meaning": "middle-school student; high school student",
+  "radical": "丨",
+  "frequency": 12707,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "student střední školy"
+ },
+ {
+  "simplified": "本子",
+  "traditional": "本子",
+  "pinyin": "běn zi",
+  "syllables": [
+   "ben",
+   "zi"
+  ],
+  "tones": [
+   3,
+   5
+  ],
+  "meaning": "book; notebook",
+  "radical": "木",
+  "frequency": 12849,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "sešit; poznámkový blok"
+ },
+ {
+  "simplified": "星期日",
+  "traditional": "星期日",
+  "pinyin": "Xīng qī rì",
+  "syllables": [
+   "xing",
+   "qi",
+   "ri"
+  ],
+  "tones": [
+   1,
+   1,
+   4
+  ],
+  "meaning": "Sunday",
+  "radical": "日",
+  "frequency": 12997,
+  "pos": [
+   "t"
+  ],
+  "meaning_cz": "neděle"
+ },
+ {
+  "simplified": "课本",
+  "traditional": "課本",
+  "pinyin": "kè běn",
+  "syllables": [
+   "ke",
+   "ben"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "textbook",
+  "radical": "讠",
+  "frequency": 13062,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "učebnice"
+ },
+ {
+  "simplified": "汉语",
+  "traditional": "漢語",
+  "pinyin": "Hàn yǔ",
+  "syllables": [
+   "han",
+   "yu"
+  ],
+  "tones": [
+   4,
+   3
+  ],
+  "meaning": "Chinese language",
+  "radical": "氵",
+  "frequency": 13422,
+  "pos": [
+   "nz"
+  ],
+  "meaning_cz": "čínština (jazyk)"
+ },
+ {
+  "simplified": "后边",
+  "traditional": "後邊",
+  "pinyin": "hòu bian",
+  "syllables": [
+   "hou",
+   "bian"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "the back; the rear; the last bit; behind; near the end; at the back",
+  "radical": "口",
+  "frequency": 14477,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "vzadu; zadní strana"
+ },
+ {
+  "simplified": "西边",
+  "traditional": "西邊",
+  "pinyin": "xī biān",
+  "syllables": [
+   "xi",
+   "bian"
+  ],
+  "tones": [
+   1,
+   1
+  ],
+  "meaning": "west; west side",
+  "radical": "西",
+  "frequency": 14628,
+  "pos": [
+   "f",
+   "nr"
+  ],
+  "meaning_cz": "západ; západní strana"
+ },
+ {
+  "simplified": "上边",
+  "traditional": "上邊",
+  "pinyin": "shàng bian",
+  "syllables": [
+   "shang",
+   "bian"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "the top; above",
+  "radical": "一",
+  "frequency": 14760,
+  "pos": [
+   "f",
+   "n"
+  ],
+  "meaning_cz": "nahoře; horní strana"
+ },
+ {
+  "simplified": "打车",
+  "traditional": "打車",
+  "pinyin": "dǎ chē",
+  "syllables": [
+   "da",
+   "che"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "to take a taxi (in town); to hitch a lift",
+  "radical": "扌",
+  "frequency": 15698,
+  "pos": [
+   "v"
+  ],
+  "meaning_cz": "vzít si taxík"
+ },
+ {
+  "simplified": "东边",
+  "traditional": "東邊",
+  "pinyin": "dōng bian",
+  "syllables": [
+   "dong",
+   "bian"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "east; east side",
+  "radical": "一",
+  "frequency": 16314,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "východ; východní strana"
+ },
+ {
+  "simplified": "包子",
+  "traditional": "包子",
+  "pinyin": "bāo zi",
+  "syllables": [
+   "bao",
+   "zi"
+  ],
+  "tones": [
+   1,
+   5
+  ],
+  "meaning": "bao (steamed stuffed bun)",
+  "radical": "勹",
+  "frequency": 16315,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "bao (plněný knedlík)"
+ },
+ {
+  "simplified": "不客气",
+  "traditional": "不客氣",
+  "pinyin": "bù kè qi",
+  "syllables": [
+   "bu",
+   "ke",
+   "qi"
+  ],
+  "tones": [
+   4,
+   4,
+   5
+  ],
+  "meaning": "you're welcome; don't mention it",
+  "radical": "一",
+  "frequency": 16723,
+  "pos": [],
+  "meaning_cz": "není zač; prosím"
+ },
+ {
+  "simplified": "南边",
+  "traditional": "南邊",
+  "pinyin": "nán bian",
+  "syllables": [
+   "nan",
+   "bian"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "south; south side",
+  "radical": "十",
+  "frequency": 17587,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "jih; jižní strana"
+ },
+ {
+  "simplified": "北边",
+  "traditional": "北邊",
+  "pinyin": "běi biān",
+  "syllables": [
+   "bei",
+   "bian"
+  ],
+  "tones": [
+   3,
+   1
+  ],
+  "meaning": "north; north side",
+  "radical": "匕",
+  "frequency": 17637,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "sever; severní strana"
+ },
+ {
+  "simplified": "女孩儿",
+  "traditional": "女孩兒",
+  "pinyin": "nǚ hái r",
+  "syllables": [
+   "nü",
+   "hai",
+   "r"
+  ],
+  "tones": [
+   3,
+   2,
+   5
+  ],
+  "meaning": "erhua variant of 女孩; girl",
+  "radical": "女",
+  "frequency": 18271,
+  "pos": [],
+  "meaning_cz": "dívka; holčička"
+ },
+ {
+  "simplified": "下边",
+  "traditional": "下邊",
+  "pinyin": "xià bian",
+  "syllables": [
+   "xia",
+   "bian"
+  ],
+  "tones": [
+   4,
+   5
+  ],
+  "meaning": "under; the underside",
+  "radical": "一",
+  "frequency": 19063,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "pod; spodní strana"
+ },
+ {
+  "simplified": "汉字",
+  "traditional": "漢字",
+  "pinyin": "hàn zì",
+  "syllables": [
+   "han",
+   "zi"
+  ],
+  "tones": [
+   4,
+   4
+  ],
+  "meaning": "Chinese character; Japanese: kanji",
+  "radical": "氵",
+  "frequency": 19725,
+  "pos": [
+   "nz",
+   "n"
+  ],
+  "meaning_cz": "čínský znak"
+ },
+ {
+  "simplified": "请进",
+  "traditional": "請進",
+  "pinyin": "qǐng jìn",
+  "syllables": [
+   "qing",
+   "jin"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "\"please come in\"",
+  "radical": "讠",
+  "frequency": 21213,
+  "pos": [],
+  "meaning_cz": "prosím, pojďte dál"
+ },
+ {
+  "simplified": "好玩儿",
+  "traditional": "好玩兒",
+  "pinyin": "hǎo wán r",
+  "syllables": [
+   "hao",
+   "wan",
+   "r"
+  ],
+  "tones": [
+   3,
+   2,
+   5
+  ],
+  "meaning": "erhua variant of 好玩; amusing",
+  "radical": "女",
+  "frequency": 23411,
+  "pos": [
+   "a"
+  ],
+  "meaning_cz": "zábavný; legrační"
+ },
+ {
+  "simplified": "前边",
+  "traditional": "前邊",
+  "pinyin": "qián bian",
+  "syllables": [
+   "qian",
+   "bian"
+  ],
+  "tones": [
+   2,
+   5
+  ],
+  "meaning": "front; the front side",
+  "radical": "刂",
+  "frequency": 25408,
+  "pos": [
+   "f"
+  ],
+  "meaning_cz": "přední; čelo"
+ },
+ {
+  "simplified": "小孩儿",
+  "traditional": "小孩兒",
+  "pinyin": "xiǎo hái r",
+  "syllables": [
+   "xiao",
+   "hai",
+   "r"
+  ],
+  "tones": [
+   3,
+   2,
+   5
+  ],
+  "meaning": "erhua variant of 小孩; child",
+  "radical": "小",
+  "frequency": 25607,
+  "pos": [],
+  "meaning_cz": "dítě; děcko"
+ },
+ {
+  "simplified": "教学楼",
+  "traditional": "教學樓",
+  "pinyin": "jiào xué lóu",
+  "syllables": [
+   "jiao",
+   "xue",
+   "lou"
+  ],
+  "tones": [
+   4,
+   2,
+   2
+  ],
+  "meaning": "teaching block; school building",
+  "radical": "攵",
+  "frequency": 29517,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "budova školy"
+ },
+ {
+  "simplified": "网友",
+  "traditional": "網友",
+  "pinyin": "wǎng yǒu",
+  "syllables": [
+   "wang",
+   "you"
+  ],
+  "tones": [
+   3,
+   3
+  ],
+  "meaning": "online friend; Internet user",
+  "radical": "网",
+  "frequency": 29751,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "internetový přítel"
+ },
+ {
+  "simplified": "课文",
+  "traditional": "課文",
+  "pinyin": "kè wén",
+  "syllables": [
+   "ke",
+   "wen"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "text",
+  "radical": "讠",
+  "frequency": 30576,
+  "pos": [
+   "n"
+  ],
+  "meaning_cz": "text; čítanka"
+ },
+ {
+  "simplified": "请坐",
+  "traditional": "請坐",
+  "pinyin": "qǐng zuò",
+  "syllables": [
+   "qing",
+   "zuo"
+  ],
+  "tones": [
+   3,
+   4
+  ],
+  "meaning": "please, have a seat",
+  "radical": "讠",
+  "frequency": 37277,
+  "pos": [],
+  "meaning_cz": "prosím, sedněte si"
+ },
+ {
+  "simplified": "半年",
+  "traditional": "半年",
+  "pinyin": "bàn nián",
+  "syllables": [
+   "ban",
+   "nian"
+  ],
+  "tones": [
+   4,
+   2
+  ],
+  "meaning": "half a year",
+  "radical": "十",
+  "frequency": 37795,
+  "pos": [
+   "nr"
+  ],
+  "meaning_cz": "půl roku"
+ },
+ {
+  "simplified": "听写",
+  "traditional": "聽寫",
+  "pinyin": "tīng xiě",
+  "syllables": [
+   "ting",
+   "xie"
+  ],
+  "tones": [
+   1,
+   3
+  ],
+  "meaning": "(of a pupil) to write down (in a dictation exercise); dictation",
+  "radical": "口",
+  "frequency": 44026,
+  "pos": [
+   "v",
+   "vn"
+  ],
+  "meaning_cz": "diktát (psaní podle sluchu)"
+ },
+ {
+  "simplified": "面条儿",
+  "traditional": "麵條兒",
+  "pinyin": "miàn tiáo r",
+  "syllables": [
+   "mian",
+   "tiao",
+   "r"
+  ],
+  "tones": [
+   4,
+   2,
+   5
+  ],
+  "meaning": "erhua variant of 面条; noodles",
+  "radical": "面",
+  "frequency": 1000000,
+  "pos": [],
+  "meaning_cz": "nudle"
+ },
+ {
+  "simplified": "男孩儿",
+  "traditional": "男孩兒",
+  "pinyin": "nán hái r",
+  "syllables": [
+   "nan",
+   "hai",
+   "r"
+  ],
+  "tones": [
+   2,
+   2,
+   5
+  ],
+  "meaning": "erhua variant of 男孩; boy",
+  "radical": "田",
+  "frequency": 1000000,
+  "pos": [],
+  "meaning_cz": "chlapec; kluk"
+ },
+ {
+  "simplified": "一下儿",
+  "traditional": "一下兒",
+  "pinyin": "yī xià r",
+  "syllables": [
+   "yi",
+   "xia",
+   "r"
+  ],
+  "tones": [
+   1,
+   4,
+   5
+  ],
+  "meaning": "erhua variant of 一下; one time; once",
+  "radical": "一",
+  "frequency": 1000000,
+  "pos": [],
+  "meaning_cz": "jednou; na chvíli"
+ },
+ {
+  "simplified": "有一些",
+  "traditional": "有一些",
+  "pinyin": "yǒu yī xiē",
+  "syllables": [
+   "you",
+   "yi",
+   "xie"
+  ],
+  "tones": [
+   3,
+   1,
+   1
+  ],
+  "meaning": "somewhat; rather",
+  "radical": "月",
+  "frequency": 1000000,
+  "pos": [],
+  "meaning_cz": "něco; trochu"
+ }
+]

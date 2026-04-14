@@ -12,8 +12,10 @@ worksheets/
 calendar.json
 progress.json
 
-# Runtime data dir (volume-mounted in production)
-data/
+# Runtime data dir (volume-mounted in production) — Flask app only
+/data/
+
+# hsk1-toolkit static data is committed (it's app code, not runtime data)
 
 generator_page.html
 explore_site.py
