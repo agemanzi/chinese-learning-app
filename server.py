@@ -7,9 +7,10 @@ import json
 import os
 import uuid
 from datetime import date, datetime, timedelta
+from functools import wraps
 from pathlib import Path
 
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory, session, redirect, url_for
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -18,6 +19,47 @@ PROGRESS_PATH = DATA_DIR / "progress.json"
 APP_DIR = BASE_DIR / "app"
 
 app = Flask(__name__, static_folder=str(APP_DIR))
+app.secret_key = os.environ.get("SECRET_KEY", "dev-secret-change-me")
+
+APP_PASSWORD = os.environ.get("APP_PASSWORD", "")
+
+
+def login_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        if APP_PASSWORD and not session.get("auth"):
+            if request.path.startswith("/api/"):
+                return jsonify({"error": "unauthorized"}), 401
+            return redirect("/login")
+        return f(*args, **kwargs)
+    return decorated
+
+
+LOGIN_HTML = """<!doctype html>
+<html><head><title>Login</title><style>
+body{font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f5f5f5}
+form{background:#fff;padding:2rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);display:flex;flex-direction:column;gap:1rem;min-width:260px}
+h2{margin:0;font-size:1.2rem}
+input{padding:.6rem;border:1px solid #ddd;border-radius:4px;font-size:1rem}
+button{padding:.6rem;background:#c0392b;color:#fff;border:none;border-radius:4px;font-size:1rem;cursor:pointer}
+.err{color:#c0392b;font-size:.9rem}
+</style></head><body>
+<form method="post">
+  <h2>🀄 Chinese App</h2>
+  {error}
+  <input type="password" name="password" placeholder="Password" autofocus>
+  <button type="submit">Enter</button>
+</form></body></html>"""
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        if request.form.get("password") == APP_PASSWORD:
+            session["auth"] = True
+            return redirect("/")
+        return LOGIN_HTML.format(error='<p class="err">Wrong password</p>'), 401
+    return LOGIN_HTML.format(error="")
 
 
 # ---- DB helpers ----
@@ -62,11 +104,13 @@ def default_progress():
 # ---- Static files ----
 
 @app.route("/")
+@login_required
 def index():
     return send_from_directory(str(APP_DIR), "index.html")
 
 
 @app.route("/<path:path>")
+@login_required
 def static_files(path):
     return send_from_directory(str(APP_DIR), path)
 
@@ -75,11 +119,13 @@ WORKSHEETS_DIR = BASE_DIR / "worksheets"
 
 
 @app.route("/worksheets/<path:filename>")
+@login_required
 def serve_worksheet(filename):
     return send_from_directory(str(WORKSHEETS_DIR), filename)
 
 
 @app.route("/api/worksheets")
+@login_required
 def list_worksheets():
     """List available worksheet PDFs with metadata."""
     if not WORKSHEETS_DIR.exists():
@@ -102,6 +148,7 @@ AUDIO_DIR = APP_DIR / "audio"
 
 
 @app.route("/api/audio-stats")
+@login_required
 def audio_stats():
     """Live stats about downloaded tone audio files."""
     tone_map_path = AUDIO_DIR / "tone_map.json"
@@ -143,6 +190,7 @@ def audio_stats():
 # ---- API: Full DB (read-only reference data) ----
 
 @app.route("/api/db")
+@login_required
 def get_db():
     return jsonify(read_db())
 
@@ -150,12 +198,14 @@ def get_db():
 # ---- API: Vocabulary CRUD ----
 
 @app.route("/api/vocabulary")
+@login_required
 def get_vocabulary():
     db = read_db()
     return jsonify(db["vocabulary"])
 
 
 @app.route("/api/vocabulary", methods=["POST"])
+@login_required
 def add_vocabulary():
     db = read_db()
     entry = request.json
@@ -168,6 +218,7 @@ def add_vocabulary():
 
 
 @app.route("/api/vocabulary/<vid>", methods=["PUT"])
+@login_required
 def update_vocabulary(vid):
     db = read_db()
     for i, v in enumerate(db["vocabulary"]):
@@ -180,6 +231,7 @@ def update_vocabulary(vid):
 
 
 @app.route("/api/vocabulary/<vid>", methods=["DELETE"])
+@login_required
 def delete_vocabulary(vid):
     db = read_db()
     db["vocabulary"] = [v for v in db["vocabulary"] if v["id"] != vid]
@@ -190,11 +242,13 @@ def delete_vocabulary(vid):
 # ---- API: Progress ----
 
 @app.route("/api/progress")
+@login_required
 def get_progress():
     return jsonify(read_progress())
 
 
 @app.route("/api/progress", methods=["PUT"])
+@login_required
 def update_progress():
     write_progress(request.json)
     return jsonify({"ok": True})
@@ -269,6 +323,7 @@ def expand_recurring(events, range_start: str, range_end: str):
 
 
 @app.route("/api/calendar")
+@login_required
 def get_calendar():
     """Return calendar events. Use ?from=YYYY-MM-DD&to=YYYY-MM-DD to expand recurring."""
     events = read_calendar()
@@ -280,12 +335,14 @@ def get_calendar():
 
 
 @app.route("/api/calendar/raw")
+@login_required
 def get_calendar_raw():
     """Return raw stored events (including recurrence rules) without expansion."""
     return jsonify(read_calendar())
 
 
 @app.route("/api/calendar", methods=["POST"])
+@login_required
 def add_calendar_event():
     events = read_calendar()
     event = request.json
@@ -296,6 +353,7 @@ def add_calendar_event():
 
 
 @app.route("/api/calendar/<eid>", methods=["PUT"])
+@login_required
 def update_calendar_event(eid):
     events = read_calendar()
     for i, ev in enumerate(events):
@@ -308,6 +366,7 @@ def update_calendar_event(eid):
 
 
 @app.route("/api/calendar/<eid>", methods=["DELETE"])
+@login_required
 def delete_calendar_event(eid):
     events = read_calendar()
     events = [ev for ev in events if ev["id"] != eid]
@@ -318,6 +377,7 @@ def delete_calendar_event(eid):
 # ---- API: Worksheet characters (for generate_worksheets.py) ----
 
 @app.route("/api/characters")
+@login_required
 def get_characters():
     """Return unique Chinese characters grouped by category, for worksheet generation."""
     db = read_db()
