@@ -1,11 +1,8 @@
 #!/bin/sh
-# Generate htpasswd from APP_PASSWORD env var
+# Inject SHA-256 hash of APP_PASSWORD into index.html
 if [ -n "$APP_PASSWORD" ]; then
-    htpasswd -bc /etc/nginx/.htpasswd "${APP_USER:-user}" "$APP_PASSWORD"
-else
-    # No password set — create dummy file so nginx starts
-    echo "" > /etc/nginx/.htpasswd
-    sed -i '/auth_basic/d' /etc/nginx/conf.d/default.conf
+    PASS_HASH=$(echo -n "$APP_PASSWORD" | sha256sum | cut -d' ' -f1)
+    sed -i "s|__PASS_HASH__|$PASS_HASH|g" /usr/share/nginx/html/index.html
 fi
 
 # Ensure syllable audio dir exists (volume mount target)

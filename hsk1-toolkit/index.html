@@ -16,7 +16,17 @@
 </head>
 <body>
 
-<main id="app"></main>
+<div id="auth-gate" style="display:none;position:fixed;inset:0;background:#faf9f7;z-index:9999;display:flex;align-items:center;justify-content:center">
+  <form id="auth-form" style="display:flex;flex-direction:column;gap:1rem;width:260px">
+    <div style="font-size:1.4rem;font-weight:600;text-align:center">HSK 1 Toolkit</div>
+    <input id="auth-input" type="password" placeholder="Password" autofocus
+      style="padding:.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;outline:none">
+    <button type="submit"
+      style="padding:.7rem;background:#D85A30;color:#fff;border:none;border-radius:8px;font-size:1rem;cursor:pointer;font-weight:500">Enter</button>
+    <div id="auth-error" style="color:#c0392b;font-size:.85rem;text-align:center;display:none">Wrong password</div>
+  </form>
+</div>
+<main id="app" style="display:none"></main>
 
 <nav id="tabs">
   <button class="tab active" data-tab="tools">Tools</button>
@@ -48,6 +58,53 @@
 <script src="js/drills/dictation.js"></script>
 <script src="js/app.js"></script>
 <script>
+  // Auth gate — password hash injected by entrypoint.sh
+  const AUTH_HASH = '__PASS_HASH__';
+
+  async function sha256(str) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  (async () => {
+    const gate = document.getElementById('auth-gate');
+    const appEl = document.getElementById('app');
+    const tabs = document.getElementById('tabs');
+
+    // If no password configured, show app directly
+    if (!AUTH_HASH || AUTH_HASH === '__PASS_HASH__') {
+      gate.style.display = 'none';
+      appEl.style.display = '';
+      return;
+    }
+
+    const stored = sessionStorage.getItem('auth');
+    if (stored === AUTH_HASH) {
+      gate.style.display = 'none';
+      appEl.style.display = '';
+      return;
+    }
+
+    // Show gate, hide app
+    gate.style.display = 'flex';
+    appEl.style.display = 'none';
+    if (tabs) tabs.style.display = 'none';
+
+    document.getElementById('auth-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      const hash = await sha256(document.getElementById('auth-input').value);
+      if (hash === AUTH_HASH) {
+        sessionStorage.setItem('auth', AUTH_HASH);
+        gate.style.display = 'none';
+        appEl.style.display = '';
+        if (tabs) tabs.style.display = '';
+      } else {
+        document.getElementById('auth-error').style.display = 'block';
+        document.getElementById('auth-input').value = '';
+      }
+    });
+  })();
+
   // Register Service Worker for offline support
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
