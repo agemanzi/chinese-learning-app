@@ -37,15 +37,15 @@ def login_required(f):
 
 LOGIN_HTML = """<!doctype html>
 <html><head><title>Login</title><style>
-body{font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f5f5f5}
-form{background:#fff;padding:2rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);display:flex;flex-direction:column;gap:1rem;min-width:260px}
-h2{margin:0;font-size:1.2rem}
-input{padding:.6rem;border:1px solid #ddd;border-radius:4px;font-size:1rem}
-button{padding:.6rem;background:#c0392b;color:#fff;border:none;border-radius:4px;font-size:1rem;cursor:pointer}
-.err{color:#c0392b;font-size:.9rem}
+body{{font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f5f5f5}}
+form{{background:#fff;padding:2rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.1);display:flex;flex-direction:column;gap:1rem;min-width:260px}}
+h2{{margin:0;font-size:1.2rem}}
+input{{padding:.6rem;border:1px solid #ddd;border-radius:4px;font-size:1rem}}
+button{{padding:.6rem;background:#c0392b;color:#fff;border:none;border-radius:4px;font-size:1rem;cursor:pointer}}
+.err{{color:#c0392b;font-size:.9rem}}
 </style></head><body>
 <form method="post">
-  <h2>🀄 Chinese App</h2>
+  <h2>Chinese App</h2>
   {error}
   <input type="password" name="password" placeholder="Password" autofocus>
   <button type="submit">Enter</button>
