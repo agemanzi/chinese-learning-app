@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+resources/
+hsk1-toolkit/
+data/
+data_seed/
+*.pptx
+app/audio/
+app/coverage.html
+download_tones.py
+generate_worksheets.py
+convert_pptx_to_md.py

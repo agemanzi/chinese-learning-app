@@ -12,6 +12,9 @@ worksheets/
 calendar.json
 progress.json
 
+# Runtime data dir (volume-mounted in production)
+data/
+
 generator_page.html
 explore_site.py
 .claude/settings.local.json

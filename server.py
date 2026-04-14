@@ -12,8 +12,9 @@ from pathlib import Path
 from flask import Flask, jsonify, request, send_from_directory
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "db.json"
-PROGRESS_PATH = BASE_DIR / "progress.json"
+DATA_DIR = BASE_DIR / "data"
+DB_PATH = DATA_DIR / "db.json"
+PROGRESS_PATH = DATA_DIR / "progress.json"
 APP_DIR = BASE_DIR / "app"
 
 app = Flask(__name__, static_folder=str(APP_DIR))
@@ -95,6 +96,50 @@ def list_worksheets():
     return jsonify(files)
 
 
+# ---- API: Audio coverage stats ----
+
+AUDIO_DIR = APP_DIR / "audio"
+
+
+@app.route("/api/audio-stats")
+def audio_stats():
+    """Live stats about downloaded tone audio files."""
+    tone_map_path = AUDIO_DIR / "tone_map.json"
+    if not tone_map_path.exists():
+        return jsonify({"total_files": 0, "speakers": {}, "syllables": 0, "combos": 0, "disk_mb": 0})
+
+    with open(tone_map_path, encoding="utf-8") as f:
+        tm = json.load(f)
+
+    # Count per speaker
+    speakers = {}
+    unique_combos = set()
+    syllables = set()
+    for key, val in tm.items():
+        tag = val.get("tag", "f1")
+        speakers[tag] = speakers.get(tag, 0) + 1
+        base = key.rsplit("_", 1)[0] if len(key.split("_")) > 2 and key[-2] in "fm" else key
+        # Normalize to syl_tone
+        parts = key.split("_")
+        if len(parts) >= 2:
+            syl_tone = f"{parts[0]}_{parts[1]}"
+            unique_combos.add(syl_tone)
+            syllables.add(parts[0])
+
+    # Disk size
+    disk_bytes = sum(f.stat().st_size for f in AUDIO_DIR.glob("*.mp3")) if AUDIO_DIR.exists() else 0
+
+    return jsonify({
+        "total_files": len(tm),
+        "speakers": speakers,
+        "syllables": len(syllables),
+        "unique_combos": len(unique_combos),
+        "disk_mb": round(disk_bytes / 1024 / 1024, 1),
+        "source": "MSU Tone Perfect (tone.lib.msu.edu)",
+        "theoretical": {"syllables": 410, "combos": 1640, "total": 9840},
+    })
+
+
 # ---- API: Full DB (read-only reference data) ----
 
 @app.route("/api/db")
@@ -157,7 +202,7 @@ def update_progress():
 
 # ---- API: Calendar Events ----
 
-CALENDAR_PATH = BASE_DIR / "calendar.json"
+CALENDAR_PATH = DATA_DIR / "calendar.json"
 
 
 def read_calendar():
