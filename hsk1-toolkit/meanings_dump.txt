@@ -1,0 +1,506 @@
+0|的|of; ~'s (possessive particle); (used after an attribute)
+1|了|(completed action marker); (modal particle indicating change of state, situation now)
+2|我|I; me; my
+3|是|to be (followed by substantives only); correct; right; true
+4|你|you (informal, as opposed to courteous 您)
+5|在|to exist; to be alive; (of sb or sth) to be (located) at
+6|不|no; not so; (bound form) not; un-
+7|有|to have; there is; (bound form) having; with; -ful; -ed; -al (as in 意 intentional)
+8|他|he; him (used for either sex when the sex is unknown or unimportant); (used before sb's name for emphasis)
+9|这|(pronoun) this; these; (bound form) this; the (followed by a noun)
+10|就|(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after
+11|个|used in 自个儿
+12|和|old variant of 和
+13|人|person; people
+14|说|to persuade
+15|我们|we; us
+16|要|(bound form) to demand; to coerce
+17|好|good; appropriate; proper
+18|一|one; single
+19|会|can; to have the skill; to know how to; to be likely to; to be sure to
+20|也|surname Ye
+21|都|surname Du
+22|对|right; correct; towards; at; for
+23|到|to reach; to arrive; to leave for; to go to
+24|上|used in 上声
+25|来|to come; (used as a substitute for a more specific verb)
+26|很|(adverb of degree); quite
+27|还|surname Huan
+28|去|to go; to go to (a place)
+29|她|she
+30|着|(chess) move; trick
+31|想|to think (about); to think of; to devise
+32|给|to; for
+33|没有|haven't; hasn't
+34|能|surname Neng
+35|那|surname Na
+36|他们|they
+37|看|to look after; to take care of
+38|做|to make; to produce; to write; to compose
+39|什么|what?; something
+40|吧|bar (loanword) (serving drinks, or providing Internet access etc); to puff (on a pipe etc)
+41|点|point; dot
+42|过|surname Guo
+43|没|(negative prefix for verbs) have not; not
+44|大|big; large; great; older (than another person)
+45|从|variant of 从
+46|下|down; downwards
+47|中|China; Chinese
+48|里|variant of 里
+49|真|really; truly
+50|现在|now; at present
+51|年|surname Nian
+52|用|to use; to employ
+53|多|many; much; too many; in excess
+54|两|two; both
+55|等|class; rank
+56|吗|(coll.) what?
+57|天|day; sky
+58|出|to go out; to come out
+59|太|highest; greatest
+60|最|variant of 最
+61|再|again; once more; re-; second; another
+62|呢|particle indicating that a previously asked question is to be applied to the preceding word ("What about ...?", "And ...?"); particle for inquiring about location ("Where is ...?")
+63|次|next in sequence; second
+64|小|small; tiny
+65|知道|to know; to become aware of; also pr. [zhī dao]
+66|时候|time; length of time
+67|走|to walk; to go
+68|工作|to work; (of a machine) to operate
+69|事|matter; thing
+70|后|surname Hou
+71|家|used in 家伙 and 家俱
+72|你们|you (plural)
+73|前|front; forward
+74|时间|time; period
+75|怎么|how?; what?
+76|爱|to love; to be fond of; to like; affection
+77|地|-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct
+78|这些|these
+79|跟|heel; to follow closely
+80|喜欢|to like; to be fond of
+81|吃|to eat; to consume; to eat at (a cafeteria etc)
+82|谁|who; also pr. [shuí]
+83|新|abbr. for Xinjiang 疆 or Singapore 坡; surname Xin
+84|找|to try to find; to look for
+85|打|dozen (loanword)
+86|还有|furthermore; in addition
+87|快|rapid; quick
+88|比|Belgium; Belgian
+89|今天|today; at the present
+90|话|dialect; language
+91|还是|still (as before); had better
+92|觉得|to think that ...; to feel that ...; to feel (uncomfortable etc)
+93|月|moon; month
+94|看到|to see
+95|起来|to stand up; to get up
+96|一起|in the same place; together
+97|起|to rise; to raise
+98|几|small table
+99|见|to see; to meet
+100|车|surname Che
+101|一些|some; a few
+102|找到|to find
+103|手|hand; (formal) to hold
+104|听|smile (archaic)
+105|非常|very; really; unusual; extraordinary
+106|开|to open (transitive or intransitive); (of ships, vehicles, troops etc) to start
+107|叫|to shout; to call
+108|孩子|child
+109|这里|variant of 这里
+110|别|surname Bie
+111|请|to ask; to invite
+112|钱|surname Qian
+113|本|root; stem
+114|回|to circle; to go back
+115|东西|east and west
+116|三|surname San
+117|一样|same; like
+118|买|to buy; to purchase
+119|重要|important; significant
+120|问|to ask; to inquire
+121|告诉|to press charges; to file a complaint
+122|出来|to come out; to appear
+123|地方|region; regional (away from the central administration)
+124|最后|final; last
+125|老|prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people)
+126|岁|variant of 岁, year; years old
+127|行|row; line
+128|号|roar; cry
+129|放|to put; to place
+130|朋友|friend
+131|住|to live; to dwell
+132|拿|old variant of 拿
+133|高|surname Gao
+134|正|first month of the lunar year
+135|先|early; prior
+136|得到|to get; to obtain
+137|那些|those
+138|准备|preparation; to prepare
+139|水|surname Shui
+140|进|to go forward; to advance
+141|写|to write
+142|国家|country; nation; state
+143|您|you (courteous, as opposed to informal 你)
+144|电话|telephone; phone call
+145|女|female; woman
+146|送|to send; to deliver; to transmit; to give (as a present)
+147|分|to divide; to separate; to distribute; to allocate
+148|笑|old variant of 笑
+149|女人|woman
+150|小时|hour
+151|有些|some; somewhat
+152|帮|old variant of 帮
+153|日|abbr. for 本, Japan
+154|别人|other people; others; other person
+155|站|station; to stand
+156|路|surname Lu
+157|男人|a man; a male
+158|正在|just at (that time); right in (that place)
+159|门|surname Men
+160|喝|to drink; variant of 嗬
+161|穿|to wear; to put on
+162|学校|school
+163|花|surname Hua
+164|坐|surname Zuo
+165|早|early; morning
+166|们|plural marker for pronouns, and nouns referring to individuals
+167|身上|on the body; at hand
+168|干|old variant of 干
+169|认识|to know; to recognize
+170|睡|to sleep; to lie down
+171|明天|tomorrow
+172|回来|to return; to come back
+173|四|four; 4
+174|块|lump; chunk; piece; classifier for pieces of cloth, cake, soap etc
+175|外|outside; in addition
+176|晚上|evening; night
+177|妈|ma; mom
+178|球|ball; sphere
+179|谢谢|to thank; thanks
+180|学|to learn; to study
+181|多少|number; amount
+182|第二|second; number two
+183|妈妈|mama; mommy
+184|错|surname Cuo
+185|少|few; less
+186|别的|else; other
+187|难|difficult (to...); problem
+188|电影|movie; film
+189|间|between; among
+190|哪|how; which
+191|跑|(of an animal) to paw (the ground)
+192|回家|to return home
+193|昨天|yesterday
+194|晚|evening; night
+195|书|abbr. for 书经
+196|五|five; 5
+197|先生|teacher; gentleman; sir; mister (Mr.)
+198|男|male; Baron, lowest of five orders of nobility 位
+199|动|(of sth) to move; to set in movement
+200|医院|hospital
+201|重|to repeat; repetition
+202|真的|really, truly, indeed
+203|子|son; child
+204|远|far; distant
+205|口|mouth; classifier for things with mouths (people, domestic animals, cannons, wells etc)
+206|学生|student; schoolchild
+207|二|two; 2
+208|儿子|son
+209|明白|clear; obvious
+210|杯|cup; trophy cup
+211|记得|to remember
+212|歌|song; to sing
+213|半|half; semi-
+214|中国|China
+215|身体|the body; one's health
+216|元|surname Yuan; the Yuan or Mongol dynasty (1279-1368)
+217|哪里|where?; somewhere
+218|包|surname Bao
+219|楼|surname Lou
+220|那里|there; that place
+221|电视|television; TV
+222|飞|to fly
+223|介绍|to introduce (sb to sb); to give a presentation
+224|下午|afternoon; p.m.
+225|出去|to go out
+226|学习|to learn; to study
+227|老师|teacher
+228|六|six; 6
+229|唱|to sing; to call loudly
+230|大学|the Great Learning, one of the Four Books 四书 in Confucianism
+231|病|illness; disease
+232|医生|doctor
+233|名字|name (of a person or thing)
+234|她们|they; them (for females)
+235|马上|at once; right away
+236|今年|this year
+237|手机|cell phone; mobile phone
+238|忙|busy; hurriedly
+239|十|ten; 10
+240|看见|to see; to catch sight of
+241|听到|to hear
+242|女儿|daughter
+243|说话|to speak; to say
+244|汽车|car; automobile
+245|爸爸|(coll.) father; dad
+246|字|letter; symbol
+247|高兴|happy; glad
+248|白|surname Bai
+249|去年|last year
+250|热|to warm up; to heat up
+251|试|to test; to try
+252|来到|to arrive; to come
+253|睡觉|to go to bed; to sleep
+254|电脑|computer
+255|票|ticket; ballot
+256|西|the West; abbr. for Spain 牙
+257|床|bed; couch
+258|第|(prefix indicating ordinal number, as in 六 "sixth"); (literary) grades in which successful candidates in the imperial examinations were placed
+259|回到|to return to
+260|差|difference; discrepancy; (math.) difference (amount remaining after a subtraction)
+261|家里|home
+262|教|surname Jiao
+263|不用|need not
+264|读|comma; phrase marked by pause
+265|忘|to forget; to overlook
+266|认真|conscientious; earnest
+267|电|lightning; electricity
+268|房子|house; building (single- or two-story)
+269|冷|surname Leng
+270|山|surname Shan
+271|常|surname Chang
+272|飞机|airplane
+273|早上|early morning
+274|回答|to reply; to answer; reply; answer
+275|记|to record; to note
+276|关|surname Guan
+277|哥|elder brother
+278|爸|father; dad
+279|风|wind; news
+280|回去|to return; to go back
+281|累|to accumulate; to involve or implicate (Taiwan pr. [lèi])
+282|打开|to open; to show (a ticket)
+283|病人|sick person; patient
+284|肉|meat; flesh
+285|打电话|to make a telephone call
+286|休息|rest; to rest
+287|班|surname Ban
+288|坏|bad; spoiled
+289|一边|one side; either side
+290|洗|to wash; to bathe; to develop (photographs)
+291|有的|(there are) some (who are...); some (exist)
+292|毛|surname Mao
+293|忘记|to forget
+294|房间|room
+295|八|eight; 8
+296|左|surname Zuo
+297|吃饭|to have a meal; to eat
+298|动作|movement; motion; action; to act; to move
+299|七|seven; 7
+300|菜|dish (type of food); vegetable
+301|衣服|clothes
+302|饿|to be hungry; hungry
+303|树|tree; to cultivate
+304|右|(bound form) right; right-hand side; (bound form) (politics) right of center
+305|上班|to go to work; to be on duty
+306|生日|birthday
+307|东|surname Dong
+308|姐姐|older sister
+309|课|subject; course
+310|国|surname Guo
+311|饭|cooked rice; meal
+312|一半|half
+313|家人|family member; (old) servant
+314|有时|sometimes; now and then
+315|小姐|young lady; miss
+316|对不起|I'm sorry; excuse me; I beg your pardon; to let (sb) down; to disappoint
+317|进去|to go in
+318|哥哥|older brother
+319|没什么|nothing; it doesn't matter
+320|路上|on the road; on a journey
+321|天气|weather
+322|最好|best; (you) had better (do what we suggest)
+323|南|surname Nan
+324|考试|to take an exam; exam
+325|有时候|sometimes
+326|慢|slow
+327|旁边|side; adjacent place
+328|同学|to study at the same school; fellow student
+329|北|north; (classical) to be defeated
+330|帮忙|to help; to lend a hand
+331|进来|to come in
+332|见面|to meet; to see each other
+333|好看|good-looking; nice-looking
+334|中间|the middle; the inside; in the middle; within; between; among
+335|女生|schoolgirl; female student
+336|茶|tea; tea plant
+337|地点|place; site
+338|雨|rain
+339|星期|week; day of the week
+340|车上|Car
+341|考|to beat; to hit
+342|九|nine; 9
+343|妹妹|younger sister; young woman
+344|生气|to get angry; to take offense
+345|地上|on the ground; on the floor
+346|上午|morning
+347|一会儿|a moment; a while
+348|贵|expensive; noble
+349|记住|to remember; to bear in mind
+350|下次|next time
+351|知识|knowledge; intellectual
+352|机场|airport; airfield; (slang) service provider for Shadowsocks or similar software for circumventing Internet censorship
+353|学院|college; educational institute
+354|老人|old man or woman; the elderly
+355|页|head
+356|工人|worker
+357|那边|over there; yonder
+358|弟弟|younger brother
+359|干净|clean; neat
+360|在家|to be at home; (at a workplace) to be in (as opposed to being away on official business 差)
+361|百|surname Bai
+362|网上|online
+363|好吃|tasty; delicious
+364|明年|next year
+365|再见|goodbye; see you again later
+366|妹|younger sister
+367|这儿|here
+368|哪儿|where?; wherever; anywhere; somewhere
+369|不对|incorrect; wrong
+370|中午|noon; midday
+371|起床|to get out of bed; to get up
+372|是不是|is or isn't; yes or no
+373|开车|to drive a car
+374|干什么|what are you doing?; what's he up to?
+375|奶|breast; milk
+376|门口|doorway; gate
+377|常常|frequently; often
+378|这边|this side; here
+379|男生|schoolboy; male student
+380|火车|train
+381|奶奶|(informal) grandma (paternal grandmother); (respectful) mistress of the house
+382|上次|last time
+383|唱歌|to sing a song
+384|右边|right side; right, to the right
+385|上学|to go to school; to attend school
+386|牛奶|cow's milk
+387|女朋友|girlfriend
+388|上课|to go to class; to attend class
+389|爷爷|(coll.) father's father; paternal grandfather
+390|听见|to hear
+391|新年|New Year
+392|男朋友|boyfriend
+393|下班|to finish work; to get off work
+394|水果|fruit
+395|读书|to read a book; to study
+396|那儿|there
+397|商店|store; shop
+398|鸡蛋|(chicken) egg; hen's egg
+399|没关系|it doesn't matter
+400|地图|map
+401|姐|older sister
+402|坐下|to sit down
+403|零|zero; nought
+404|桌子|table; desk
+405|白天|daytime; during the day
+406|请问|Excuse me, may I ask...?
+407|哪些|which ones?; who?
+408|晚饭|evening meal; dinner
+409|小学|elementary school; primary school
+410|图书馆|library
+411|开玩笑|to play a joke; to make fun of
+412|国外|abroad; external (affairs)
+413|日期|date
+414|饭店|restaurant; hotel
+415|中学|middle school
+416|上网|to go online; to connect to the Internet
+417|商场|shopping mall; shopping center
+418|楼下|downstairs
+419|面包|bread
+420|外国|foreign (country)
+421|生病|to fall ill
+422|好听|pleasant to hear
+423|开会|to hold a meeting; to attend a meeting
+424|钱包|purse; wallet
+425|大学生|university student; college student
+426|车站|rail station; bus stop
+427|走路|to walk; to go on foot
+428|小朋友|child
+429|左边|left; the left side
+430|北京|Beijing, capital of the People's Republic of China
+431|有用|useful
+432|爱好|to like; to be fond of; to take pleasure in; to be keen on; interest; hobby
+433|不大|not very; not too
+434|午饭|lunch
+435|上车|to get on or into (a bus, train, car etc)
+436|马路|street; road
+437|门票|ticket (for theater, cinema etc)
+438|机票|air ticket; passenger ticket
+439|楼上|upstairs; (Internet slang) previous poster in a forum thread
+440|打球|to play ball; to play with a ball
+441|下雨|to rain
+442|下车|to get off or out of (a bus, train, car etc)
+443|杯子|cup; glass
+444|放假|to have a holiday or vacation
+445|路口|crossing; intersection (of roads)
+446|有名|famous; well-known
+447|中文|Chinese language
+448|弟|younger brother; junior male
+449|电视机|television set
+450|早饭|breakfast
+451|一点儿|erhua variant of 一点; a bit; a little bit
+452|书店|bookstore
+453|放学|to dismiss students at the end of the school day
+454|关上|to close (a door); to turn off (light, electrical equipment etc)
+455|玩儿|to play; to have fun
+456|半天|half of the day; a long time
+457|星期天|Sunday
+458|车票|ticket (for a bus or train)
+459|看病|to visit a doctor; to see a patient
+460|电影院|cinema; movie theater
+461|前天|the day before yesterday
+462|后天|the day after tomorrow; life after birth (the period in which one develops through experiences, contrasted with 天)
+463|渴|thirsty
+464|洗手间|toilet; lavatory
+465|下课|to finish class; to get out of class
+466|请假|to request leave of absence
+467|米饭|(cooked) rice
+468|里边|inside
+469|外语|foreign language
+470|没事儿|to have spare time; free from work
+471|一块儿|erhua variant of 一块; a piece; a chunk
+472|书包|schoolbag; satchel
+473|小学生|primary school student; schoolchild
+474|外边|outside; outer surface
+475|中学生|middle-school student; high school student
+476|本子|book; notebook
+477|星期日|Sunday
+478|课本|textbook
+479|汉语|Chinese language
+480|后边|the back; the rear; the last bit; behind; near the end; at the back
+481|西边|west; west side
+482|上边|the top; above
+483|打车|to take a taxi (in town); to hitch a lift
+484|东边|east; east side
+485|包子|bao (steamed stuffed bun)
+486|不客气|you're welcome; don't mention it
+487|南边|south; south side
+488|北边|north; north side
+489|女孩儿|erhua variant of 女孩; girl
+490|下边|under; the underside
+491|汉字|Chinese character; Japanese: kanji
+492|请进|"please come in"
+493|好玩儿|erhua variant of 好玩; amusing
+494|前边|front; the front side
+495|小孩儿|erhua variant of 小孩; child
+496|教学楼|teaching block; school building
+497|网友|online friend; Internet user
+498|课文|text
+499|请坐|please, have a seat
+500|半年|half a year
+501|听写|(of a pupil) to write down (in a dictation exercise); dictation
+502|面条儿|erhua variant of 面条; noodles
+503|男孩儿|erhua variant of 男孩; boy
+504|一下儿|erhua variant of 一下; one time; once
+505|有一些|somewhat; rather

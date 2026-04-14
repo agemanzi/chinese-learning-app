@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>HSK 1 Toolkit</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#D85A30">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="HSK 1">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&family=Long+Cang&family=Liu+Jian+Mao+Cao&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main id="app"></main>
+
+<nav id="tabs">
+  <button class="tab active" data-tab="tools">Tools</button>
+  <button class="tab" data-tab="words">Words</button>
+  <button class="tab" data-tab="lessons">Packs</button>
+  <button class="tab" data-tab="settings">Settings</button>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/pinyin.js"></script>
+<script src="js/stats.js"></script>
+<script src="js/views/tools.js"></script>
+<script src="js/views/guide.js"></script>
+<script src="js/views/words.js"></script>
+<script src="js/views/lessons.js"></script>
+<script src="js/views/settings.js"></script>
+<script src="js/drills/tone-ear.js"></script>
+<script src="js/drills/minimal-pairs.js"></script>
+<script src="js/drills/word-decoder.js"></script>
+<script src="js/drills/initial-final.js"></script>
+<script src="js/drills/stroke-order.js"></script>
+<script src="js/drills/radical-spotter.js"></script>
+<script src="js/drills/pinyin-drill.js"></script>
+<script src="js/drills/syllable-build.js"></script>
+<script src="js/drills/word-spotter.js"></script>
+<script src="js/drills/type-it.js"></script>
+<script src="js/drills/dictation.js"></script>
+<script src="js/app.js"></script>
+<script>
+  // Register Service Worker for offline support
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(err => console.warn('SW registration failed:', err));
+    });
+  }
+</script>
+</body>
+</html>

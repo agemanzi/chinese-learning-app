@@ -1,0 +1,8 @@
+# Screenshots taken during dev
+*.png
+
+# Syllable audio — 308MB, volume-mounted in production
+audio/syllables/
+
+# Git
+.git/

@@ -1,16 +1,16 @@
 #!/bin/bash
-# Upload local data files to the production container.
+# Upload assets to the production container.
 # Usage:
-#   ./seed_remote.sh              — only uploads files missing on server
-#   ./seed_remote.sh --force      — overwrites all files
+#   ./seed_remote.sh              — seed syllable audio (skip existing)
+#   ./seed_remote.sh --force      — overwrite all files
 
 set -e
 
 SERVER_USER="root"
 SERVER_HOST="46.224.104.232"
-APP_FILTER="chinese"        # matched against docker container name
-LOCAL_DATA="./data"
-REMOTE_DATA="/app/data"
+APP_FILTER="f8kg8ws44sockwos40cs4wcc"  # Coolify service UUID
+LOCAL_AUDIO="./app/audio"
+REMOTE_AUDIO="/usr/share/nginx/html/audio/syllables"
 
 FORCE=false
 [[ "${1:-}" == "--force" ]] && FORCE=true
@@ -22,7 +22,6 @@ CONTAINER=$(ssh "$SERVER" "docker ps --filter 'name=$APP_FILTER' --format '{{.Na
 
 if [ -z "$CONTAINER" ]; then
     echo "ERROR: no running container matching '$APP_FILTER'"
-    echo "Running containers:"
     ssh "$SERVER" "docker ps --format '{{.Names}}'"
     exit 1
 fi
@@ -30,26 +29,32 @@ fi
 echo "==> Target container: $CONTAINER"
 echo ""
 
-for FILE in db.json progress.json calendar.json; do
-    LOCAL="$LOCAL_DATA/$FILE"
-    REMOTE="$REMOTE_DATA/$FILE"
+# Ensure remote dir exists
+ssh "$SERVER" "docker exec $CONTAINER mkdir -p $REMOTE_AUDIO"
 
-    if [ ! -f "$LOCAL" ]; then
-        echo "  SKIP  $FILE  (not found locally at $LOCAL)"
+# Get list of already-uploaded files to skip
+if [ "$FORCE" = false ]; then
+    echo "==> Checking existing files on server..."
+    EXISTING=$(ssh "$SERVER" "docker exec $CONTAINER ls $REMOTE_AUDIO 2>/dev/null || true")
+fi
+
+COUNT=0
+SKIP=0
+for LOCAL in "$LOCAL_AUDIO"/*.mp3 "$LOCAL_AUDIO"/*.json; do
+    [ -f "$LOCAL" ] || continue
+    FILE=$(basename "$LOCAL")
+
+    if [ "$FORCE" = false ] && echo "$EXISTING" | grep -qx "$FILE"; then
+        SKIP=$((SKIP+1))
         continue
     fi
 
-    if [ "$FORCE" = false ]; then
-        EXISTS=$(ssh "$SERVER" "docker exec $CONTAINER sh -c 'test -f $REMOTE && echo yes || echo no'")
-        if [ "$EXISTS" = "yes" ]; then
-            echo "  SKIP  $FILE  (already on server — use --force to overwrite)"
-            continue
-        fi
-    fi
-
-    echo "  UP    $FILE"
-    cat "$LOCAL" | ssh "$SERVER" "docker exec -i $CONTAINER sh -c 'cat > $REMOTE'"
+    printf "  UP  %s\r" "$FILE"
+    scp -q "$LOCAL" "$SERVER:/tmp/_seed_$FILE"
+    ssh "$SERVER" "docker cp /tmp/_seed_$FILE $CONTAINER:$REMOTE_AUDIO/$FILE && rm /tmp/_seed_$FILE"
+    COUNT=$((COUNT+1))
 done
 
 echo ""
+echo "==> Uploaded: $COUNT  Skipped: $SKIP"
 echo "==> Done."

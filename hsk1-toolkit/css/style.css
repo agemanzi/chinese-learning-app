@@ -1,0 +1,976 @@
+/* ============================================================
+   HSK 1 Toolkit — dyslexia-friendly, flat, minimal
+   ============================================================ */
+
+:root {
+  /* Tone colors — dyslexia-optimized palette */
+  --tone-1: #D85A30;  /* coral/red */
+  --tone-2: #EF9F27;  /* amber */
+  --tone-3: #639922;  /* green */
+  --tone-4: #378ADD;  /* blue */
+  --tone-5: #888780;  /* neutral gray */
+
+  /* Tone backgrounds (subtle tints for boxes) */
+  --tone-1-bg: #FBE8E0;
+  --tone-2-bg: #FCF0DB;
+  --tone-3-bg: #E7F0D9;
+  --tone-4-bg: #DCEBF8;
+  --tone-5-bg: #EEEDEB;
+
+  /* Neutral */
+  --bg: #FFFFFF;
+  --surface: #FFFFFF;
+  --text: #1A1A1A;
+  --text-muted: #6B6B6B;
+  --border: #E5E5E5;
+  --border-strong: #D0D0D0;
+
+  --tab-height: 60px;
+  --font-size-base: 16px;
+}
+
+/* Manual light theme — force light regardless of system */
+html[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* Manual dark theme */
+html[data-theme="dark"] {
+  --bg: #121212;
+  --surface: #1C1C1C;
+  --text: #E8E8E8;
+  --text-muted: #9A9A9A;
+  --border: #2A2A2A;
+  --border-strong: #3A3A3A;
+  --tone-1-bg: #3A1E15;
+  --tone-2-bg: #3A2B10;
+  --tone-3-bg: #1F2C12;
+  --tone-4-bg: #132A40;
+  --tone-5-bg: #252525;
+  color-scheme: dark;
+}
+
+/* Auto mode — follow system preference (only when data-theme="auto" or unset) */
+@media (prefers-color-scheme: dark) {
+  html[data-theme="auto"], html:not([data-theme]) {
+    --bg: #121212;
+    --surface: #1C1C1C;
+    --text: #E8E8E8;
+    --text-muted: #9A9A9A;
+    --border: #2A2A2A;
+    --border-strong: #3A3A3A;
+    --tone-1-bg: #3A1E15;
+    --tone-2-bg: #3A2B10;
+    --tone-3-bg: #1F2C12;
+    --tone-4-bg: #132A40;
+    --tone-5-bg: #252525;
+  }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: calc(var(--tab-height) + 16px);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+body[data-font-size="small"]  { --font-size-base: 14px; }
+body[data-font-size="medium"] { --font-size-base: 16px; }
+body[data-font-size="large"]  { --font-size-base: 18px; }
+
+/* ============================================================
+   Main container
+   ============================================================ */
+#app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: -14px;
+  margin-bottom: 20px;
+}
+
+/* ============================================================
+   Bottom tab navigation
+   ============================================================ */
+#tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--tab-height);
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  display: flex;
+  z-index: 100;
+}
+
+#tabs .tab {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s;
+  min-height: 44px;
+}
+
+#tabs .tab.active {
+  color: var(--text);
+  border-top: 2px solid var(--text);
+}
+
+#tabs .tab:hover { color: var(--text); }
+
+/* ============================================================
+   Cards (tool grid, list items)
+   ============================================================ */
+.tools-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
+.guide-btn { padding: 8px 14px; border: 1px solid var(--border-strong); border-radius: 8px; background: var(--surface); color: var(--text); font-size: 13px; font-family: inherit; cursor: pointer; min-height: 44px; white-space: nowrap; }
+.guide-btn:hover { border-color: var(--text); }
+
+/* Guide page */
+.guide { padding-bottom: 40px; }
+.guide-section { margin-bottom: 28px; }
+.guide-section h2 { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border); text-transform: uppercase; letter-spacing: 0.5px; }
+.guide-section p { font-size: 14px; line-height: 1.6; color: var(--text); margin-bottom: 10px; }
+.guide-stages { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.guide-stages li { display: flex; gap: 12px; align-items: flex-start; font-size: 14px; line-height: 1.5; }
+.stage-num { flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%; background: var(--text); color: var(--bg); display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 14px; }
+.guide-tool { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+.guide-note { font-size: 12px; color: var(--text-muted); margin-top: 4px; font-style: italic; }
+.guide-table { width: 100%; font-size: 14px; }
+.guide-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.guide-table td:first-child { font-weight: 500; color: var(--text-muted); white-space: nowrap; width: 60px; }
+.guide-rules { list-style: decimal; padding-left: 20px; font-size: 14px; line-height: 1.5; }
+.guide-rules li { margin-bottom: 14px; }
+.guide-dl dt { font-weight: 500; font-size: 14px; margin-top: 12px; color: var(--text); }
+.guide-dl dt:first-child { margin-top: 0; }
+.guide-dl dd { font-size: 13px; color: var(--text-muted); margin-left: 12px; margin-top: 2px; }
+.guide-list { list-style: disc; padding-left: 20px; font-size: 13px; line-height: 1.6; color: var(--text); }
+.guide-list li { margin-bottom: 6px; }
+.guide-list.guide-avoid li { color: var(--text-muted); }
+.guide-hint { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; font-style: italic; }
+.routine-block { border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; background: var(--surface); }
+.routine-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.routine-time { font-size: 16px; font-weight: 600; color: var(--text); padding: 4px 10px; background: var(--text); color: var(--bg); border-radius: 6px; }
+.routine-mood { font-size: 12px; color: var(--text-muted); }
+.routine-block .guide-table td { font-size: 13px; padding: 6px 8px; }
+.routine-block .guide-table td:first-child { width: 52px; font-size: 12px; }
+.routine-tutor { border-color: var(--tone-2); background: var(--tone-2-bg); }
+.routine-tutor .routine-time { background: var(--tone-2); }
+.routine-stuck { border-style: dashed; opacity: 0.85; }
+.routine-stuck .routine-time { background: var(--text-muted); }
+.guide-goal { padding: 16px; background: var(--tone-5-bg); border-radius: 10px; }
+.guide-goal h2 { border: none; margin-bottom: 6px; padding: 0; }
+.guide-section em { font-style: italic; color: var(--text); }
+
+.tool-group {
+  margin-bottom: 24px;
+}
+
+.tool-group-label {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tgl-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tgl-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.tool-card {
+  background: var(--surface);
+  border: 0.5px solid var(--border-strong);
+  border-radius: 12px;
+  padding: 14px 14px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.tool-card:hover { border-color: var(--text); }
+
+.tool-card .tool-num {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.tool-card .tool-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.tool-card .tool-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* ============================================================
+   Syllable boxes (tone-colored pills)
+   ============================================================ */
+.syl-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.syl-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border: 1.5px solid transparent;
+  transition: transform 0.1s;
+}
+
+.syl-box:active { transform: scale(0.96); }
+
+.syl-box.tone-1 { background: var(--tone-1-bg); color: var(--tone-1); border-color: var(--tone-1); }
+.syl-box.tone-2 { background: var(--tone-2-bg); color: var(--tone-2); border-color: var(--tone-2); }
+.syl-box.tone-3 { background: var(--tone-3-bg); color: var(--tone-3); border-color: var(--tone-3); }
+.syl-box.tone-4 { background: var(--tone-4-bg); color: var(--tone-4); border-color: var(--tone-4); }
+.syl-box.tone-5 { background: var(--tone-5-bg); color: var(--tone-5); border-color: var(--tone-5); }
+
+.syl-box.hidden {
+  color: transparent;
+  background: var(--tone-5-bg);
+  border-color: var(--border-strong);
+  border-style: dashed;
+}
+
+/* Split syllable: [initial | final] */
+.syl-box.split {
+  padding: 6px 4px;
+  gap: 2px;
+}
+
+.syl-split-init {
+  padding: 0 6px;
+  border-right: 1px solid currentColor;
+  opacity: 0.7;
+}
+
+.syl-split-final {
+  padding: 0 6px;
+  font-weight: 600;
+}
+
+/* ============================================================
+   Word detail sheet
+   ============================================================ */
+.word-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  border-bottom: 0.5px solid var(--border);
+  cursor: pointer;
+  min-height: 60px;
+}
+
+.word-row:hover { background: var(--tone-5-bg); }
+
+.word-char {
+  font-size: 28px;
+  font-weight: 500;
+  min-width: 60px;
+  flex-shrink: 0;
+}
+
+.word-info { flex: 1; min-width: 0; }
+
+.word-pinyin-row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+
+.word-meaning {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.word-acc {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.word-acc.good { background: #E8F5E9; color: #2E7D32; }
+.word-acc.mid  { background: #FFF3E0; color: #E65100; }
+.word-acc.low  { background: #FFEBEE; color: #C62828; }
+
+.word-play {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  transition: all 0.1s;
+}
+.word-play:hover { background: var(--text); color: var(--bg); border-color: var(--text); }
+.word-play:active { transform: scale(0.95); }
+
+.example-sentence {
+  padding: 10px 12px;
+  margin-top: 8px;
+  background: var(--tone-5-bg);
+  border-radius: 8px;
+  border-left: 3px solid var(--border-strong);
+}
+.ex-zh { font-size: 18px; font-weight: 500; margin-bottom: 2px; }
+.ex-pinyin { font-size: 12px; color: var(--text-muted); margin-bottom: 4px; font-family: ui-monospace, monospace; }
+.ex-meaning { font-size: 13px; color: var(--text); }
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  font-size: 15px;
+  color: var(--text);
+  font-family: inherit;
+  outline: none;
+  min-height: 44px;
+}
+
+.search-input:focus { border-color: var(--text); }
+
+/* ============================================================
+   Detail sheet (modal slide-up)
+   ============================================================ */
+.sheet-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 200;
+  display: flex;
+  align-items: flex-end;
+  animation: fadeIn 0.2s ease;
+}
+
+.sheet {
+  background: var(--bg);
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: 16px 16px 0 0;
+  padding: 24px 20px;
+  max-height: 85vh;
+  overflow-y: auto;
+  animation: slideUp 0.25s ease;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+.sheet-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--tone-5-bg);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--text);
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.sheet-char {
+  font-size: 72px;
+  text-align: center;
+  margin: 12px 0;
+  font-weight: 500;
+}
+
+.sheet-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  margin-top: 18px;
+}
+
+/* ============================================================
+   Drill shared styles
+   ============================================================ */
+.drill-container {
+  padding-top: 8px;
+}
+
+.drill-back {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 0;
+  margin-bottom: 8px;
+  font-family: inherit;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.drill-back:hover { color: var(--text); }
+
+.drill-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.drill-hint {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.drill-main {
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 12px;
+  padding: 32px 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drill-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.drill-option {
+  min-height: 64px;
+  background: var(--surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 0.1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 12px;
+}
+
+.drill-option:active { transform: scale(0.98); }
+.drill-option:hover { border-color: var(--text); }
+
+.drill-option.tone-1 { border-color: var(--tone-1); color: var(--tone-1); }
+.drill-option.tone-2 { border-color: var(--tone-2); color: var(--tone-2); }
+.drill-option.tone-3 { border-color: var(--tone-3); color: var(--tone-3); }
+.drill-option.tone-4 { border-color: var(--tone-4); color: var(--tone-4); }
+
+.drill-option.correct {
+  background: #E8F5E9 !important;
+  border-color: #2E7D32 !important;
+  color: #2E7D32 !important;
+}
+
+.drill-option.incorrect {
+  background: #FFEBEE !important;
+  border-color: #C62828 !important;
+  color: #C62828 !important;
+  opacity: 0.7;
+}
+
+.drill-option .opt-label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.drill-option .opt-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.drill-option.tone-1 .opt-desc,
+.drill-option.tone-2 .opt-desc,
+.drill-option.tone-3 .opt-desc,
+.drill-option.tone-4 .opt-desc { opacity: 0.8; }
+
+/* Play button (large audio trigger) */
+.play-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg);
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s;
+  min-height: 80px;
+  min-width: 80px;
+}
+
+.play-btn:active { transform: scale(0.94); }
+.play-btn.playing { animation: pulse 0.6s ease; }
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+
+.play-btn-sm {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg);
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.drill-counter {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+/* Audio-only prompt (no text visible) */
+.audio-prompt {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.audio-prompt .tip {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 14px;
+}
+
+.reveal {
+  margin-top: 20px;
+  padding: 14px;
+  background: var(--tone-5-bg);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* ============================================================
+   Settings
+   ============================================================ */
+.setting-group {
+  margin-bottom: 24px;
+}
+
+.setting-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.setting-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.setting-choices {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.choice-btn {
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.choice-btn.active {
+  border-color: var(--text);
+  background: var(--tone-5-bg);
+  font-weight: 500;
+}
+
+/* ============================================================
+   Font toggles (Settings)
+   ============================================================ */
+.font-toggles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.font-toggle {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  cursor: pointer;
+  transition: all 0.15s;
+  min-height: 56px;
+}
+
+.font-toggle input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--text);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.font-toggle.off {
+  opacity: 0.45;
+  background: var(--tone-5-bg);
+}
+
+.font-toggle.on {
+  border-color: var(--text);
+}
+
+.ft-sample {
+  font-size: 28px;
+  min-width: 80px;
+  text-align: center;
+  line-height: 1;
+}
+
+.ft-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  flex: 1;
+}
+
+/* ============================================================
+   Hanzi Writer target
+   ============================================================ */
+.hanzi-target {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+   Lesson list
+   ============================================================ */
+.pack-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.pack-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 12px;
+  background: var(--surface);
+  border: 0.5px solid var(--border-strong);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  min-height: 64px;
+}
+
+.pack-card:hover { border-color: var(--text); }
+
+.pack-actions { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.btn-drill { padding: 12px 16px; background: var(--text); color: var(--bg); border: none; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; min-height: 44px; flex: 1; min-width: 200px; transition: opacity 0.15s; }
+.btn-drill:hover { opacity: 0.88; }
+.btn-drill:active { transform: scale(0.98); }
+
+.pack-icon {
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.pack-info { min-width: 0; }
+
+.pack-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.pack-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ============================================================
+   Utility
+   ============================================================ */
+.spacer { flex: 1; }
+.hidden { display: none !important; }
+.row { display: flex; gap: 8px; align-items: center; }
+.col { display: flex; flex-direction: column; gap: 8px; }
+
+/* Words overflow notice */
+.words-overflow { padding: 20px; text-align: center; color: var(--text-muted); font-size: 13px; }
+
+/* ============================================================
+   Word Spotter drill styles
+   ============================================================ */
+.spotter-stage { position: relative; height: 280px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; overflow: hidden; }
+.spotter-word { position: absolute; font-weight: 500; color: var(--text); user-select: none; transition: opacity 0.2s; white-space: nowrap; text-align: center; line-height: 1; }
+.ws-pinyin-row { display: flex; gap: 4px; justify-content: center; margin-top: 6px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; transform: rotate(0deg); }
+.ws-pinyin-box { padding: 2px 6px; border-radius: 4px; font-weight: 500; line-height: 1.2; }
+.ws-pinyin-box.tone-1 { color: var(--tone-1); background: var(--tone-1-bg); }
+.ws-pinyin-box.tone-2 { color: var(--tone-2); background: var(--tone-2-bg); }
+.ws-pinyin-box.tone-3 { color: var(--tone-3); background: var(--tone-3-bg); }
+.ws-pinyin-box.tone-4 { color: var(--tone-4); background: var(--tone-4-bg); }
+.ws-pinyin-box.tone-5 { color: var(--tone-5); background: var(--tone-5-bg); }
+.ws-opt { min-height: 56px; font-size: 14px !important; line-height: 1.4; padding: 12px 14px !important; text-align: left !important; }
+
+/* ============================================================
+   Type It drill styles
+   ============================================================ */
+.ti-meaning { font-size: 22px; font-weight: 500; text-align: center; margin-bottom: 8px; }
+.ti-hint { font-size: 12px; color: var(--text-muted); text-align: center; margin-bottom: 20px; }
+.ti-input-row { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; }
+.ti-input { flex: 1; padding: 14px 16px; border: 2px solid var(--border-strong); border-radius: 8px; font-size: 20px; font-family: ui-monospace, monospace; min-height: 50px; outline: none; background: var(--surface); color: var(--text); letter-spacing: 1px; }
+.ti-input:focus { border-color: var(--text); }
+.ti-clear { width: 44px; height: 50px; border: 1px solid var(--border-strong); border-radius: 8px; background: var(--surface); font-size: 20px; cursor: pointer; color: var(--text-muted); }
+.ti-candidates { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; min-height: 60px; }
+.ti-cand { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 8px; border: 1.5px solid var(--border-strong); border-radius: 8px; background: var(--surface); cursor: pointer; min-height: 56px; font-family: inherit; color: var(--text); transition: all 0.1s; }
+.ti-cand:hover { border-color: var(--text); }
+.ti-cand:active { transform: scale(0.97); }
+.ti-cand.correct { background: #E8F5E9 !important; border-color: #2E7D32 !important; }
+.ti-cand.incorrect { background: #FFEBEE !important; border-color: #C62828 !important; opacity: 0.7; }
+.ti-cand-char { font-size: 22px; font-weight: 500; }
+.ti-cand-pinyin { font-size: 11px; color: var(--text-muted); }
+.ti-empty { grid-column: 1 / -1; text-align: center; font-size: 12px; color: var(--text-muted); padding: 16px; }
+
+/* ============================================================
+   Dictation drill styles
+   ============================================================ */
+.dict-play-row { display: flex; gap: 12px; justify-content: center; margin-bottom: 10px; }
+.dict-slow-btn { background: var(--surface); color: var(--text); border: 2px solid var(--text); font-size: 20px; letter-spacing: -3px; padding-right: 3px; }
+.dict-play-caption { text-align: center; margin-bottom: 20px; font-size: 13px; color: var(--text-muted); }
+.dict-example { font-family: ui-monospace, monospace; background: var(--tone-5-bg); padding: 1px 6px; border-radius: 4px; font-size: 12px; margin: 0 2px; }
+.dict-tones-help { display: flex; gap: 6px; justify-content: center; margin-top: 10px; font-family: ui-monospace, monospace; font-size: 13px; }
+.dict-tones-help span { padding: 4px 10px; border-radius: 6px; border: 1.5px solid; font-weight: 600; }
+.dict-tones-help .tone-1 { color: var(--tone-1); border-color: var(--tone-1); background: var(--tone-1-bg); }
+.dict-tones-help .tone-2 { color: var(--tone-2); border-color: var(--tone-2); background: var(--tone-2-bg); }
+.dict-tones-help .tone-3 { color: var(--tone-3); border-color: var(--tone-3); background: var(--tone-3-bg); }
+.dict-tones-help .tone-4 { color: var(--tone-4); border-color: var(--tone-4); background: var(--tone-4-bg); }
+.dict-check-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 10px; }
+.dict-syl { display: inline-flex; flex-direction: column; align-items: center; padding: 6px 10px; border-radius: 8px; font-size: 22px; font-weight: 500; border: 2px solid; }
+.dict-syl.correct { border-color: #2E7D32; background: #E8F5E9; }
+.dict-syl.incorrect { border-color: #C62828; background: #FFEBEE; }
+.dict-syl small { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+.dict-meaning { text-align: center; font-size: 14px; color: var(--text-muted); margin: 8px 0 6px; }
+.dict-grade { text-align: center; font-size: 14px; font-weight: 500; padding: 6px; border-radius: 6px; }
+.dict-grade.good { color: #2E7D32; }
+.dict-grade.bad { color: #C62828; }
+
+/* ============================================================
+   Syllable Build drill styles
+   ============================================================ */
+.sb-row { margin-bottom: 14px; }
+.sb-label { font-size: 11px; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+.sb-options { display: flex; gap: 6px; flex-wrap: wrap; }
+.sb-opt { min-width: 48px; min-height: 44px; padding: 8px 12px; background: var(--surface); border: 1.5px solid var(--border-strong); border-radius: 8px; font-size: 15px; font-weight: 500; cursor: pointer; font-family: inherit; color: var(--text); transition: all 0.1s; }
+.sb-opt:active { transform: scale(0.96); }
+.sb-opt:hover { border-color: var(--text); }
+.sb-opt.picked { background: var(--tone-5-bg); border-color: var(--text); font-weight: 600; }
+.sb-opt.correct { background: #E8F5E9 !important; border-color: #2E7D32 !important; color: #2E7D32 !important; }
+.sb-opt.incorrect { background: #FFEBEE !important; border-color: #C62828 !important; color: #C62828 !important; opacity: 0.7; }
+.sb-opt.sb-tone.tone-1 { color: var(--tone-1); }
+.sb-opt.sb-tone.tone-2 { color: var(--tone-2); }
+.sb-opt.sb-tone.tone-3 { color: var(--tone-3); }
+.sb-opt.sb-tone.tone-4 { color: var(--tone-4); }
+.sb-opt.sb-tone.picked.tone-1 { background: var(--tone-1-bg); border-color: var(--tone-1); }
+.sb-opt.sb-tone.picked.tone-2 { background: var(--tone-2-bg); border-color: var(--tone-2); }
+.sb-opt.sb-tone.picked.tone-3 { background: var(--tone-3-bg); border-color: var(--tone-3); }
+.sb-opt.sb-tone.picked.tone-4 { background: var(--tone-4-bg); border-color: var(--tone-4); }
+
+/* ============================================================
+   Mobile (≤480px) tweaks
+   ============================================================ */
+@media (max-width: 480px) {
+  #app { padding: 16px 12px; }
+  .page-title { font-size: 20px; margin-bottom: 14px; }
+  .page-subtitle { font-size: 13px; margin-bottom: 16px; }
+
+  /* Tool cards: tighter grid */
+  .tools-grid { gap: 10px; }
+  .tool-card { min-height: 100px; padding: 16px 12px; }
+  .tool-card .tool-name { font-size: 15px; }
+  .tool-card .tool-desc { font-size: 11px; }
+
+  /* Word rows: tighter, char smaller */
+  .word-row { padding: 12px 10px; gap: 10px; min-height: 64px; }
+  .word-char { font-size: 24px; min-width: 44px; }
+  .word-info { min-width: 0; }
+  .word-meaning { font-size: 12px; }
+  .word-play { width: 44px; min-width: 44px; height: 44px; min-height: 44px; }
+  .word-acc { font-size: 10px; padding: 2px 6px; }
+
+  /* Drill options: stay 2-col but tighter */
+  .drill-options { gap: 8px; }
+  .drill-option { min-height: 56px; font-size: 14px; padding: 10px; }
+  .drill-option .opt-label { font-size: 18px; }
+  .drill-option .opt-desc { font-size: 10px; }
+
+  /* Play button slightly smaller on mobile */
+  .play-btn { width: 68px; height: 68px; font-size: 24px; }
+
+  /* Spotter stage: shorter on mobile */
+  .spotter-stage { height: 220px; }
+
+  /* Drill main padding */
+  .drill-main { padding: 20px 14px; }
+  .drill-title { font-size: 18px; }
+
+  /* Tab nav: tighter */
+  #tabs .tab { font-size: 13px; }
+
+  /* Sheet takes full screen on mobile */
+  .sheet {
+    border-radius: 12px 12px 0 0;
+    padding: 20px 16px;
+    max-height: 92vh;
+  }
+  .sheet-char { font-size: 60px; }
+
+  /* Settings choices wrap better */
+  .setting-choices { gap: 6px; }
+  .choice-btn { padding: 10px 12px; font-size: 13px; }
+
+  /* Font toggles: compact */
+  .font-toggle { padding: 8px 10px; gap: 10px; min-height: 52px; }
+  .ft-sample { font-size: 24px; min-width: 60px; }
+  .ft-label { font-size: 11px; }
+
+  /* Syllable boxes: slightly smaller */
+  .syl-box { min-width: 44px; min-height: 44px; padding: 6px 10px; font-size: 16px; }
+
+  /* Words search bar: comfortable */
+  .search-input { font-size: 16px; /* prevents iOS zoom */ }
+
+  /* Tone drill buttons on small screens */
+  .tone-options { gap: 8px; }
+  .tone-btn { padding: 12px 10px; }
+  .tone-btn .tone-number { font-size: 22px; }
+  .tone-btn .tone-desc { font-size: 10px; }
+}
+
+/* Very small screens (≤360px) */
+@media (max-width: 360px) {
+  .tool-card .tool-desc { display: none; }  /* hide descriptions, save space */
+  .word-char { font-size: 22px; }
+  .drill-option { min-height: 52px; }
+}
