@@ -12,14 +12,16 @@ function drillTypeIt() {
   const state = {
     current: null,
     typed: '',
-    revealed: false,
+    answered: false,   // locked after picking a candidate
+    wasCorrect: false,
     count: 0,
     score: 0,
   };
 
   function next() {
     state.typed = '';
-    state.revealed = false;
+    state.answered = false;
+    state.wasCorrect = false;
     state.current = NoRepeat.pick('type-it', pool, w => w.simplified, 5);
     state.count++;
     render();
@@ -42,66 +44,85 @@ function drillTypeIt() {
         <div class="drill-counter">Question ${state.count} · Score ${state.score}/${Math.max(0, state.count - 1)}</div>
 
         <div class="drill-main" style="align-items:stretch;padding:20px">
-          <div class="ti-meaning">${escapeHtml(c.meaning.split(';')[0])}</div>
+          <div class="ti-meaning">${escapeHtml(formatMeaning(c).split(';')[0])}</div>
           <div class="ti-hint">${c.simplified.length} character${c.simplified.length > 1 ? 's' : ''} · ${c.syllables.length} syllable${c.syllables.length > 1 ? 's' : ''}</div>
 
-          <div class="ti-input-row">
-            <input type="text" id="ti-input" class="ti-input" placeholder="type pinyin..."
-                   value="${escapeHtml(state.typed)}" autocomplete="off" autocapitalize="off" spellcheck="false" />
-            <button class="ti-clear" id="ti-clear">×</button>
-          </div>
-
-          <div class="ti-candidates">
-            ${candidates.length === 0 && state.typed ? '<div class="ti-empty">No matches — keep typing or try again</div>' : ''}
-            ${candidates.slice(0, 8).map((w, i) => `
-              <button class="ti-cand" data-char="${escapeHtml(w.simplified)}">
-                <span class="ti-cand-char">${escapeHtml(w.simplified)}</span>
-                <span class="ti-cand-pinyin">${escapeHtml(w.pinyin)}</span>
-              </button>
-            `).join('')}
-          </div>
-
-          ${state.revealed ? `
-            <div class="reveal" style="margin-top:16px">
-              ${renderWordBoxes(c)}
-              <div style="margin-top:6px;font-size:24px;font-weight:500">${escapeHtml(c.simplified)}</div>
+          ${!state.answered ? `
+            <div class="ti-input-row">
+              <input type="text" id="ti-input" class="ti-input" placeholder="type pinyin..."
+                     value="${escapeHtml(state.typed)}" autocomplete="off" autocapitalize="off" spellcheck="false" />
+              <button class="ti-clear" id="ti-clear">×</button>
             </div>
-          ` : ''}
+
+            <div class="ti-candidates" id="ti-candidates">
+              ${candidates.length === 0 && state.typed ? '<div class="ti-empty">No matches — keep typing or try again</div>' : ''}
+              ${candidates.slice(0, 8).map(w => `
+                <button class="ti-cand" data-char="${escapeHtml(w.simplified)}">
+                  <span class="ti-cand-char">${escapeHtml(w.simplified)}</span>
+                  <span class="ti-cand-pinyin">${escapeHtml(w.pinyin)}</span>
+                </button>
+              `).join('')}
+            </div>
+          ` : `
+            <div style="margin-top:16px;padding:16px;border-radius:10px;background:${state.wasCorrect ? 'var(--correct-bg,#e8f5e9)' : 'var(--incorrect-bg,#fdecea)'};text-align:center">
+              <div style="font-size:13px;font-weight:500;color:${state.wasCorrect ? '#2e7d32' : '#c62828'};margin-bottom:8px">
+                ${state.wasCorrect ? 'Correct!' : 'Incorrect — the answer was:'}
+              </div>
+              <div style="font-size:48px;font-weight:500;margin-bottom:6px;cursor:pointer" id="ti-reveal-char">
+                ${escapeHtml(c.simplified)}
+              </div>
+              <div style="margin-bottom:4px">${renderWordBoxes(c, { clickable: false })}</div>
+              <div style="font-size:12px;color:var(--text-muted)">${escapeHtml(formatMeaning(c).split(';')[0])}</div>
+            </div>
+          `}
         </div>
 
-        <div class="row" style="gap:8px;margin-top:12px;justify-content:center">
-          <button class="choice-btn" id="ti-reveal">${state.revealed ? 'Hide' : 'Give up'}</button>
-          <button class="choice-btn" id="ti-skip">Next →</button>
+        <div class="row" style="gap:8px;margin-top:12px;justify-content:center;flex-wrap:wrap">
+          ${!state.answered ? `
+            <button class="choice-btn" id="ti-listen" title="Hear the word">🔊 Listen</button>
+            <button class="choice-btn" id="ti-reveal-btn">Give up</button>
+          ` : ''}
+          <button class="choice-btn" id="ti-skip">${state.answered ? 'Next →' : 'Skip'}</button>
         </div>
       </div>
     `;
 
     app.querySelector('.drill-back').addEventListener('click', backToTools);
     app.querySelector('#ti-skip').addEventListener('click', next);
-    app.querySelector('#ti-reveal').addEventListener('click', () => {
-      state.revealed = !state.revealed;
-      render();
-    });
-    app.querySelector('#ti-clear').addEventListener('click', () => {
-      state.typed = '';
-      render();
-      document.getElementById('ti-input').focus();
-    });
 
-    const input = document.getElementById('ti-input');
-    input.addEventListener('input', (e) => {
-      state.typed = e.target.value.toLowerCase().replace(/v/g, 'ü').replace(/[^a-zü]/g, '');
-      updateCandidates();  // keep input focused by not re-rendering the whole view
-    });
+    if (!state.answered) {
+      app.querySelector('#ti-listen').addEventListener('click', () => AUDIO.playWord(c));
+      app.querySelector('#ti-reveal-btn').addEventListener('click', () => {
+        // Give up counts as wrong
+        STATS.recordWord(c.simplified, false);
+        state.answered = true;
+        state.wasCorrect = false;
+        render();
+      });
+      app.querySelector('#ti-clear').addEventListener('click', () => {
+        state.typed = '';
+        render();
+        document.getElementById('ti-input').focus();
+      });
 
-    app.querySelectorAll('.ti-cand').forEach(btn => {
-      btn.addEventListener('click', () => pickCandidate(btn.dataset.char, btn));
-    });
+      const input = document.getElementById('ti-input');
+      input.addEventListener('input', (e) => {
+        state.typed = e.target.value.toLowerCase().replace(/v/g, 'ü').replace(/[^a-zü]/g, '');
+        updateCandidates();
+      });
+
+      app.querySelectorAll('.ti-cand').forEach(btn => {
+        btn.addEventListener('click', () => pickCandidate(btn.dataset.char, btn));
+      });
+    } else {
+      const revealChar = app.querySelector('#ti-reveal-char');
+      if (revealChar) revealChar.addEventListener('click', () => AUDIO.playWord(c));
+    }
   }
 
   function updateCandidates() {
     const candidates = getCandidates(state.typed);
-    const grid = document.querySelector('.ti-candidates');
+    const grid = document.getElementById('ti-candidates');
     if (!grid) return;
 
     grid.innerHTML = candidates.length === 0 && state.typed
@@ -125,7 +146,6 @@ function drillTypeIt() {
 
   function getCandidates(typed) {
     if (!typed) return [];
-    // Prefer exact matches first, then prefix matches
     const exact = [];
     const prefix = [];
     for (const { w, stripped } of indexed) {
@@ -136,19 +156,13 @@ function drillTypeIt() {
   }
 
   function pickCandidate(char, btn) {
+    if (state.answered) return;
     const correct = char === state.current.simplified;
     if (correct) state.score++;
     STATS.recordWord(state.current.simplified, correct);
-
-    btn.classList.add(correct ? 'correct' : 'incorrect');
-
-    if (!correct) {
-      const correctBtn = document.querySelector(`.ti-cand[data-char="${state.current.simplified}"]`);
-      if (correctBtn) correctBtn.classList.add('correct');
-    }
-
-    state.revealed = true;
-    setTimeout(next, 1600);
+    state.answered = true;
+    state.wasCorrect = correct;
+    render();
   }
 
   next();
