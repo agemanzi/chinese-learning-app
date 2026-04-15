@@ -5,7 +5,7 @@ if [ -n "$APP_PASSWORD" ]; then
     sed -i "s|__PASS_HASH__|$PASS_HASH|g" /usr/share/nginx/html/index.html
 
     # Generate htpasswd and enable nginx basic auth (protects all files at network level)
-    printf "hsk1:%s\n" "$(openssl passwd -apr1 "$APP_PASSWORD")" > /etc/nginx/.htpasswd
+    htpasswd -cbB /etc/nginx/.htpasswd hsk1 "$APP_PASSWORD"
     sed -i 's|__NGINX_AUTH__|auth_basic "HSK 1 Toolkit"; auth_basic_user_file /etc/nginx/.htpasswd;|' /etc/nginx/conf.d/default.conf
 else
     # No password configured — remove the placeholder, allow open access
