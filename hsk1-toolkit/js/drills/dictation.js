@@ -4,7 +4,7 @@
 function drillDictation(customPool, packName) {
   let pool = customPool;
   if (!pool || !pool.length) {
-    pool = DATA.words.filter(w => w.syllables.length >= 2 && w.syllables.length <= 3);
+    pool = scopedWords().filter(w => w.syllables.length >= 2 && w.syllables.length <= 3);
   }
   // Prefer multi-syllable but fall back if pack has only single-syllable words
   const multi = pool.filter(w => w.syllables.length >= 2 && w.syllables.length <= 3);

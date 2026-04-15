@@ -1,7 +1,7 @@
 // Drill 3: Word Decoder — show HSK 1 word in syllable boxes, tap to hear
 function drillWordDecoder() {
   // Only multi-syllable words are interesting for decoding
-  const pool = DATA.words.filter(w => w.syllables.length >= 2 && w.syllables.every(s => s.length > 0));
+  const pool = scopedWords().filter(w => w.syllables.length >= 2 && w.syllables.every(s => s.length > 0));
   const state = {
     word: null,
     showMarks: true,

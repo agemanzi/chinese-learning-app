@@ -1,5 +1,5 @@
 // HSK 1 Toolkit — main router
-const SW_VERSION = 7; // bump when data files change
+const SW_VERSION = 8; // bump when data files change
 const app = document.getElementById('app');
 
 const VIEWS = {
@@ -23,6 +23,7 @@ const DRILLS = {
   'word-spotter': drillWordSpotter,
   'type-it': drillTypeIt,
   'dictation': drillDictation,
+  'review': drillReview,
 };
 
 let currentTab = 'tools';
@@ -100,6 +101,27 @@ function applySettings(s) {
 }
 
 let SETTINGS = loadSettings();
+
+// ── Lesson scope ──────────────────────────────────────────────────────────────
+function loadScope() {
+  try { return JSON.parse(localStorage.getItem('hsk1_scope') || '{"activeLessons":[]}'); }
+  catch { return { activeLessons: [] }; }
+}
+function saveScope() {
+  localStorage.setItem('hsk1_scope', JSON.stringify(SCOPE));
+}
+// Returns only words from active lessons; falls back to full DATA.words when nothing is active.
+function scopedWords() {
+  if (!SCOPE.activeLessons.length) return DATA.words;
+  const active = new Set(
+    SCOPE.activeLessons.flatMap(n => {
+      const l = (DATA.tutorLessons || []).find(l => l.num === n);
+      return l ? (l.chars_hsk || []) : [];
+    })
+  );
+  return DATA.words.filter(w => active.has(w.simplified));
+}
+let SCOPE = loadScope();
 
 // Initialize app
 async function init() {

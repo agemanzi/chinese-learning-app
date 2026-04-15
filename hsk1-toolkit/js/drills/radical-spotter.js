@@ -1,7 +1,7 @@
 // Drill 6: Radical Spotter — show character, highlight its radical
 function drillRadicalSpotter() {
   // Only characters with a known radical in our 214 list
-  const pool = DATA.words
+  const pool = scopedWords()
     .filter(w => w.simplified.length === 1 && w.radical && DATA.radicalByChar[w.radical])
     .filter((w, i, arr) => arr.findIndex(x => x.simplified === w.simplified) === i);
 

@@ -73,6 +73,21 @@ const STATS = {
   },
 };
 
+// Per-lesson mastery stats — used by lessons.js progression hub
+function lessonProgress(lessonNum) {
+  const lesson = (DATA.tutorLessons || []).find(l => l.num === lessonNum);
+  if (!lesson) return { total: 0, mastered: 0, seen: 0, due: 0 };
+  const stats = STATS.load();
+  const words = lesson.chars_hsk || [];
+  const now = Date.now();
+  return {
+    total:    words.length,
+    mastered: words.filter(w => (stats.words[w]?.srs_interval || 0) >= 7).length,
+    seen:     words.filter(w =>  stats.words[w]?.seen > 0).length,
+    due:      words.filter(w => (stats.words[w]?.srs_due || 0) <= now && stats.words[w]?.seen > 0).length,
+  };
+}
+
 // Shared end-of-drill summary UI
 function renderDrillSummary({ drillName, score, total, onRestart }) {
   STATS.recordSession(drillName, score, total);

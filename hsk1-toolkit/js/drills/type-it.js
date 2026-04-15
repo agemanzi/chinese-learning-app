@@ -3,7 +3,7 @@
 
 function drillTypeIt() {
   // Pool: single-character or short words we can clearly disambiguate
-  const pool = DATA.words.filter(w =>
+  const pool = scopedWords().filter(w =>
     w.simplified.length <= 2 &&
     w.syllables.length === w.simplified.length &&  // clean 1:1 syllable mapping
     w.meaning && w.meaning.length < 80
@@ -119,7 +119,7 @@ function drillTypeIt() {
   }
 
   // Precompute stripped pinyin + pre-sort by frequency once
-  const indexed = DATA.words
+  const indexed = scopedWords()
     .map(w => ({ w, stripped: w.syllables.join('') }))
     .sort((a, b) => (a.w.frequency || 99999) - (b.w.frequency || 99999));
 

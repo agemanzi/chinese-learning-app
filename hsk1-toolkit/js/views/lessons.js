@@ -1,4 +1,4 @@
-// TAB 3: Word Packs — HSK 1 vocabulary grouped by topic
+// TAB 3: Lessons — tutor lesson progression hub + topic word packs
 
 // Topic packs — curated by semantic category using HSK 1 vocab
 const WORD_PACKS = [
@@ -20,27 +20,19 @@ const WORD_PACKS = [
 ];
 
 function viewLessons() {
-  const tutorLessonsWithVocab = (DATA.tutorLessons || []).filter(l => l.chars_hsk && l.chars_hsk.length > 0);
+  const tutorLessons = (DATA.tutorLessons || []).filter(l => l.chars_hsk && l.chars_hsk.length > 0);
 
   app.innerHTML = `
-    <h1 class="page-title">Word Packs</h1>
-    <p class="page-subtitle">HSK 1 vocabulary grouped by topic</p>
+    <h1 class="page-title">Lessons</h1>
+    <p class="page-subtitle">Activate lessons to scope your drills</p>
 
-    ${tutorLessonsWithVocab.length > 0 ? `
-      <div class="tool-group-label" style="margin-top:8px">
+    ${tutorLessons.length > 0 ? `
+      <div class="tool-group-label">
         <span class="tgl-name">Tutor Lessons</span>
-        <span class="tgl-desc">From your in-person classes</span>
+        <span class="tgl-desc">Activate to include in drills</span>
       </div>
-      <div class="pack-grid" style="margin-bottom:24px">
-        ${tutorLessonsWithVocab.map(l => `
-          <div class="pack-card" data-tutor="${l.num}">
-            <div class="pack-icon">📖</div>
-            <div class="pack-info">
-              <div class="pack-name">Lesson ${l.num}</div>
-              <div class="pack-count">${l.chars_hsk.length} words${l.chars_extra.length ? ` · +${l.chars_extra.length} extra` : ''}</div>
-            </div>
-          </div>
-        `).join('')}
+      <div id="lesson-cards" style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px">
+        ${tutorLessons.map(l => renderLessonCard(l)).join('')}
       </div>
     ` : ''}
 
@@ -64,12 +56,76 @@ function viewLessons() {
     </div>
   `;
 
+  app.querySelectorAll('.lesson-toggle').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleLesson(parseInt(btn.dataset.lesson));
+    });
+  });
+  app.querySelectorAll('.lesson-card[data-tutor]').forEach(card => {
+    card.addEventListener('click', () => openTutorLesson(parseInt(card.dataset.tutor)));
+  });
   app.querySelectorAll('.pack-card[data-pack]').forEach(row => {
     row.addEventListener('click', () => openPack(row.dataset.pack));
   });
-  app.querySelectorAll('.pack-card[data-tutor]').forEach(row => {
-    row.addEventListener('click', () => openTutorLesson(parseInt(row.dataset.tutor)));
-  });
+}
+
+function renderLessonCard(l) {
+  const p = lessonProgress(l.num);
+  const isActive = SCOPE.activeLessons.includes(l.num);
+  const pct = p.total > 0 ? Math.round(p.mastered / p.total * 100) : 0;
+  const barFill = p.total > 0 ? Math.round(p.seen / p.total * 100) : 0;
+  const mastFill = pct;
+
+  return `
+    <div class="lesson-card" data-tutor="${l.num}" style="
+      background: var(--card-bg, #fff);
+      border: 1.5px solid ${isActive ? 'var(--accent, #D85A30)' : 'var(--border, #e5e2dc)'};
+      border-radius: 12px;
+      padding: 14px 16px;
+      cursor: pointer;
+    ">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:600;font-size:15px;margin-bottom:2px">
+            ${escapeHtml(l.title || 'Lesson ' + l.num)}
+            ${isActive ? '<span style="color:var(--accent,#D85A30);font-size:12px;font-weight:500;margin-left:6px">Active</span>' : ''}
+          </div>
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:8px">
+            ${p.seen} / ${p.total} seen · ${p.mastered} mastered
+            ${p.due > 0 ? ` · <span style="color:#D85A30;font-weight:500">${p.due} due</span>` : ''}
+          </div>
+          <div style="height:6px;border-radius:3px;background:var(--border,#e5e2dc);overflow:hidden;margin-bottom:2px">
+            <div style="height:100%;border-radius:3px;background:var(--accent,#D85A30);opacity:0.35;width:${barFill}%;transition:width .3s"></div>
+          </div>
+          <div style="height:6px;border-radius:3px;background:transparent;overflow:hidden;margin-top:-6px">
+            <div style="height:100%;border-radius:3px;background:var(--accent,#D85A30);width:${mastFill}%;transition:width .3s"></div>
+          </div>
+          <div style="font-size:10px;color:var(--text-muted);margin-top:3px">${mastFill}% mastered</div>
+        </div>
+        <button class="lesson-toggle" data-lesson="${l.num}" style="
+          flex-shrink:0;
+          padding:6px 14px;
+          border-radius:8px;
+          border:1.5px solid ${isActive ? 'var(--accent,#D85A30)' : 'var(--border,#ccc)'};
+          background:${isActive ? 'var(--accent,#D85A30)' : 'transparent'};
+          color:${isActive ? '#fff' : 'var(--text)'};
+          font-size:13px;
+          font-weight:500;
+          cursor:pointer;
+          white-space:nowrap;
+        ">${isActive ? 'Deactivate' : 'Activate'}</button>
+      </div>
+    </div>
+  `;
+}
+
+function toggleLesson(num) {
+  const idx = SCOPE.activeLessons.indexOf(num);
+  if (idx === -1) SCOPE.activeLessons.push(num);
+  else SCOPE.activeLessons.splice(idx, 1);
+  saveScope();
+  viewLessons();
 }
 
 function openTutorLesson(num) {
@@ -85,7 +141,7 @@ function openTutorLesson(num) {
   overlay.innerHTML = `
     <div class="sheet" onclick="event.stopPropagation()">
       <button class="sheet-close" aria-label="Close">×</button>
-      <h2 style="font-size:20px;font-weight:500;margin-bottom:4px">📖 ${escapeHtml(lesson.title)}</h2>
+      <h2 style="font-size:20px;font-weight:500;margin-bottom:4px">📖 ${escapeHtml(lesson.title || 'Lesson ' + lesson.num)}</h2>
       <p style="font-size:13px;color:var(--text-muted);margin-bottom:20px">${words.length} HSK 1 words${extra.length ? ` · ${extra.length} extra chars` : ''}</p>
 
       <div class="sheet-label">HSK 1 vocabulary</div>
@@ -105,7 +161,7 @@ function openTutorLesson(num) {
         <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px">
           ${extra.map(c => `<span style="padding:6px 10px;background:var(--tone-5-bg);border-radius:6px;font-size:18px">${escapeHtml(c)}</span>`).join('')}
         </div>
-        <div style="font-size:11px;color:var(--text-muted)">These appeared in your lesson but aren't part of the HSK 1 word list. Look them up in your tutor's materials.</div>
+        <div style="font-size:11px;color:var(--text-muted)">These appeared in your lesson but aren't part of the HSK 1 word list.</div>
       ` : ''}
     </div>
   `;

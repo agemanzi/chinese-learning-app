@@ -25,7 +25,7 @@ function enabledSpotterFonts() {
 
 function drillWordSpotter() {
   // Pool: words where meaning is decent length
-  const pool = DATA.words.filter(w => w.meaning && w.simplified.length <= 4);
+  const pool = scopedWords().filter(w => w.meaning && w.simplified.length <= 4);
 
   const state = {
     current: null,
