@@ -62,6 +62,12 @@ function viewLessons() {
       toggleLesson(parseInt(btn.dataset.lesson));
     });
   });
+  app.querySelectorAll('.lesson-drill').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setActiveTab('tools');
+    });
+  });
   app.querySelectorAll('.lesson-card[data-tutor]').forEach(card => {
     card.addEventListener('click', () => openTutorLesson(parseInt(card.dataset.tutor)));
   });
@@ -103,18 +109,32 @@ function renderLessonCard(l) {
           </div>
           <div style="font-size:10px;color:var(--text-muted);margin-top:3px">${mastFill}% mastered</div>
         </div>
-        <button class="lesson-toggle" data-lesson="${l.num}" style="
-          flex-shrink:0;
-          padding:6px 14px;
-          border-radius:8px;
-          border:1.5px solid ${isActive ? 'var(--accent,#D85A30)' : 'var(--border,#ccc)'};
-          background:${isActive ? 'var(--accent,#D85A30)' : 'transparent'};
-          color:${isActive ? '#fff' : 'var(--text)'};
-          font-size:13px;
-          font-weight:500;
-          cursor:pointer;
-          white-space:nowrap;
-        ">${isActive ? 'Deactivate' : 'Activate'}</button>
+        <div style="display:flex;flex-direction:column;gap:6px;flex-shrink:0">
+          <button class="lesson-toggle" data-lesson="${l.num}" style="
+            padding:6px 14px;
+            border-radius:8px;
+            border:1.5px solid ${isActive ? 'var(--accent,#D85A30)' : 'var(--border,#ccc)'};
+            background:${isActive ? 'var(--accent,#D85A30)' : 'transparent'};
+            color:${isActive ? '#fff' : 'var(--text)'};
+            font-size:13px;
+            font-weight:500;
+            cursor:pointer;
+            white-space:nowrap;
+          ">${isActive ? 'Deactivate' : 'Activate'}</button>
+          ${isActive ? `
+            <button class="lesson-drill" data-lesson="${l.num}" style="
+              padding:6px 14px;
+              border-radius:8px;
+              border:1.5px solid var(--accent,#D85A30);
+              background:transparent;
+              color:var(--accent,#D85A30);
+              font-size:13px;
+              font-weight:500;
+              cursor:pointer;
+              white-space:nowrap;
+            ">Drill →</button>
+          ` : ''}
+        </div>
       </div>
     </div>
   `;
