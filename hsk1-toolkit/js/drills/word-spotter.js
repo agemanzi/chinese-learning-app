@@ -151,6 +151,7 @@ function drillWordSpotter() {
 
     app.querySelector('.drill-back').addEventListener('click', backToTools);
     app.querySelector('#ws-play').addEventListener('click', playWord);
+    app.querySelector('#spot-word').addEventListener('click', playWord);
     app.querySelector('#reload-font').addEventListener('click', () => {
       const c = state.current;
       const allowed = enabledSpotterFonts();
