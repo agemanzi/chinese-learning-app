@@ -1,6 +1,6 @@
 // HSK 1 Toolkit — Service Worker
 // Caches app shell + data + fonts. Audio is cached on-demand (too big to pre-cache 9840 files).
-const CACHE_VERSION = 'hsk1-v9';
+const CACHE_VERSION = 'hsk1-v10';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const AUDIO_CACHE = `${CACHE_VERSION}-audio`;
 
