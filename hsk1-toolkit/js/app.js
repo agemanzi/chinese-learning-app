@@ -1,5 +1,5 @@
 // HSK 1 Toolkit — main router
-const SW_VERSION = 6; // bump when data files change
+const SW_VERSION = 7; // bump when data files change
 const app = document.getElementById('app');
 
 const VIEWS = {

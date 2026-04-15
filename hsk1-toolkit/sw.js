@@ -1,6 +1,6 @@
 // HSK 1 Toolkit — Service Worker
 // Caches app shell + data + fonts. Audio is cached on-demand (too big to pre-cache 9840 files).
-const CACHE_VERSION = 'hsk1-v6';
+const CACHE_VERSION = 'hsk1-v7';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const AUDIO_CACHE = `${CACHE_VERSION}-audio`;
 
@@ -72,8 +72,8 @@ self.addEventListener('fetch', (event) => {
   // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
-  // Audio files — cache-first (stable, large)
-  if (url.pathname.endsWith('.mp3') || url.pathname.includes('/audio/')) {
+  // Audio files — cache-first (stable, large) — JSON excluded
+  if (url.pathname.endsWith('.mp3')) {
     event.respondWith(
       caches.open(AUDIO_CACHE).then(cache =>
         cache.match(event.request).then(cached =>
