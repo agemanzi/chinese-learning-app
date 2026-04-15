@@ -1,4 +1,5 @@
 // HSK 1 Toolkit — main router
+const SW_VERSION = 6; // bump when data files change
 const app = document.getElementById('app');
 
 const VIEWS = {
@@ -107,6 +108,9 @@ async function init() {
     await loadData();
     applySettings(SETTINGS);
     setActiveTab('tools');
+    // Init sync in background (non-blocking)
+    const pbCred = sessionStorage.getItem('pb_cred');
+    if (pbCred) SYNC.init(atob(pbCred)).catch(() => {});
     document.querySelectorAll('#tabs .tab').forEach(tab => {
       tab.addEventListener('click', () => setActiveTab(tab.dataset.tab));
     });

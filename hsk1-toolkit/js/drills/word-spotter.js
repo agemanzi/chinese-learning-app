@@ -35,7 +35,16 @@ function drillWordSpotter() {
     maxQuestions: 10,
     showPinyin: false,
     tonedPinyin: true,  // color-coded tones when pinyin shown
+    speaker: 'f1',      // fixed per question, randomised on each next()
+    autoPlayed: false,
   };
+
+  function playWord() {
+    const w = state.current.correct;
+    const btn = document.getElementById('ws-play');
+    if (btn) { btn.classList.add('playing'); setTimeout(() => btn.classList.remove('playing'), 600); }
+    AUDIO.playSequence(w.syllables, w.tones, 150, state.speaker);
+  }
 
   function next() {
     if (state.count >= state.maxQuestions) {
@@ -43,6 +52,8 @@ function drillWordSpotter() {
       return;
     }
     state.answered = false;
+    state.autoPlayed = false;
+    state.speaker = AUDIO.randomSpeaker();
 
     const correct = NoRepeat.pick('word-spotter', pool, w => w.simplified, 5);
     // Build 3 distractors with different characters
@@ -115,6 +126,7 @@ function drillWordSpotter() {
         </div>
 
         <div class="row" style="gap:8px;margin:12px 0;justify-content:center;flex-wrap:wrap">
+          <button class="play-btn-sm" id="ws-play" aria-label="Play pronunciation" title="Play (${state.speaker.toUpperCase()})">▶</button>
           <button class="choice-btn" id="reload-font" title="New font · new position">↻ Font (${allowedCount}/${SPOTTER_FONTS.length})</button>
           <button class="choice-btn ${state.showPinyin ? 'active' : ''}" id="tog-pinyin">
             ${state.showPinyin ? '✓' : '○'} Show pinyin
@@ -138,6 +150,7 @@ function drillWordSpotter() {
     `;
 
     app.querySelector('.drill-back').addEventListener('click', backToTools);
+    app.querySelector('#ws-play').addEventListener('click', playWord);
     app.querySelector('#reload-font').addEventListener('click', () => {
       const c = state.current;
       const allowed = enabledSpotterFonts();
@@ -163,6 +176,16 @@ function drillWordSpotter() {
     app.querySelectorAll('.ws-opt').forEach(btn => {
       btn.addEventListener('click', () => answer(parseInt(btn.dataset.idx), btn));
     });
+
+    setDrillKeyHandler((e) => {
+      if (e.code === 'Space') { e.preventDefault(); playWord(); }
+    });
+
+    // Auto-play once per question (not on font/pinyin toggle re-renders)
+    if (!state.autoPlayed) {
+      state.autoPlayed = true;
+      setTimeout(playWord, 300);
+    }
   }
 
   function answer(idx, btn) {

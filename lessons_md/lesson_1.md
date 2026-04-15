@@ -2,7 +2,7 @@
 
 **Source file:** `PPT PRVÁ HODINA - Kamenská.pptx`
 **Total slides:** 14
-**Generated:** v79ee720 (2026-04-14 18:46)
+**Generated:** v9a0fccd (2026-04-14 20:32)
 
 ---
 

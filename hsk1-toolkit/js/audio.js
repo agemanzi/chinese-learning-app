@@ -41,9 +41,13 @@ const AUDIO = {
   },
 
   // Play multiple syllables in sequence (for words)
-  async playSequence(syllables, tones, gapMs = 150) {
+  // speaker: fixed tag ('f1' etc), true = random per syllable, falsy = current speaker
+  async playSequence(syllables, tones, gapMs = 150, speaker = null) {
     for (let i = 0; i < syllables.length; i++) {
-      await this.play(syllables[i], tones[i]);
+      const tag = speaker === true ? this.randomSpeaker()
+                : speaker        ? speaker
+                :                  this.getSpeaker();
+      await this.play(syllables[i], tones[i], tag);
       if (i < syllables.length - 1) {
         await new Promise(r => setTimeout(r, gapMs));
       }

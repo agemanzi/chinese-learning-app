@@ -95,6 +95,48 @@ function viewSettings() {
       </div>
     </div>
 
+    <div class="setting-group">
+      <div class="setting-label">Sync & Progress</div>
+      ${SYNC.enabled ? `
+        <div class="setting-desc">Cross-device sync via PocketBase</div>
+        <div id="sync-status" class="sync-status ${SYNC.token ? 'ok' : 'err'}">
+          ${SYNC.status().msg}
+        </div>
+        <div style="margin-top:8px;font-size:13px;color:var(--text-muted)">
+          ${(() => {
+            const due = SRS.dueWords().length;
+            const stats = STATS.load();
+            const seen = Object.keys(stats.words).length;
+            const mastered = Object.values(stats.words).filter(s => (s.srs_interval || 0) >= 7).length;
+            const streak = (() => {
+              const sessions = stats.sessions;
+              if (!sessions.length) return 0;
+              let s = 0, day = new Date(); day.setHours(0,0,0,0);
+              const dayMs = 86400000;
+              while (true) {
+                const hasSession = sessions.some(sess => sess.at >= day.getTime() && sess.at < day.getTime() + dayMs);
+                if (!hasSession) break;
+                s++;
+                day = new Date(day.getTime() - dayMs);
+              }
+              return s;
+            })();
+            return `
+              <span style="margin-right:12px">🔥 ${streak}-day streak</span>
+              <span style="margin-right:12px">📚 ${seen} words seen</span>
+              <span style="margin-right:12px">✓ ${mastered} mastered (7+ day interval)</span>
+              ${due > 0 ? `<span style="color:var(--accent)">⏰ ${due} due for review</span>` : '<span>All caught up!</span>'}
+            `;
+          })()}
+        </div>
+        <button class="choice-btn" id="sync-now" style="margin-top:8px">Sync now</button>
+      ` : `
+        <div class="setting-desc" style="color:var(--text-muted)">
+          Set <code>PB_URL</code> env var on the Coolify deployment to enable cross-device sync.
+        </div>
+      `}
+    </div>
+
     <div style="font-size:11px;color:var(--text-muted);margin-top:32px;text-align:center">
       HSK 1 Toolkit · ${DATA.words.length} words · ${hskChars().length} characters<br>
       Audio: MSU Tone Perfect · Vocabulary: drkameleon/complete-hsk-vocabulary
@@ -127,6 +169,17 @@ function viewSettings() {
       cb.closest('.font-toggle').classList.toggle('off', !cb.checked);
     });
   });
+
+  const syncNowBtn = app.querySelector('#sync-now');
+  if (syncNowBtn) {
+    syncNowBtn.addEventListener('click', async () => {
+      syncNowBtn.disabled = true;
+      syncNowBtn.textContent = 'Syncing…';
+      await SYNC._push();
+      syncNowBtn.textContent = 'Done';
+      setTimeout(() => { syncNowBtn.disabled = false; syncNowBtn.textContent = 'Sync now'; }, 1500);
+    });
+  }
 
   app.querySelectorAll('.setting-choices').forEach(group => {
     const key = group.dataset.setting;

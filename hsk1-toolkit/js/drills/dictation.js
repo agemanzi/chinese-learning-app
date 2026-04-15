@@ -59,8 +59,8 @@ function drillDictation(customPool, packName) {
       btn.classList.add('playing');
       setTimeout(() => btn.classList.remove('playing'), 600);
     }
-    // 400ms gap between syllables for clearer per-syllable hearing
-    AUDIO.playSequence(w.syllables, w.tones, 400);
+    // 400ms gap between syllables; random speaker per syllable for variety
+    AUDIO.playSequence(w.syllables, w.tones, 400, true);
   }
 
   function check() {
@@ -99,8 +99,8 @@ function drillDictation(customPool, packName) {
         <button class="drill-back">← Tools</button>
         <h1 class="drill-title">Dictation${packName ? ` · ${escapeHtml(packName)}` : ''}</h1>
         <p class="drill-hint">
-          Type each syllable + tone number (1-4). Example:
-          <code class="dict-example">ni3 hao3</code> or <code class="dict-example">ni3hao3</code>
+          Type syllables + tone numbers. Spaces optional — both work:
+          <code class="dict-example">ni3 hao3</code> <code class="dict-example">ni3hao3</code>
         </p>
         <div class="drill-counter">Word ${state.idx + 1} of ${SESSION_LEN} · Score ${state.score}/${state.idx}</div>
 

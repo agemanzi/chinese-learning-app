@@ -5,6 +5,11 @@ if [ -n "$APP_PASSWORD" ]; then
     sed -i "s|__PASS_HASH__|$PASS_HASH|g" /usr/share/nginx/html/index.html
 fi
 
+# Inject PocketBase URL (optional — if not set, sync is disabled)
+if [ -n "$PB_URL" ]; then
+    sed -i "s|__PB_URL__|$PB_URL|g" /usr/share/nginx/html/index.html
+fi
+
 # Ensure syllable audio dir exists (volume mount target)
 mkdir -p /usr/share/nginx/html/audio/syllables
 

@@ -8,11 +8,13 @@ const DATA = {
 };
 
 async function loadData() {
+  // Cache-bust data files so browsers pick up updates after deploys
+  const v = typeof SW_VERSION !== 'undefined' ? SW_VERSION : Date.now();
   const [words, radicals, sentences, tutorLessons] = await Promise.all([
-    fetch('data/hsk1_simple.json').then(r => r.json()),
-    fetch('data/radicals.json').then(r => r.json()),
-    fetch('data/sentences.json').then(r => r.json()).catch(() => []),
-    fetch('data/tutor_lessons.json').then(r => r.json()).catch(() => []),
+    fetch(`data/hsk1_simple.json?v=${v}`).then(r => r.json()),
+    fetch(`data/radicals.json?v=${v}`).then(r => r.json()),
+    fetch(`data/sentences.json?v=${v}`).then(r => r.json()).catch(() => []),
+    fetch(`data/tutor_lessons.json?v=${v}`).then(r => r.json()).catch(() => []),
   ]);
   DATA.words = words;
   DATA.radicals = radicals;

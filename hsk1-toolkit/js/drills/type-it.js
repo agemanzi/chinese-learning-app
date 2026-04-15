@@ -90,7 +90,7 @@ function drillTypeIt() {
 
     const input = document.getElementById('ti-input');
     input.addEventListener('input', (e) => {
-      state.typed = e.target.value.toLowerCase().replace(/[^a-zü]/g, '');
+      state.typed = e.target.value.toLowerCase().replace(/v/g, 'ü').replace(/[^a-zü]/g, '');
       updateCandidates();  // keep input focused by not re-rendering the whole view
     });
 

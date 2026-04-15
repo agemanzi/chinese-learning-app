@@ -40,7 +40,10 @@ const STATS = {
     s.seen++;
     if (correct) s.correct++; else s.wrong++;
     s.lastSeen = Date.now();
+    // Update spaced repetition schedule
+    if (typeof SRS !== 'undefined') Object.assign(s, SRS.update(s, correct));
     this.save();
+    if (typeof SYNC !== 'undefined') SYNC.schedulePush();
   },
 
   recordSyllable(key, correct) {
@@ -49,6 +52,7 @@ const STATS = {
     s.seen++;
     if (correct) s.correct++; else s.wrong++;
     this.save();
+    if (typeof SYNC !== 'undefined') SYNC.schedulePush();
   },
 
   recordSession(drill, score, total) {
@@ -56,6 +60,7 @@ const STATS = {
     d.sessions.push({ drill, score, total, at: Date.now() });
     if (d.sessions.length > 200) d.sessions = d.sessions.slice(-200);
     this.save();
+    if (typeof SYNC !== 'undefined') SYNC.schedulePush();
   },
 
   getWordStats(char) {

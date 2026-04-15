@@ -974,3 +974,14 @@ body[data-font-size="large"]  { --font-size-base: 18px; }
   .word-char { font-size: 22px; }
   .drill-option { min-height: 52px; }
 }
+
+/* Sync status badge */
+.sync-status {
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-top: 6px;
+}
+.sync-status.ok  { background: #e8f5e9; color: #2e7d32; }
+.sync-status.err { background: #fce4ec; color: #c62828; }

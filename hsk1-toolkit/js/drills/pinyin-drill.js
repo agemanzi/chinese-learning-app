@@ -17,7 +17,7 @@ function drillPinyinDrill() {
         <div class="drill-container">
           <button class="drill-back">← Tools</button>
           <h1 class="drill-title">Pinyin Drill</h1>
-          <p style="color:var(--text-muted);margin-top:20px">Audio pool not found. Check that <code>../app/audio/tone_map.json</code> is accessible.</p>
+          <p style="color:var(--text-muted);margin-top:20px">Audio pool not found. Check that <code>audio/syllables/tone_map.json</code> is accessible.</p>
         </div>`;
       app.querySelector('.drill-back').addEventListener('click', backToTools);
       return;
