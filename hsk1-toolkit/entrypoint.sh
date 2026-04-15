@@ -1,8 +1,15 @@
 #!/bin/sh
-# Inject SHA-256 hash of APP_PASSWORD into index.html
+# Inject SHA-256 hash of APP_PASSWORD into index.html + set up nginx basic auth
 if [ -n "$APP_PASSWORD" ]; then
     PASS_HASH=$(echo -n "$APP_PASSWORD" | sha256sum | cut -d' ' -f1)
     sed -i "s|__PASS_HASH__|$PASS_HASH|g" /usr/share/nginx/html/index.html
+
+    # Generate htpasswd and enable nginx basic auth (protects all files at network level)
+    printf "hsk1:%s\n" "$(openssl passwd -apr1 "$APP_PASSWORD")" > /etc/nginx/.htpasswd
+    sed -i 's|__NGINX_AUTH__|auth_basic "HSK 1 Toolkit"; auth_basic_user_file /etc/nginx/.htpasswd;|' /etc/nginx/conf.d/default.conf
+else
+    # No password configured — remove the placeholder, allow open access
+    sed -i 's|__NGINX_AUTH__||' /etc/nginx/conf.d/default.conf
 fi
 
 # Inject PocketBase URL (optional — if not set, sync is disabled)
