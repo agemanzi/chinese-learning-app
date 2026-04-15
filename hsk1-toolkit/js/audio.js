@@ -20,8 +20,9 @@ const AUDIO = {
 
   // Play a syllable+tone with a specific speaker (or current)
   play(syllable, tone, speakerTag) {
-    // Normalize ü -> v for filenames
-    const syl = syllable.replace(/ü/g, 'v');
+    // Normalize ü -> v for filenames, strip érhuà r (no dedicated audio; use base syllable)
+    let syl = syllable.replace(/ü/g, 'v');
+    if (syl !== 'er' && syl.endsWith('r')) syl = syl.slice(0, -1);
     // Neutral tone (5) doesn't exist in Tone Perfect — use tone 1 as a soft fallback
     // but that changes meaning, so we just skip neutral tones silently
     if (tone === 5 || tone === 0) return Promise.resolve();
