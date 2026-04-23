@@ -89,11 +89,45 @@ function lessonProgress(lessonNum) {
 }
 
 // Shared end-of-drill summary UI
-function renderDrillSummary({ drillName, score, total, onRestart }) {
+function renderDrillSummary({ drillName, score, total, onRestart, showRecentRuns, runHistory }) {
   STATS.recordSession(drillName, score, total);
   const pct = total > 0 ? Math.round(score / total * 100) : 0;
   const grade = pct >= 80 ? 'good' : pct >= 50 ? 'mid' : 'low';
   const msg = pct >= 90 ? 'Excellent!' : pct >= 70 ? 'Nice work!' : pct >= 50 ? 'Keep going' : 'Tricky — try again';
+
+  // Optional: run-by-run breakdown for this session (passed by caller)
+  const runHistoryHtml = (typeof renderRunHistory === 'function' && runHistory && runHistory.length)
+    ? renderRunHistory(runHistory)
+    : '';
+
+  // Optional: cross-run stats — filter past sessions of this drill (family match before " · ")
+  let recentHtml = '';
+  if (showRecentRuns) {
+    const family = drillName.split(' · ')[0];
+    const sessions = (STATS.load().sessions || [])
+      .filter(s => (s.drill || '').split(' · ')[0] === family)
+      .slice(-11, -1)  // exclude the one we just recorded, show prior 10
+      .reverse();
+    if (sessions.length) {
+      const totalCorrect = sessions.reduce((a, s) => a + s.score, 0);
+      const totalQs = sessions.reduce((a, s) => a + s.total, 0);
+      const avgPct = totalQs > 0 ? Math.round(totalCorrect / totalQs * 100) : 0;
+      const rows = sessions.map(s => {
+        const sPct = s.total > 0 ? Math.round(s.score / s.total * 100) : 0;
+        const sGrade = sPct >= 80 ? 'good' : sPct >= 50 ? 'mid' : 'low';
+        return `<li>
+          <span class="summary-recent-when">${formatWhen(s.at)}</span>
+          <span class="summary-recent-score">${s.score}/${s.total}</span>
+          <span class="summary-recent-pct ${sGrade}">${sPct}%</span>
+        </li>`;
+      }).join('');
+      recentHtml = `
+        <div class="summary-recent">
+          <div class="summary-recent-title">Recent runs · avg ${avgPct}% over ${sessions.length}</div>
+          <ul class="summary-recent-list">${rows}</ul>
+        </div>`;
+    }
+  }
 
   app.innerHTML = `
     <div class="drill-container">
@@ -109,6 +143,8 @@ function renderDrillSummary({ drillName, score, total, onRestart }) {
         <button class="choice-btn" id="summary-restart">Restart drill</button>
         <button class="choice-btn" id="summary-home">Home</button>
       </div>
+      ${runHistoryHtml}
+      ${recentHtml}
     </div>
     <style>
       .summary-pct { font-size: 72px; font-weight: 500; margin-bottom: 8px; }
@@ -122,6 +158,18 @@ function renderDrillSummary({ drillName, score, total, onRestart }) {
   app.querySelector('.drill-back').addEventListener('click', backToTools);
   app.querySelector('#summary-home').addEventListener('click', backToTools);
   app.querySelector('#summary-restart').addEventListener('click', onRestart);
+}
+
+function formatWhen(ts) {
+  const d = new Date(ts);
+  const now = new Date();
+  const sameDay = d.toDateString() === now.toDateString();
+  const yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
+  const isYesterday = d.toDateString() === yesterday.toDateString();
+  const hhmm = d.toTimeString().slice(0, 5);
+  if (sameDay) return `Today ${hhmm}`;
+  if (isYesterday) return `Yesterday ${hhmm}`;
+  return `${d.getMonth() + 1}/${d.getDate()} ${hhmm}`;
 }
 
 // Don't-repeat queue — avoid same item back-to-back in any drill

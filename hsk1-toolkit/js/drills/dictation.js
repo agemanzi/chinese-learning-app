@@ -18,6 +18,7 @@ function drillDictation(customPool, packName) {
     score: 0,
     checked: false,
     lastResult: null,
+    history: [],
   };
 
   function startSession() {
@@ -35,6 +36,7 @@ function drillDictation(customPool, packName) {
     state.score = 0;
     state.checked = false;
     state.lastResult = null;
+    state.history = [];
     render();
   }
 
@@ -71,6 +73,7 @@ function drillDictation(customPool, packName) {
     state.lastResult = result;
     if (result.allCorrect) state.score++;
     STATS.recordWord(current().simplified, result.allCorrect);
+    state.history.push({ word: current(), result, skipped: false });
     render();
   }
 
@@ -81,6 +84,8 @@ function drillDictation(customPool, packName) {
         score: state.score,
         total: SESSION_LEN,
         onRestart: () => drillDictation(customPool, packName),
+        showRecentRuns: true,
+        runHistory: state.history,
       });
       return;
     }
@@ -131,6 +136,8 @@ function drillDictation(customPool, packName) {
             : `<button class="choice-btn" id="dict-check">Check</button>
                <button class="choice-btn" id="dict-skip">Skip</button>`}
         </div>
+
+        ${renderRunHistory(state.history)}
       </div>
     `;
 
@@ -146,6 +153,7 @@ function drillDictation(customPool, packName) {
         state.checked = true;
         state.lastResult = checkAnswer('', w);
         STATS.recordWord(w.simplified, false);
+        state.history.push({ word: w, result: state.lastResult, skipped: true });
         render();
       });
       const input = document.getElementById('dict-input');
@@ -184,6 +192,41 @@ function drillDictation(customPool, packName) {
   }
 
   startSession();
+}
+
+function renderRunHistory(history) {
+  if (!history || !history.length) return '';
+  const correctCount = history.filter(h => h.result.allCorrect).length;
+  const rows = history.map(h => {
+    const w = h.word;
+    const expectedHtml = w.syllables.map((syl, i) =>
+      `<span class="tone-${w.tones[i]}">${applyToneMark(syl, w.tones[i])}</span>`
+    ).join('');
+    const userHtml = h.skipped
+      ? '<span class="dict-hist-skipped">(skipped)</span>'
+      : escapeHtml(h.result.userRaw) || '<span class="dict-hist-skipped">(empty)</span>';
+    const wrongSyllables = h.result.perSyllable
+      .map((r, i) => r.bothCorrect ? null : (w.syllables[i] + w.tones[i]))
+      .filter(Boolean);
+    const mismatchNote = !h.result.allCorrect && wrongSyllables.length
+      ? `<span class="dict-hist-note">× ${wrongSyllables.join(', ')}</span>`
+      : '';
+    return `
+      <li class="dict-hist-row ${h.result.allCorrect ? 'good' : 'bad'}">
+        <span class="dict-hist-mark">${h.result.allCorrect ? '✓' : '✗'}</span>
+        <span class="dict-hist-hanzi">${escapeHtml(w.simplified)}</span>
+        <span class="dict-hist-expected">${expectedHtml}</span>
+        <span class="dict-hist-user">${userHtml}</span>
+        ${mismatchNote}
+      </li>
+    `;
+  }).join('');
+  return `
+    <div class="dict-history">
+      <div class="dict-history-header">This run · ${correctCount}/${history.length}</div>
+      <ul class="dict-history-list">${rows}</ul>
+    </div>
+  `;
 }
 
 // Parse user input into syllable+tone pairs and compare against expected word.

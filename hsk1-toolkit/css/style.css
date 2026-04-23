@@ -876,6 +876,41 @@ body[data-font-size="large"]  { --font-size-base: 18px; }
 .dict-grade.good { color: #2E7D32; }
 .dict-grade.bad { color: #C62828; }
 
+/* Dictation: within-run history panel */
+.dict-history { margin-top: 18px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.dict-history-header { font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+.dict-history-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.dict-hist-row { display: grid; grid-template-columns: 20px auto 1fr auto; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 6px; font-size: 14px; }
+.dict-hist-row.good { background: #E8F5E9; }
+.dict-hist-row.bad  { background: #FFEBEE; }
+.dict-hist-mark { font-weight: 700; }
+.dict-hist-row.good .dict-hist-mark { color: #2E7D32; }
+.dict-hist-row.bad  .dict-hist-mark { color: #C62828; }
+.dict-hist-hanzi { font-size: 16px; font-weight: 500; }
+.dict-hist-expected { font-family: ui-monospace, monospace; font-size: 14px; letter-spacing: 0.5px; }
+.dict-hist-expected span { margin-right: 2px; }
+.dict-hist-user { font-family: ui-monospace, monospace; font-size: 13px; color: var(--text-muted); justify-self: end; }
+.dict-hist-row.bad .dict-hist-user { color: #C62828; }
+.dict-hist-skipped { font-style: italic; opacity: 0.7; }
+.dict-hist-note { grid-column: 2 / -1; font-size: 11px; color: #C62828; font-family: ui-monospace, monospace; }
+@media (max-width: 520px) {
+  .dict-hist-row { grid-template-columns: 18px auto 1fr; }
+  .dict-hist-user { grid-column: 2 / -1; justify-self: start; padding-left: 0; }
+}
+
+/* Summary: recent cross-run list */
+.summary-recent { margin-top: 18px; background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.summary-recent-title { font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+.summary-recent-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.summary-recent-list li { display: grid; grid-template-columns: 1fr auto auto; gap: 12px; align-items: center; padding: 6px 4px; font-size: 13px; border-bottom: 0.5px solid var(--border); }
+.summary-recent-list li:last-child { border-bottom: 0; }
+.summary-recent-when  { color: var(--text-muted); }
+.summary-recent-score { font-family: ui-monospace, monospace; color: var(--text); }
+.summary-recent-pct { font-weight: 600; min-width: 40px; text-align: right; }
+.summary-recent-pct.good { color: #2E7D32; }
+.summary-recent-pct.mid  { color: #E65100; }
+.summary-recent-pct.low  { color: #C62828; }
+
 /* ============================================================
    Syllable Build drill styles
    ============================================================ */
